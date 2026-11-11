@@ -1,0 +1,144 @@
+{
+  "slug": "dermatophilosis",
+  "name": "Dermatophilosis",
+  "synonyms": ["Cutaneous streptothricosis", "Senkobo skin disease", "Streptothricosis", "Rain scald (equine analogue)"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Dermatophilus congolensis",
+      "notes": "A Gram-positive, filamentous, branching actinomycete that forms motile zoospores. The zoospores are the infective stage and require a moist environment and skin compromise to establish infection. The organism is not invasive — it colonises the epidermis.",
+      "reservoir": "Carrier animals with subclinical infection; zoospores survive in scabs and on fomites"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats"],
+    "also": ["Horses", "Pigs", "Camels", "Humans"],
+    "notes": "Cattle are the most economically affected species, particularly in humid tropical environments. Sheep are commonly affected on the back and withers after shearing. The disease is a major cause of hide damage in Africa."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": false,
+    "note": "Not WOAH-listed. Human infection occurs occasionally in people handling infected animals, presenting as localised pustular dermatitis."
+  },
+  "distribution": "Widespread in the humid tropics and subtropics, including much of sub-Saharan Africa. In southern Africa, it is a significant cattle disease in higher-rainfall areas and after prolonged wet weather — the local name 'Senkobo' refers to a district in Zambia.",
+  "aetiology": {
+    "summary": "Dermatophilosis requires a wet environment and broken skin. Zoospores cannot penetrate intact, dry epidermis; a period of prolonged moisture macerates the stratum corneum and allows the flagellated zoospores to invade. The disease is therefore an environmental and management disease as much as an infectious one.",
+    "determinants": [
+      "Prolonged skin wetness from rain, high humidity or flooding",
+      "Breakdown of the epidermal barrier by biting flies, ticks, thorns or trauma",
+      "Contact with carrier animals or contaminated fomites",
+      "Temperature and humidity high enough to support zoospore activity"
+    ],
+    "risk_factors": [
+      "Rainy season and humid climates",
+      "Heavy tick or biting-fly burdens causing skin damage",
+      "Overstocking and congregation, increasing contact and contamination",
+      "Thick coats and long hair retaining moisture",
+      "Shearing injuries and castration or tagging wounds",
+      "Immunosuppression, poor nutrition and concurrent disease, which increase severity"
+    ],
+    "epidemiology": "The disease is endemic in humid, high-rainfall zones and epidemic in dry areas during exceptional rainfall. Within a herd, prevalence can reach high levels during the wet season and fall dramatically in the dry season. Carriers maintain the organism between seasons in scabs and in subclinical skin lesions. The morbidity is high but mortality is low."
+  },
+  "pathophysiology": {
+    "summary": "Zoospores invade the macerated epidermis and germinate into branching filaments that spread along the stratum spinosum and into the follicular infundibula. The resulting neutrophilic inflammation produces an exudate that hardens into a scab, beneath which the epidermis is eroded and the hair follicle is damaged, leading to hair loss and hide damage.",
+    "cascade": [
+      {
+        "title": "Skin maceration",
+        "detail": "Prolonged wetness softens and swells the stratum corneum, and mechanical damage from flies or ticks breaches the surface, creating the conditions zoospores need."
+      },
+      {
+        "title": "Zoospore invasion",
+        "detail": "Flagellated zoospores migrate into the damaged epidermis and germinate into branching, filamentous mycelial forms that extend along the epidermal layer."
+      },
+      {
+        "title": "Neutrophilic exudation",
+        "detail": "Filament growth triggers an intense neutrophilic response, producing a serous to purulent exudate that lifts the outer epidermis and dries into a characteristic scab."
+      },
+      {
+        "title": "Follicular damage and hair loss",
+        "detail": "Extension of filaments into the follicular infundibulum damages the follicle shaft. The hair becomes matted and lifts with the scab, producing patchy alopecia and the 'paintbrush' consistency of the lesions."
+      },
+      {
+        "title": "Scarring and hide degradation",
+        "detail": "After healing, the damaged follicles produce fibrotic scar tissue and the hide is permanently degraded, which is the principal economic loss in cattle and sheep."
+      }
+    ],
+    "lesions": [
+      "Matted, paintbrush-like tufts of hair that lift on gentle traction",
+      "Thick, yellowish to brown crusts and scabs, often coalescing into irregular plaques",
+      "Eroded, moist epidermis beneath removed scabs",
+      "Distribution typically on the back, rump, flanks, ears and udder",
+      "In severe cases, generalized exfoliative dermatitis with weight loss",
+      "Hide damage with permanent scar and grain defects after healing"
+    ],
+    "clinical_signs": [
+      "Patchy hair loss with scab formation on the dorsum and flanks",
+      "Paintbrush tufts of hair that come away with the underlying scab",
+      "Itching and rubbing in some animals",
+      "Affected animals may be otherwise healthy; severe cases show poor growth and weight loss",
+      "Lambs and calves can be more severely affected, with extensive lesions"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical examination: characteristic paintbrush scabs on the back in a humid, wet-season context",
+      "Remove a scab and examine the moist underside — the diagnosis is usually apparent grossly",
+      "Skin scraping or impression smear of the underside of a scab for cytology"
+    ],
+    "postmortem": [
+      "Skin lesions are usually inspected on the live animal; no systemic lesion is present",
+      "In hides, the diagnosis can be confirmed from the interfollicular epidermis in the abattoir"
+    ],
+    "laboratory": [
+      "Gram stain of smears from the underside of a scab, showing branching, filamentous Gram-positive structures",
+      "Culture on blood agar under aerobic conditions, producing small, adherent, greyish colonies",
+      "Histopathology of a skin biopsy showing filamentous bacteria in the epidermis with neutrophilic exudation",
+      "PCR for species confirmation, though not routinely required"
+    ],
+    "differentials": [
+      "Ringworm (Trichophyton, Microsporum) — circular lesions with raised margins and hair loss, different cytology",
+      "Mange (Sarcoptes, Psoroptes, Chorioptes) — intense pruritus with typical distribution, mites visible on scraping",
+      "Photosensitisation — dermatitis on unpigmented skin, no scabs of this type",
+      "Zinc deficiency — parakeratosis and crusting on the face, legs and teats",
+      "Bovine papular stomatitis — oral and muzzle lesions rather than body scabs",
+      "Fly and tick irritation without infection — superficial dermatitis that resolves"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Provide shelter or dry areas during prolonged rain where feasible",
+      "Control ticks and biting flies to prevent skin damage",
+      "Avoid overcrowding, which increases contact and moisture retention",
+      "Maintain good nutrition and manage immunosuppressive disease",
+      "Treat clinically affected animals promptly to reduce the environmental load"
+    ],
+    "vaccination": "Vaccines have been developed from whole-cell preparations and used in some countries with variable success. Vaccination is not widely available or routinely used in southern Africa, and control relies on husbandry and treatment.",
+    "treatment": [
+      "Long-acting oxytetracycline is the most practical systemic treatment in extensive cattle herds",
+      "Penicillin and streptomycin combination is effective but requires repeated handling",
+      "Topical treatment with iodine or chlorhexidine is useful for individual animals but not practical at herd scale",
+      "Zinc supplementation may improve recovery in deficient herds",
+      "Treated animals should be separated to reduce environmental contamination and re-exposure"
+    ],
+    "outbreak": [
+      "Treat affected animals and isolate them where practical",
+      "Reduce stocking density and improve drainage in holding areas",
+      "Step up tick and fly control",
+      "Review the timing of shearing and handling to avoid skin damage during wet periods",
+      "Notify the veterinary authority only where the disease has trade or hide-quality implications"
+    ],
+    "public_health": [
+      "Human infection is uncommon and presents as a localised, pustular skin lesion at the site of contact",
+      "Wear gloves when handling infected animals or hides",
+      "The infection responds to appropriate antibiotic treatment and is not a significant public health threat"
+    ],
+    "notes": "This is the clearest example in this reference of a disease where environment and skin integrity matter more than the pathogen. Removing the wetness removes the disease."
+  },
+  "prognosis": "Good for individual animals with treatment and improved conditions. The economic loss lies in hide damage and reduced growth rather than mortality. Relapse is common if the wet environment persists.",
+  "related": ["lumpy-skin-disease", "bovine-viral-diarrhoea"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Dermatophilosis", "url": "https://www.merckvetmanual.com/" },
+    { "label": "WOAH — Manual of Diagnostic Tests and Vaccines for Terrestrial Animals", "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/terrestrial-manual-online-access/" }
+  ]
+}

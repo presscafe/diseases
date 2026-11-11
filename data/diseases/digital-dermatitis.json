@@ -1,0 +1,151 @@
+{
+  "slug": "digital-dermatitis",
+  "name": "Digital dermatitis",
+  "synonyms": ["Mortellaro disease", "Strawberry foot rot", "Hairy heel warts", "Papillomatous digital dermatitis"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Treponema species",
+      "notes": "A group of spirochaetes — Treponema medium, T. phagedenis and related phylotypes — consistently found in the lesions. A specific causative single species has not been identified, and the disease is regarded as a polymicrobial infection in which treponemes are the dominant and probably essential component. The organisms are obligate anaerobes and are found deep within the lesion, not on the surface.",
+      "reservoir": "Infected cattle hooves and the environment — the organism survives in slurry and on hoof trimmers' equipment"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle"],
+    "also": ["Sheep", "Goats"],
+    "notes": "Dairy cattle are the principal species affected, particularly confined housed animals. The disease is uncommon in cattle that are on dry pasture year-round."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A production and welfare disease with no public health significance. It is one of the most common causes of lameness in dairy herds worldwide, and its spread has been described as explosive since the 1970s."
+  },
+  "distribution": "Now present in most dairy-producing countries. It spread rapidly through Europe and North America in the late 20th century. In southern Africa, digital dermatitis is recognised in intensive dairy herds and is becoming an increasing problem as herds intensify and move to confined housing.",
+  "aetiology": {
+    "summary": "Digital dermatitis is an infectious disease of the heel skin driven by treponemes, but its expression is inseparable from the environment. The organisms require damaged, moist skin and anaerobic conditions in the interdigital space, which are created by slurry, concrete flooring and prolonged standing.",
+    "determinants": [
+      "Exposure to treponeme-infected animals or contaminated equipment",
+      "Maceration of the skin from slurry, urine and wet bedding",
+      "Damage to the skin barrier from abrasive flooring and hoof trauma",
+      "Anaerobic conditions in the interdigital space, which the treponemes require",
+      "The introduction of an infected animal into a naive herd"
+    ],
+    "risk_factors": [
+      "Wet, slurry-covered flooring and poor drainage",
+      "Concrete and abrasive flooring",
+      "High stocking density and prolonged standing",
+      "Introduced cattle, particularly purchased animals infected subclinically",
+      "Hoof trimmers moving between farms without disinfecting equipment",
+      "Poor foot hygiene and no foot bathing programme",
+      "Calving pens shared by many animals"
+    ],
+    "epidemiology": "Digital dermatitis is highly contagious and spreads through a herd by direct contact and contaminated equipment. In affected herds, prevalence can be high and it is a major cause of lameness, reduced milk yield, reduced fertility and culling. The disease often affects the hind feet first. Trimmers' knives and hoof stands are a well-documented transmission route between farms."
+  },
+  "pathophysiology": {
+    "summary": "Treponemes gain access through macerated, damaged skin of the heel or interdigital cleft and proliferate in the anaerobic environment. They invade the deeper layers of the epidermis and dermis and trigger an intense proliferative inflammatory response that produces the characteristic strawberry-like papillomatous lesion, with pain on weight-bearing.",
+    "cascade": [
+      {
+        "title": "Skin maceration and barrier breach",
+        "detail": "Prolonged exposure to slurry and urine macerates the stratum corneum of the heel, while abrasive flooring removes the protective superficial layers. This creates the entry point and the anaerobic environment the treponemes require."
+      },
+      {
+        "title": "Treponeme colonisation",
+        "detail": "Treponemes colonise the damaged epidermis and penetrate into the deeper layers, where they are protected from the surface environment and from superficial antiseptics."
+      },
+      {
+        "title": "Proliferative inflammatory response",
+        "detail": "The immune response to the infection produces a marked epidermal hyperplasia with elongated rete pegs, superficial necrosis and an inflammatory infiltrate. The resulting lesion is raised, red and granular — the 'strawberry' appearance."
+      },
+      {
+        "title": "Pain and altered locomotion",
+        "detail": "The lesion is painful and the animal shifts weight to the opposite limb, which increases the load on the contralateral hoof and predisposes to sole ulceration and further lameness. The altered gait reduces feed intake and milk yield."
+      },
+      {
+        "title": "Chronicity and spread",
+        "detail": "Untreated lesions become chronic, with deeper invasion and the potential for extensive tissue destruction. The animal remains a source of infection for the herd, and the cycle continues through the environment."
+      }
+    ],
+    "lesions": [
+      "Circumscribed, raised, red and granular lesion on the heel or in the interdigital cleft",
+      "Strawberry-like papillomatous surface, often with a grey or white hairy fringe",
+      "Thickened, hyperkeratotic skin at the margins",
+      "Seven distinct M-stages described: early, acute, chronic and regressive forms",
+      "Possible extension to the interdigital space and the coronary band in chronic cases"
+    ],
+    "clinical_signs": [
+      "Lameness, often subtle at first and most evident at the walk",
+      "Lifting or shaking of the affected limb",
+      "Reluctance to bear weight on the affected hoof",
+      "Visible lesion on the heel when the hoof is lifted",
+      "Reduced feed intake and milk yield",
+      "Reduced fertility due to the association of lameness with poor reproductive performance",
+      "Heel bulb swelling and foul odour in chronic cases"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Careful inspection of the heel and interdigital cleft after cleaning the foot — the lesion is usually obvious once visible",
+      "Use a hoof stand and adequate lighting; the lesion is often missed without proper examination",
+      "Lameness scoring to identify affected animals that do not show obvious signs at a distance"
+    ],
+    "postmortem": [
+      "Examine the hooves for the characteristic lesions",
+      "Note any concurrent hoof lesions such as sole ulcer or white line disease"
+    ],
+    "laboratory": [
+      "Diagnosis is clinical in the field",
+      "Histopathology of biopsy showing the characteristic treponeme-associated proliferative dermatitis",
+      "PCR for Treponema phylotypes, used in research and in cases of diagnostic uncertainty",
+      "Bacteriology is of limited clinical value because of the polymicrobial nature of the lesion"
+    ],
+    "differentials": [
+      "Foot rot (interdigital phlegmon) — acute, painful swelling of the whole foot with fever, not a chronic proliferative lesion",
+      "Heel horn erosion (slurry heel) — a consequence of the same environment but without the treponeme lesion",
+      "Sole ulcer and white line disease — lesions of the sole rather than the heel",
+      "Laminitis — generalised lameness with different hoof lesions",
+      "Foreign body in the interdigital space"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Keep flooring and lying areas dry and clean, with good drainage",
+      "Use foot baths with an appropriate disinfectant (copper sulphate, formalin or a proprietary product) at herd level",
+      "Maintain good foot hygiene and regularly clean the hooves",
+      "Quarantine and examine incoming cattle before introduction",
+      "Require hoof trimmers to disinfect equipment between farms",
+      "Reduce stocking density and minimise time standing on concrete",
+      "Lameness score the herd regularly to detect the problem early"
+    ],
+    "vaccination": "No commercial vaccine is available. Research into treponeme vaccines is ongoing, but control currently relies on hygiene, foot bathing and individual treatment.",
+    "treatment": [
+      "Individual treatment: clean the lesion, apply a topical antibiotic (typically a tetracycline or lincomycin spray) and bandage",
+      "Systemic antibiotics (penicillin or a tetracycline) for severe or non-responsive cases, under veterinary direction",
+      "Hoof trimming to remove under-run horn and relieve pressure",
+      "Foot bathing with a suitable disinfectant for herd-level control",
+      "Repeat treatment may be required, as the lesion is often chronic",
+      "Note that antibiotic use should be minimised where possible and always under veterinary supervision"
+    ],
+    "outbreak": [
+      "Identify and treat affected animals promptly",
+      "Implement herd-level foot bathing",
+      "Review housing and flooring to reduce slurry exposure",
+      "Examine all newly introduced cattle and quarantine them",
+      "Review hoof trimming practice and equipment hygiene",
+      "Consider the whole-herd lameness picture rather than treating individual cases in isolation"
+    ],
+    "public_health": [
+      "Digital dermatitis has no human health significance",
+      "Observe meat and milk withdrawal periods for any antibiotics used, particularly topical products",
+      "Responsible antibiotic use matters for antimicrobial stewardship even though the public health risk here is indirect"
+    ],
+    "notes": "Digital dermatitis is a disease where the environment is the real pathogen. Treating individual feet without changing the slurry, flooring and foot-bathing regime produces temporary relief followed by a high recurrence rate."
+  },
+  "prognosis": "Good for individual lesions with treatment, but recurrence is common unless the environmental conditions are corrected. At herd level, control is achievable with consistent hygiene and foot bathing, but eradication from a housed herd is difficult.",
+  "related": ["laminitis", "foot-rot"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Digital dermatitis", "url": "https://www.merckvetmanual.com/" },
+    { "label": "AHDB — Lameness in dairy cattle", "url": "https://ahdb.org.uk/" }
+  ]
+}

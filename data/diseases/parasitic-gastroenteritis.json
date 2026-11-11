@@ -1,0 +1,165 @@
+{
+  "slug": "parasitic-gastroenteritis",
+  "name": "Parasitic gastroenteritis",
+  "synonyms": ["Haemonchosis", "Barber's pole worm infection", "Trichostrongylosis", "Ostertagiasis", "Wireworm disease"],
+  "category": "parasitic",
+  "agents": [
+    {
+      "kind": "helminth",
+      "name": "Haemonchus contortus",
+      "notes": "The barber's pole worm — a large abomasal nematode that sucks blood. The single most economically important gastrointestinal parasite of small ruminants in warm, humid climates, and the species most associated with acute mortality.",
+      "reservoir": "Pasture larvae; adult worms in the abomasum of sheep and goats"
+    },
+    {
+      "kind": "helminth",
+      "name": "Teladorsagia circumcincta",
+      "notes": "The brown stomach worm of sheep and goats, causing reduced appetite and diarrhoea rather than blood loss. Subclinical production loss is its main economic effect.",
+      "reservoir": "Pasture larvae; adult worms in the abomasum"
+    },
+    {
+      "kind": "helminth",
+      "name": "Trichostrongylus species",
+      "notes": "Small intestinal and abomasal worms that cause diarrhoea, ill-thrift and hypoproteinaemia in mixed infections with Haemonchus and Teladorsagia.",
+      "reservoir": "Pasture larvae; adult worms in the abomasum and small intestine"
+    },
+    {
+      "kind": "helminth",
+      "name": "Ostertagia ostertagi",
+      "notes": "The cattle stomach worm. Larvae can arrest in the abomasal glands and emerge together in a mass outbreak (type II ostertagiasis), a key mechanism of disease in young cattle at the end of the grazing season.",
+      "reservoir": "Pasture larvae; arrested larvae in the abomasal mucosa"
+    }
+  ],
+  "hosts": {
+    "primary": ["Sheep", "Goats", "Cattle"],
+    "also": ["Wild ruminants"],
+    "notes": "Young animals are most severely affected because they have no acquired immunity. In sheep, Haemonchus is the dominant cause of acute death; in cattle, Ostertagia is the dominant cause of production loss."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "note": "Not notifiable. The economic significance is enormous and largely invisible: subclinical infection is estimated to be one of the largest causes of lost livestock productivity worldwide."
+  },
+  "distribution": "Worldwide in grazing ruminants. In southern Africa, Haemonchus is a major constraint in sheep and goats, particularly in the warmer, wetter eastern areas and during the rainy season, and is the principal reason for anthelmintic use in small ruminants.",
+  "aetiology": {
+    "summary": "Infection is acquired by ingesting infective third-stage larvae from pasture. The parasite's epidemiology is dominated by the free-living stages on pasture, whose development and survival depend on temperature and moisture. Disease is therefore a function of stocking density, grazing management and weather rather than of contact between animals.",
+    "determinants": [
+      "Contamination of pasture with nematode eggs from infected animals",
+      "Warm, moist conditions allowing eggs to hatch and develop to infective larvae",
+      "Grazing close to the ground, where larvae concentrate on grass blades",
+      "High stocking density and continuous grazing of the same pasture",
+      "Absence of effective immunity, which is typical in young animals and in periparturient ewes"
+    ],
+    "risk_factors": [
+      "Young animals turned out onto contaminated pasture",
+      "Periparturient relaxation of immunity in ewes, with a massive increase in egg output around lambing",
+      "Overstocking and continuous grazing without rest periods",
+      "Rainy season and warm temperatures favouring larval development",
+      "Anthelmintic resistance, which is now widespread and undermines routine drenching"
+    ],
+    "epidemiology": "The peri-parturient rise in egg output from ewes is the single most important source of pasture contamination, and it occurs precisely when the next generation of lambs is most susceptible. Haemonchus has a short generation time and a high fecundity — a single female can produce thousands of eggs a day — so populations can increase explosively within a season. Anthelmintic resistance in Haemonchus is now widespread in southern Africa, which has made traditional drenching programmes unsustainable."
+  },
+  "pathophysiology": {
+    "summary": "Disease results from the feeding behaviour of the adult worms and the host response to them. Haemonchus attaches to the abomasal mucosa and sucks blood, producing a direct and continuing blood loss that rapidly causes anaemia and hypoproteinaemia. The other species cause disease mainly through mucosal damage, reduced appetite and protein loss, producing diarrhoea and ill-thrift.",
+    "cascade": [
+      {
+        "title": "Ingestion and larval establishment",
+        "detail": "Infective third-stage larvae are ingested with pasture, exsheath in the rumen and migrate to the abomasum or small intestine, where they develop to adults over 2-3 weeks."
+      },
+      {
+        "title": "Abomasal attachment and blood feeding",
+        "detail": "Adult Haemonchus attach to the abomasal mucosa with a buccal capsule and feed on blood, each worm removing a small but continuous volume. A heavy burden of several thousand worms produces a substantial daily blood loss."
+      },
+      {
+        "title": "Anaemia and hypoproteinaemia",
+        "detail": "Continuous blood loss depletes iron and protein reserves, producing a normocytic anaemia and hypoalbuminaemia. The plasma protein loss into the gut also reduces oncotic pressure, producing oedema — the 'bottle jaw' swelling under the jaw."
+      },
+      {
+        "title": "Mucosal damage and malabsorption",
+        "detail": "Teladorsagia and Ostertagia larvae develop within the abomasal glands, damaging parietal cells and reducing acid secretion. This produces a rise in abomasal pH, impaired protein digestion and a further loss of plasma protein into the gut."
+      },
+      {
+        "title": "Production loss and death",
+        "detail": "The combined effects of anaemia, protein loss, reduced appetite and malabsorption produce weight loss, reduced milk yield and poor growth. Death occurs from acute haemorrhage in heavy Haemonchus infections, particularly during the rainy season."
+      }
+    ],
+    "lesions": [
+      "Pale mucous membranes and, in severe Haemonchus infection, pale carcase fat and watery blood",
+      "Oedema of the submandibular region ('bottle jaw') and ventral abdomen",
+      "Abomasal mucosa showing numerous small bleeding points and attached worms ('barber's pole' appearance)",
+      "Abomasal mucosa thickened with characteristic 'cobblestone' nodules in ostertagiasis",
+      "Fluid intestinal contents with little formed faeces",
+      "Poor body condition and reduced fat reserves"
+    ],
+    "clinical_signs": [
+      "Pale mucous membranes and conjunctiva, which can be scored to estimate anaemia",
+      "Submandibular oedema ('bottle jaw') and ascites",
+      "Diarrhoea, which may be dark in Haemonchus infection",
+      "Weight loss and poor growth in young stock",
+      "Reduced milk yield",
+      "Lethargy and weakness",
+      "Sudden death in acute haemonchosis, especially in lambs during the rainy season"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "FAMACHA scoring of the conjunctiva to assess anaemia and guide selective treatment — the cornerstone of sustainable control",
+      "Faecal egg count to estimate pasture contamination, not to diagnose individual disease",
+      "Body condition scoring and growth monitoring as production indicators"
+    ],
+    "postmortem": [
+      "Count adult worms in the abomasum and small intestine",
+      "Examine the abomasal mucosa for bleeding points and nodules",
+      "Note pale carcase fat and oedema"
+    ],
+    "laboratory": [
+      "Faecal egg count by McMaster technique",
+      "Faecal culture and larval differentiation to identify the species mix",
+      "Haematocrit or packed cell volume to quantify anaemia",
+      "Anthelmintic efficacy testing by faecal egg count reduction test"
+    ],
+    "differentials": [
+      "Coccidiosis — diarrhoea in young animals, but with blood and mucus and specific oocysts in faeces",
+      "Liver fluke — anaemia and hypoproteinaemia but with a different epidemiology and liver lesions",
+      "John's disease (paratuberculosis) — chronic weight loss with diarrhoea in adults",
+      "Chronic copper deficiency — anaemia and poor growth",
+      "Bovine viral diarrhoea and mucosal disease",
+      "Nutritional deficiency causing ill-thrift"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Use targeted selective treatment based on FAMACHA scoring and body condition rather than whole-flock drenching",
+      "Rotate grazing and allow pasture rest periods to reduce larval challenge",
+      "Avoid overstocking and continuous grazing of the same paddock",
+      "Drench ewes around lambing to suppress the peri-parturient rise in egg output",
+      "Maintain refugia — leave a proportion of animals untreated to slow the development of resistance",
+      "Monitor anthelmintic efficacy with faecal egg count reduction tests"
+    ],
+    "vaccination": "A commercial Haemonchus vaccine based on a gut antigen (Barbervax) is available in Australia and some other countries and reduces worm burdens and egg output. It is not yet widely available in southern Africa. No effective vaccine exists for the other gastrointestinal nematodes relevant here.",
+    "treatment": [
+      "Use a narrow-spectrum anthelmintic appropriate to the species — albendazole, levamisole or ivermectin",
+      "Dose accurately by weight, not by visual estimation",
+      "Combine treatment with management change; drenching alone selects for resistance",
+      "Treat only animals that need it — use FAMACHA and body condition as decision tools",
+      "Test efficacy after treatment to detect resistance early"
+    ],
+    "outbreak": [
+      "Treat clinically affected and anaemic animals immediately",
+      "Investigate the cause of the outbreak — typically a break in the drench programme or a resistant parasite population",
+      "Move animals to cleaner pasture if available",
+      "Perform a faecal egg count reduction test to check whether the anthelmintic used is still effective",
+      "Supportive care for severely anaemic animals, including consideration of blood transfusion in valuable animals"
+    ],
+    "public_health": [
+      "These gastrointestinal nematodes are not infectious to humans",
+      "Anthelmintic residues in meat and milk are the only public health consideration, and withdrawal periods must be observed"
+    ],
+    "notes": "Anthelmintic resistance is the central practical problem. Any control programme that relies on routine whole-flock drenching will fail within a few seasons, and FAMACHA-guided selective treatment is the most effective countermeasure in sheep and goats."
+  },
+  "prognosis": "Good for individual animals if treated before severe anaemia develops. Acute haemonchosis can kill lambs within days. At herd level, the prognosis depends on whether resistance is present and whether grazing management changes.",
+  "related": ["coccidiosis", "fasciolosis", "peste-des-petits-ruminants"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Gastrointestinal parasites", "url": "https://www.merckvetmanual.com/" },
+    { "label": "WOAH — Anthelmintic resistance", "url": "https://www.woah.org/" }
+  ]
+}

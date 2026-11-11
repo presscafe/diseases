@@ -1,0 +1,162 @@
+{
+  "slug": "laminitis",
+  "name": "Laminitis",
+  "synonyms": ["Founder", "Pododermatitis aseptica diffusa", "Ruminal laminitis"],
+  "category": "metabolic",
+  "agents": [
+    {
+      "kind": "management",
+      "name": "Rumen acidosis and endotoxaemia",
+      "notes": "The dominant cause in cattle. The sequence is a rumen fermentation crisis producing lactic acid and endotoxins, which enter the circulation and trigger the vascular and inflammatory events in the hoof laminae."
+    },
+    {
+      "kind": "management",
+      "name": "Carbohydrate overload and lush pasture",
+      "notes": "In horses, the classic trigger is a pasture or grain carbohydrate overload. In cattle, the equivalent is a rumen acidosis episode, which may be subclinical and never noticed at the time."
+    },
+    {
+      "kind": "toxin",
+      "name": "Endotoxin (lipopolysaccharide)",
+      "notes": "Released from Gram-negative bacteria in the rumen or gut during acidosis or sepsis, and absorbed into the circulation. Endotoxin is the mediator that links a gut event to a hoof lesion."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Horses"],
+    "also": ["Sheep", "Goats", "Pigs"],
+    "notes": "Dairy cattle, feedlot cattle and horses are the main species affected. In cattle, laminitis is a disease of the hind hooves most often, and the typical presentation is chronic rather than acute."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A production and welfare disease with no public health significance. It is one of the most important causes of lameness in dairy cattle worldwide."
+  },
+  "distribution": "Worldwide in intensive livestock production. Lameness from laminitis and its sequelae is among the top three health and welfare problems in dairy herds globally.",
+  "aetiology": {
+    "summary": "Laminitis is a vascular and inflammatory disease of the hoof laminae triggered by a systemic event, most often a rumen fermentation crisis. In cattle, the initiating event is usually rumen acidosis or another source of endotoxaemia; the hoof lesion appears weeks or months later, which is why the cause is often missed.",
+    "determinants": [
+      "A rumen acidosis episode or other source of systemic endotoxaemia",
+      "Absorption of endotoxins and vasoactive substances into the circulation",
+      "Inflammatory and vascular changes in the lamellar microvasculature",
+      "Concurrent conditions such as metritis, mastitis or retained placenta, which also produce endotoxaemia",
+      "Genetic and conformational predisposition, and hoof wear and housing factors that compound the risk"
+    ],
+    "risk_factors": [
+      "High-concentrate rations and rumen acidosis",
+      "Lush pasture and carbohydrate overload",
+      "Periparturient disease — retained placenta, metritis, mastitis",
+      "Concrete flooring and insufficient lying time",
+      "Poor hoof trimming and hoof care",
+      "Excessive body condition and rapid weight gain",
+      "In horses, lush spring pasture and grain overload"
+    ],
+    "epidemiology": "In dairy herds, laminitis is endemic and its clinical expression is largely chronic — sole ulcers, white line disease and heel erosion. The acute form is uncommon in cattle compared with horses. The lag between the initiating gut event and the hoof lesion means that cases appearing in a herd are evidence of a management problem that occurred weeks or months earlier."
+  },
+  "pathophysiology": {
+    "summary": "Endotoxins and vasoactive mediators produce a disturbance in the microcirculation of the hoof laminae, with vasoconstriction followed by congestion, oedema and ischaemia. The lamellar attachment between the hoof wall and the distal phalanx is weakened, and the mechanical load of the animal's weight causes further damage, leading to sinking and rotation of the pedal bone.",
+    "cascade": [
+      {
+        "title": "Systemic trigger and endotoxaemia",
+        "detail": "A rumen acidosis episode or periparturient disease releases endotoxins into the circulation. These act on the vasculature throughout the body, with the hoof being particularly vulnerable because of its terminal blood supply."
+      },
+      {
+        "title": "Lamellar microvascular disturbance",
+        "detail": "Vasoconstriction of the arterioles supplying the lamellar dermal papillae is followed by congestion and increased permeability. The laminae become oedematous and ischaemic."
+      },
+      {
+        "title": "Inflammatory injury to the lamellar junction",
+        "detail": "Ischaemia and inflammatory mediators damage the epidermal-dermal junction that anchors the hoof wall to the distal phalanx. This is the structural lesion of laminitis, and it is not reversible."
+      },
+      {
+        "title": "Sinking and rotation of the pedal bone",
+        "detail": "With the anchoring weakened, the weight of the animal causes the distal phalanx to sink within the hoof capsule and rotate. This compresses the solar corium and produces the clinical signs of sole pain."
+      },
+      {
+        "title": "Sole ulceration, white line disease and chronic lameness",
+        "detail": "The damaged corium produces defective new horn and the resulting sole ulcer or white line separation provides a route for secondary bacterial infection. This chronic phase is what most cattle present with, and it accounts for the majority of the economic loss."
+      }
+    ],
+    "lesions": [
+      "Congestion and haemorrhage of the lamellar dermis",
+      "Separation of the lamellar epidermis from the dermis",
+      "Sinking and rotation of the distal phalanx on radiography or post-mortem",
+      "Sole ulceration at the typical site, just caudal to the sole-bulb junction",
+      "White line disease and separation",
+      "Heel erosion and double soles",
+      "Secondary bacterial infection of the exposed corium"
+    ],
+    "clinical_signs": [
+      "Lameness, often in the hindlimbs and frequently bilateral",
+      "A stiff, shuffling gait with the animal shifting weight",
+      "Heat and swelling in the coronary band in the acute form",
+      "Reluctance to stand or walk on hard surfaces",
+      "In dairy cows, reduced milk yield, reduced fertility and increased culling",
+      "Sole ulcers and white line lesions visible on hoof examination",
+      "In severe cases, the animal may become recumbent"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical lameness examination with hoof testing — sole ulceration at the typical site is diagnostic of chronic laminitis",
+      "Inspect the coronary band for heat and swelling in the acute form",
+      "Assess the herd prevalence of lameness and hoof lesions — individual diagnosis is relatively straightforward, but the herd problem is the important one"
+    ],
+    "postmortem": [
+      "Examine the hooves for sole ulceration, white line separation and pedal bone rotation",
+      "Sectioning the hoof demonstrates the sinking and rotation of the distal phalanx"
+    ],
+    "laboratory": [
+      "No specific laboratory test",
+      "Radiography of the hoof in valuable animals will show pedal bone rotation",
+      "Bacteriology of sole ulcers is useful to guide treatment of secondary infection"
+    ],
+    "differentials": [
+      "Digital dermatitis — a specific infectious lesion on the heel, not a laminitic lesion",
+      "Foot rot and interdigital necrobacillosis — acute swelling and lameness of the foot",
+      "Foul in the foot (interdigital phlegmon)",
+      "Fracture of the pedal bone or limb bones",
+      "Abscess of the sole from a puncture wound",
+      "Septic arthritis of the distal interphalangeal joint"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Prevent rumen acidosis through ration management and gradual adaptation",
+      "Ensure adequate physically effective fibre and consistent feeding",
+      "Maintain good lying comfort and minimise time standing on concrete",
+      "Provide regular professional hoof trimming and foot bathing",
+      "Treat periparturient disease promptly to reduce endotoxaemia",
+      "Manage body condition and avoid overconditioning",
+      "Keep cow tracks and walking surfaces in good condition"
+    ],
+    "vaccination": "A vaccine against Fusobacterium necrophorum has been used for digital dermatitis and interdigital phlegmon, but it is not a laminitis vaccine. There is no vaccine that prevents laminitis itself.",
+    "treatment": [
+      "Correct the primary cause — management of rumen acidosis and treatment of periparturient disease",
+      "Sole ulcers: trim the affected claw, apply a block to the sound claw to relieve weight-bearing and treat the lesion",
+      "White line disease: explore and drain the lesion and apply a block",
+      "Anti-inflammatories (NSAIDs) for pain relief and to reduce lamellar inflammation",
+      "Hoof bandaging and hygienic management of the affected foot",
+      "Culling (i.e. removal from the herd) of animals with unrecoverable, frequently recurring lesions",
+      "In horses, the treatment of acute laminitis is much more involved and involves foot support, icing and corrective trimming"
+    ],
+    "outbreak": [
+      "Investigate the herd-level cause: ration, housing, hoof trimming and foot hygiene",
+      "Audit the ration and rumen health of the group",
+      "Inspect cow tracks and flooring, and improve lying comfort",
+      "Introduce a foot bathing schedule for infectious hoof disease",
+      "Review the hoof trimming programme and the training of hoof trimmers",
+      "Monitor lameness prevalence and set a reduction target"
+    ],
+    "public_health": [
+      "Laminitis has no human health significance beyond welfare considerations",
+      "Observe meat and milk withdrawal periods for any veterinary medicines used"
+    ],
+    "notes": "The single most important diagnostic concept is the lag. Hoof lesions seen today reflect a rumen or periparturient event months earlier, so the management investigation must look backwards."
+  },
+  "prognosis": "Guarded for the individual animal — laminitis is not reversible, and recovered animals frequently relapse. At herd level, the prognosis is excellent if the underlying rumen and housing problems are corrected, and poor if they are not.",
+  "related": ["rumen-acidosis", "bloat", "digital-dermatitis"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Laminitis", "url": "https://www.merckvetmanual.com/" },
+    { "label": "AHDB — Lameness in dairy cattle", "url": "https://ahdb.org.uk/" }
+  ]
+}

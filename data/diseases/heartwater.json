@@ -1,0 +1,149 @@
+{
+  "slug": "heartwater",
+  "name": "Heartwater",
+  "synonyms": ["Cowdriosis", "Ehrlichiosis ruminantium", "Bosluis-siekte (tick sickness)"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Ehrlichia ruminantium",
+      "notes": "An obligately intracellular rickettsia that invades endothelial cells. Formerly Cowdria ruminantium. The organism's tropism for the vascular endothelium of the brain and heart is the basis of both the name and the pathogenesis.",
+      "vector": "Amblyomma hebraeum (bont tick) and other Amblyomma species",
+      "reservoir": "Infected ticks and persistently infected ruminants; the organism is maintained in the tick population transstadially"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats"],
+    "also": ["African buffalo", "Wild ruminants", "Mice (experimental)"],
+    "notes": "Ruminants are the natural hosts. Wild ruminants including buffalo and various antelope serve as reservoir hosts without showing disease. Sheep and goats are more susceptible than cattle in some regions."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": true,
+    "note": "WOAH-listed. Human ehrlichiosis is caused by different Ehrlichia species and is not acquired from livestock."
+  },
+  "distribution": "Restricted to sub-Saharan Africa and the Caribbean, following the distribution of Amblyomma ticks. In southern Africa it is endemic in the eastern and northern parts of South Africa, Zimbabwe, Zambia, Mozambique and northern Botswana, with a distribution closely tied to the bont tick.",
+  "aetiology": {
+    "summary": "Heartwater is a tick-borne rickettsial disease transmitted by Amblyomma ticks, whose long mouthparts and three-host life cycle mean they are harder to control than one-host cattle ticks. The disease is a classic example of enzootic instability: in areas where ticks are abundant and calves are infected early, disease is rare, whereas introduced naive animals die quickly.",
+    "determinants": [
+      "Presence of infected Amblyomma ticks on the pasture",
+      "Susceptibility of the host, which is highest in naive animals introduced to an endemic area",
+      "Age-related resistance in calves and lambs, which suffer mild disease that confers lifelong immunity",
+      "The three-host life cycle of Amblyomma, which makes tick control far more difficult than for one-host ticks"
+    ],
+    "risk_factors": [
+      "Moving naive animals into an endemic area",
+      "Poor acaricide coverage, particularly of the predilection feeding sites on the legs, perineum and udder",
+      "Abundant game or unmanaged grazing with high tick loads",
+      "Interrupting tick control abruptly in a herd that has lost natural immunity",
+      "Late introduction of susceptible breeds into endemic areas"
+    ],
+    "epidemiology": "In endemic areas, the disease occurs mainly in young animals with mild signs, producing lifelong immunity. The enzootically unstable situation — where the tick is present but challenge is insufficient to immunise calves — is the most dangerous, because the herd remains fully susceptible while the risk of exposure persists. Case fatality can exceed 60-80% in naive adults."
+  },
+  "pathophysiology": {
+    "summary": "Ehrlichia ruminantium multiplies in the endothelial cells lining small blood vessels throughout the body, particularly in the brain, heart and kidneys. The resulting vasculitis and increased vascular permeability produce the effusions that give the disease its name and the neurological signs that dominate the clinical picture.",
+    "cascade": [
+      {
+        "title": "Tick inoculation and endothelial invasion",
+        "detail": "Infective organisms are inoculated during tick feeding and rapidly invade the endothelial cells of small blood vessels, where they replicate in cytoplasmic vacuoles."
+      },
+      {
+        "title": "Endothelial cell destruction",
+        "detail": "Replication causes necrosis and sloughing of endothelial cells, exposing the subendothelial matrix and triggering platelet activation, coagulation and widespread vasculitis."
+      },
+      {
+        "title": "Increased vascular permeability",
+        "detail": "Damaged endothelium leaks plasma into the pericardial sac, pleural cavity and peritoneal cavity. The characteristic hydropericardium — a large volume of straw-coloured fluid around the heart — is the lesion that gave the disease its name."
+      },
+      {
+        "title": "Pulmonary and cerebral oedema",
+        "detail": "Increased vascular permeability in the lungs produces interstitial and alveolar oedema with severe respiratory compromise, while oedema in the brain produces the hyperaesthesia, head pressing and convulsions characteristic of the nervous form."
+      },
+      {
+        "title": "Circulatory failure and death",
+        "detail": "Pericardial effusion restricts cardiac filling, and myocardial damage from vasculitis further impairs output. Combined with hypovolaemia from fluid loss, this produces circulatory collapse and death, usually within a week of onset."
+      }
+    ],
+    "lesions": [
+      "Hydropericardium — a large volume of straw-coloured or blood-tinged fluid in the pericardial sac",
+      "Petechial haemorrhages on the epicardium and endocardium",
+      "Pulmonary oedema with heavy, wet lungs",
+      "Oedema of the mediastinum and perirenal tissues",
+      "Enlarged lymph nodes",
+      "Ascites and pleural effusion",
+      "Frothy fluid in the trachea and bronchi",
+      "Microscopic vasculitis and endothelial necrosis in the brain and heart"
+    ],
+    "clinical_signs": [
+      "Sudden high fever (40-42 degrees Celsius) that may be the only early sign",
+      "Loss of appetite and listlessness",
+      "Nervous signs: hyperaesthesia, muscle twitching, head pressing, circling and convulsions",
+      "Laboured breathing with a moist cough",
+      "Pale to slightly jaundiced mucous membranes",
+      "Salivation and profuse nasal discharge in some cases",
+      "Recumbency and death within a few days in untreated animals",
+      "In calves, mild and transient fever that may go unnoticed"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical suspicion in a febrile animal from an endemic area with nervous signs",
+      "Examine a brain biopsy or blood smear for morulae within endothelial cells — very low sensitivity",
+      "PCR on whole blood is the practical confirmatory test"
+    ],
+    "postmortem": [
+      "Hydropericardium is the hallmark lesion — always examine the pericardial sac",
+      "Pulmonary oedema and petechiae on the epicardium",
+      "Nervous signs with a relatively normal-looking brain macroscopically"
+    ],
+    "laboratory": [
+      "PCR on whole blood, brain or other tissues",
+      "Demonstration of morulae in endothelial cells of brain capillaries on histology",
+      "Culture is difficult and not routinely performed",
+      "Serology for herd prevalence, with cross-reactivity between Ehrlichia species as a limitation"
+    ],
+    "differentials": [
+      "Babesiosis and anaplasmosis — anaemia and jaundice without the nervous signs and hydropericardium",
+      "Theileriosis — lymph node enlargement and pulmonary oedema, but different vascular lesions",
+      "Rabies — nervous signs, but with behavioural change and no fever",
+      "Tetanus — rigidity and trismus rather than oedema",
+      "Poisoning with plants causing nervous signs",
+      "Meningitis or encephalitis of other causes"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Maintain regular acaricide treatment with attention to predilection sites on the legs, perineum, udder and ears",
+      "Use the infection-and-treatment method to immunise naive animals before introduction into endemic areas",
+      "Avoid abrupt cessation of tick control in endemic herds",
+      "Quarantine and monitor animals moved between zones",
+      "Consider the tick's three-host life cycle when designing control: the larval and nymphal stages on small mammals and ground-feeding birds must also be interrupted"
+    ],
+    "vaccination": "The infection-and-treatment method remains the main prophylactic approach — intravenous inoculation of live-infected blood followed by tetracycline treatment to abort the infection while allowing immunity to develop. An inactivated vaccine has been researched but is not commercially available. The method requires veterinary supervision and carries a risk of vaccine-derived disease if not handled correctly.",
+    "treatment": [
+      "Oxytetracycline is the treatment of choice and is effective if given early in the febrile stage",
+      "Doxycycline is an acceptable alternative",
+      "Supportive care: fluids, NSAIDs and management of the cerebral oedema",
+      "Treatment late in the course, once nervous signs are established, is usually unsuccessful",
+      "In naive animals, treatment must begin at the first fever, before the vascular phase is established"
+    ],
+    "outbreak": [
+      "Notify the veterinary authority where required",
+      "Treat in-contact febrile animals immediately rather than waiting for confirmation",
+      "Intensify acaricide application to reduce tick challenge",
+      "Restrict movement of animals out of the affected area",
+      "Review the acaricide programme and consider immunisation of the herd"
+    ],
+    "public_health": [
+      "Heartwater does not affect humans",
+      "Human ehrlichiosis is caused by different species and is tick-transmitted from wildlife reservoirs, not from livestock"
+    ],
+    "notes": "The Ammblyomma tick's attachment sites are the practical key to control. Acaricide applied to the body may miss the legs, udder and perineum where the bont tick actually feeds."
+  },
+  "prognosis": "Poor in naive animals once clinical signs are established, with case fatality commonly 60-80%. Animals treated early in the febrile phase recover. Survivors are immune for life.",
+  "related": ["babesiosis", "anaplasmosis", "theileriosis"],
+  "references": [
+    { "label": "WOAH — Heartwater", "url": "https://www.woah.org/en/disease/heartwater/" },
+    { "label": "Merck Veterinary Manual — Heartwater", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "slug": "prussic-acid-poisoning",
+  "name": "Prussic acid poisoning",
+  "synonyms": ["Cyanide poisoning", "Hydrocyanic acid poisoning", "HCN poisoning", "Sorghum poisoning", "Chokecherry poisoning"],
+  "category": "toxic",
+  "agents": [
+    {
+      "kind": "toxin",
+      "name": "Hydrogen cyanide (prussic acid)",
+      "notes": "Produced when cyanogenic glycosides in plant tissue are hydrolysed by plant enzymes released after cell damage — chewing, wilting, frost damage or drought stress. Cyanide binds the ferric iron of cytochrome c oxidase, blocking the final step of oxidative phosphorylation. Death follows from histotoxic hypoxia: the blood remains fully oxygenated but the tissues cannot use the oxygen.",
+      "toxins": ["Hydrogen cyanide", "Cyanogenic glycosides (dhurrin in sorghum, prunasin in Prunus species)"]
+    },
+    {
+      "kind": "management",
+      "name": "Cyanogenic forage and stress conditions",
+      "notes": "Sorghum, Sudan grass, Johnson grass, and Prunus species (chokecherry, bitter almond) contain cyanogenic glycosides. Young, rapidly growing plants, drought-stressed plants, regrowth after cutting or grazing, and frosted plants have the highest concentrations. Wilting and chopping release the enzymes that liberate cyanide."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats"],
+    "also": ["Horses", "Pigs", "Humans"],
+    "notes": "Ruminants are particularly susceptible because rumen microbial digestion releases cyanide from the glycosides. All species are susceptible, and horses are also commonly affected. Acute poisoning can kill within minutes to hours."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A plant poisoning with no public health significance for livestock products, though the same toxin is a human food safety issue in cassava and bitter almonds."
+  },
+  "distribution": "Worldwide wherever cyanogenic plants are grazed or fed. In southern Africa, sorghum, Sudan grass and related forages are widely grown, and prussic acid poisoning is a recognised risk, particularly in drought years and after the first rains on regrowth.",
+  "aetiology": {
+    "summary": "Prussic acid poisoning is a lightning-fast intoxication that requires two things: a cyanogenic plant and the conditions that liberate cyanide from it. The plant itself is often harmless when healthy and mature; the danger appears when cells are damaged and the glycoside is hydrolysed to free cyanide.",
+    "determinants": [
+      "Presence of cyanogenic glycosides in the forage",
+      "Rapid plant growth, drought stress, frost or regrowth, all of which increase glycoside concentrations",
+      "Plant cell damage from chewing, wilting, chopping or frost, which releases the hydrolysing enzymes",
+      "Rumen microbial digestion, which liberates cyanide from the glycosides",
+      "Consumption on an empty stomach, which increases the rate of toxin absorption"
+    ],
+    "risk_factors": [
+      "Grazing or feeding sorghum, Sudan grass, Johnson grass or chokecherry",
+      "Regrowth after cutting, drought or grazing — the most dangerous stage",
+      "Drought-stressed or frosted forage",
+      "Feeding wilted or freshly chopped forage, which allows enzyme action before consumption",
+      "Hungry animals turned onto dangerous forage",
+      "Baling or ensiling high-glycoside forage"
+    ],
+    "epidemiology": "Poisoning occurs in outbreaks when a group is fed or grazed on the same dangerous forage. Cases are often found dead, and the history typically involves a recent change of pasture or a drought-breaking rain that produced rapid regrowth. The narrow window between exposure and death makes it a particularly feared problem."
+  },
+  "pathophysiology": {
+    "summary": "Cyanide binds cytochrome c oxidase in the mitochondrial electron transport chain, blocking the cell's ability to use oxygen. The result is histotoxic hypoxia: arterial blood remains bright red and well oxygenated, but the tissues cannot extract the oxygen. The brain and heart, with the highest oxygen demand, fail first.",
+    "cascade": [
+      {
+        "title": "Liberation of cyanide from the plant",
+        "detail": "Cell damage releases plant beta-glucosidases that hydrolyse cyanogenic glycosides, liberating free hydrogen cyanide. Chewing does this within the mouth, and rumen microbes continue the process."
+      },
+      {
+        "title": "Rapid absorption",
+        "detail": "Free cyanide is absorbed rapidly from the rumen and small intestine into the bloodstream. Peak blood concentrations can be reached within minutes of ingestion."
+      },
+      {
+        "title": "Cytochrome oxidase inhibition",
+        "detail": "Cyanide binds the ferric iron of cytochrome c oxidase (complex IV), preventing the transfer of electrons to oxygen. Oxidative phosphorylation stops, and the cell cannot generate ATP despite an adequate oxygen supply."
+      },
+      {
+        "title": "Histotoxic hypoxia",
+        "detail": "Because the block is at the tissue level, the blood remains oxygenated and the mucous membranes may appear bright red or cherry-red rather than cyanosed. Cells switch to anaerobic metabolism, producing lactic acidosis."
+      },
+      {
+        "title": "Central nervous system and cardiac failure",
+        "detail": "The brain and heart have the highest oxygen demand and fail first. The animal shows excitement, muscle tremors and convulsions, then respiratory depression and cardiac arrest. Death can occur within minutes of ingestion in acute cases."
+      }
+    ],
+    "lesions": [
+      "Bright red or cherry-red blood and mucous membranes, a consequence of oxygenated blood that cannot be used",
+      "No specific gross lesion — the diagnosis is made on history and clinical signs",
+      "Congestion and petechial haemorrhages of the brain and meninges",
+      "Pulmonary oedema in some cases",
+      "Plant material in the rumen consistent with the suspected source"
+    ],
+    "clinical_signs": [
+      "Rapid onset of excitement, muscle tremors and staggering",
+      "Rapid, laboured breathing with a beating-flank appearance",
+      "Bright red or cherry-red mucous membranes",
+      "Profuse salivation and bloating",
+      "Convulsions and opisthotonos in severe cases",
+      "Collapse and death, sometimes within minutes of ingestion",
+      "In less acute cases, weakness, ataxia and recumbency with a slow recovery"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "History of access to cyanogenic forage with a compatible clinical picture",
+      "Response to sodium nitrite and sodium thiosulfate is dramatic and diagnostic",
+      "Blood gas analysis may show a normal or high oxygen tension with a severe metabolic acidosis — the paradox of histotoxic hypoxia",
+      "Rapid field test for cyanide in the rumen or plant material, using a picrate paper test"
+    ],
+    "postmortem": [
+      "The rumen contents should be examined for cyanogenic plant material",
+      "The absence of specific lesions is itself a finding, and the diagnosis depends on the history and on plant and rumen analysis",
+      "The bright red colour of the blood and mucous membranes is characteristic but not invariable"
+    ],
+    "laboratory": [
+      "Cyanide quantification in rumen contents and blood, though the toxin degrades rapidly after death and results must be interpreted cautiously",
+      "Plant material analysis for cyanogenic glycosides",
+      "Picrate paper test on rumen gas as a rapid field test",
+      "Histopathology is generally unrevealing"
+    ],
+    "differentials": [
+      "Nitrate poisoning — also causes rapid death with methaemoglobinaemia, but the blood is dark brown rather than bright red and the clinical picture differs",
+      "Acute bloat — abdominal distension and respiratory compromise, but without the cherry-red blood",
+      "Botulism — flaccid paralysis rather than excitement and convulsions",
+      "Urea poisoning — rapid death with a very high rumen pH and hyperexcitability",
+      "Carbon monoxide poisoning — rare in livestock but produces similar signs",
+      "Organophosphate poisoning — salivation and muscle twitching but a different history and response to treatment"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Avoid grazing sorghum, Sudan grass or Johnson grass during regrowth after drought, frost or cutting",
+      "Do not graze hungry animals onto risky forage — provide hay first",
+      "Cut and wilt cyanogenic forage before grazing, and allow the released cyanide to dissipate",
+      "Test susceptible forage before feeding it",
+      "Avoid feeding frosted or wilted cyanogenic forage",
+      "Allow at least 14 days of regrowth before grazing after a stress event"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for plant poisoning.",
+    "treatment": [
+      "Sodium nitrite followed by sodium thiosulfate is the specific antidote — nitrite converts haemoglobin to methaemoglobin, which binds cyanide and pulls it away from cytochrome oxidase, and thiosulfate provides the sulfur for detoxification to thiocyanate",
+      "Administer intravenously and rapidly — the window is very short",
+      "Supportive care: oxygen supplementation and fluids",
+      "Remove the animal from the source immediately",
+      "In an outbreak, treat all affected animals whether or not they show signs"
+    ],
+    "outbreak": [
+      "Remove animals from the suspect forage immediately",
+      "Identify the source — the pasture or the feed batch",
+      "Submit plant and rumen samples for analysis",
+      "Treat remaining animals prophylactically",
+      "Review grazing management and the timing of regrowth grazing"
+    ],
+    "public_health": [
+      "Livestock poisoning does not create a food safety risk when affected animals are not slaughtered",
+      "The same cyanide chemistry matters in human foods such as cassava and bitter almonds, which must be properly processed",
+      "Observe meat withdrawal requirements if any veterinary medicines have been used"
+    ],
+    "notes": "The differential with nitrate poisoning is worth mastering: both kill fast, both are forage-associated, but prussic acid makes the blood bright red while nitrate makes it dark brown."
+  },
+  "prognosis": "Very poor in acute cases — animals are often found dead, and those that survive the first hour have a reasonable chance of recovery with the correct antidote. Surviving animals generally have no lasting effects.",
+  "related": ["nitrate-poisoning", "botulism", "aflatoxicosis"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Cyanide poisoning", "url": "https://www.merckvetmanual.com/" },
+    { "label": "Cornell — Plants poisonous to livestock", "url": "https://poisonousplants.ansci.cornell.edu/" }
+  ]
+}

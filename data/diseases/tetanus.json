@@ -1,0 +1,145 @@
+{
+  "slug": "tetanus",
+  "name": "Tetanus",
+  "synonyms": ["Lockjaw", "Clostridial neurotoxin intoxication"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Clostridium tetani",
+      "notes": "Gram-positive, spore-forming, strictly anaerobic rod. Spores are ubiquitous in soil and in the intestinal tract of animals and humans. The vegetative form is a normal gut inhabitant; disease requires the spores to germinate in an anaerobic wound.",
+      "toxins": ["Tetanospasmin (tetanus toxin)", "Tetanolysin"],
+      "reservoir": "Soil and dust spore bank; intestinal tract of herbivores and humans"
+    }
+  ],
+  "hosts": {
+    "primary": ["Horses", "Sheep", "Goats"],
+    "also": ["Cattle", "Pigs", "Dogs", "Cats", "Humans"],
+    "notes": "Horses and small ruminants are the most susceptible domestic species. Cattle are relatively resistant. Neonatal tetanus after umbilical infection is a significant cause of lamb and calf mortality in unhygienic conditions."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": false,
+    "note": "Not WOAH-listed. Human tetanus remains a significant cause of death globally, particularly in neonates where maternal vaccination is incomplete, but animal cases carry no human transmission risk."
+  },
+  "distribution": "Worldwide. Spores are present in soil everywhere, so the risk is defined by wound management and by vaccination status rather than by geography.",
+  "aetiology": {
+    "summary": "Tetanus is an intoxication, not an invasive infection. Spores introduced into a deep, anaerobic wound germinate and produce tetanospasmin, which travels up the motor nerves and enters the central nervous system to block inhibitory neurotransmission. The bacterium stays at the wound site; the toxin does the damage.",
+    "determinants": [
+      "Introduction of spores into a wound with a low redox potential — deep puncture, crush injury, contaminated surgical site or the umbilical stump",
+      "Anaerobic conditions favouring spore germination and toxin production",
+      "Absence of protective antitoxin from vaccination or colostrum",
+      "Devitalised tissue, foreign bodies or concurrent infection creating the anaerobic niche"
+    ],
+    "risk_factors": [
+      "Unvaccinated or inadequately vaccinated animals",
+      "Castration, tail docking and ear tagging without hygiene or antitoxin cover",
+      "Umbilical infection in neonates born in contaminated environments",
+      "Deep puncture wounds, particularly from nails, wire or thorns",
+      "Retained placenta and uterine infection after calving or lambing",
+      "Surgical procedures and dystocia without prophylactic antitoxin"
+    ],
+    "epidemiology": "Sporadic and always wound-associated. There is no animal-to-animal transmission. Morbidity is low but case fatality is high. In small ruminants, the peak incidence is in lambs and kids around castration and tail docking, and in neonates with umbilical infection. Herds with a tetanus history usually reflect a management gap rather than an environmental anomaly."
+  },
+  "pathophysiology": {
+    "summary": "Tetanospasmin is a zinc metalloprotease that cleaves synaptobrevin in inhibitory interneurons, preventing the release of GABA and glycine. The result is loss of inhibition across the spinal cord and brainstem, producing unopposed motor activity — rigidity, spasm and the characteristic hypertonicity — with consciousness fully preserved.",
+    "cascade": [
+      {
+        "title": "Anaerobic wound colonisation",
+        "detail": "Spores enter a wound and germinate only where oxygen tension is low — deep puncture wounds, crushed tissue or the devitalised umbilical cord. The vegetative bacterium remains localised at the wound site."
+      },
+      {
+        "title": "Toxin release and axonal transport",
+        "detail": "Tetanospasmin is released and binds the presynaptic terminals of lower motor neurons, travelling by retrograde axonal transport to the spinal cord and brainstem over days."
+      },
+      {
+        "title": "Inhibitory synapse blockade",
+        "detail": "Once in the central nervous system, the toxin moves trans-synaptically into inhibitory interneurons and cleaves synaptobrevin, preventing the release of glycine and GABA."
+      },
+      {
+        "title": "Loss of inhibition and rigidity",
+        "detail": "Without inhibitory input, alpha motor neurons fire continuously and unopposed. This produces generalised muscle rigidity, with the extensor muscles of the limbs and jaw affected most prominently."
+      },
+      {
+        "title": "Spasm, respiratory failure and death",
+        "detail": "Any sensory stimulus triggers uncontrolled spasm of all muscles at once, including the larynx and diaphragm. Death is from respiratory failure, aspiration or exhaustion, and the animal remains fully conscious throughout."
+      }
+    ],
+    "lesions": [
+      "No specific gross lesions — the lesion is functional, not structural",
+      "The wound may be small, healed over or barely visible",
+      "Possible evidence of the primary wound or of aspiration pneumonia secondary to respiratory compromise"
+    ],
+    "clinical_signs": [
+      "Generalised muscle rigidity, with the animal moving reluctantly and stiffly",
+      "Trismus — 'lockjaw' — with the jaw held firmly closed",
+      "Prolapse of the third eyelid in small ruminants when the head is raised",
+      "Ears held erect and back, tail stiff, with a 'sardonic grin' from facial muscle spasm",
+      "Hypersensitivity to noise, light and touch, triggering full-body spasm",
+      "In horses, sawhorse stance, flared nostrils and sweating",
+      "Difficulty swallowing and drooling",
+      "Terminal convulsions and respiratory failure"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical diagnosis: the combination of rigidity, trismus, hyperaesthesia and normal consciousness is highly characteristic",
+      "Search for a wound or a recent history of castration, docking, lambing or trauma",
+      "Differentiate from hypocalcaemia, which responds to calcium, and from strychnine poisoning, which has a similar presentation"
+    ],
+    "postmortem": [
+      "No diagnostic lesion is present",
+      "Look for the primary wound or an umbilical infection, and note evidence of aspiration pneumonia"
+    ],
+    "laboratory": [
+      "Isolation of C. tetani from the wound requires anaerobic culture and is insensitive",
+      "Demonstration of toxin in wound exudate by mouse bioassay is definitive but rarely necessary or available",
+      "PCR for the tetanus toxin gene tetX can be performed on wound material but has limited added value when the clinical picture is characteristic"
+    ],
+    "differentials": [
+      "Strychnine poisoning — very similar presentation, but with a history of exposure and rapid onset",
+      "Hypocalcaemia and hypomagnesaemia — respond to specific therapy",
+      "Rabies — behavioural change and fever, with progression to paralysis rather than rigidity",
+      "Meningitis or encephalitis — fever and altered consciousness, absent here",
+      "Organophosphate poisoning — parasympathetic signs and fasciculations rather than sustained rigidity",
+      "Myotonia congenita — rare and lifelong rather than acute"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Vaccinate with tetanus toxoid as part of routine herd or flock vaccination, especially in horses and small ruminants",
+      "Give prophylactic antitoxin at the time of castration, docking or any contaminated surgery",
+      "Maintain hygienic conditions for lambing, calving and foaling, and treat the umbilical stump with iodine",
+      "Clean and debride wounds promptly and thoroughly",
+      "Check vaccination status before any surgical procedure or after any deep wound"
+    ],
+    "vaccination": "Tetanus toxoid provides excellent, long-lasting protection. Horses require annual boosters; cattle and sheep every one to three years. Neonates acquire passive immunity from colostrum if the dam is vaccinated, so dam vaccination in late pregnancy protects the offspring.",
+    "treatment": [
+      "Tetanus antitoxin to neutralise circulating toxin that has not yet entered the central nervous system — valuable early but cannot reverse toxin already bound",
+      "High-dose penicillin or metronidazole to eliminate the vegetative bacteria at the wound site",
+      "Debridement of the wound and removal of devitalised tissue and foreign material",
+      "Nursing care: dark, quiet environment to minimise spasm triggers, and supportive fluids",
+      "Muscle relaxants, sedation and even mechanical ventilation in valuable animals",
+      "In humans, treatment requires intensive care with tracheostomy and ventilatory support — the animal equivalent is rarely available"
+    ],
+    "outbreak": [
+      "Review and correct the wound-management practice that caused the case",
+      "Give all in-contact animals at-risk tetanus antitoxin and review their vaccination status",
+      "Improve hygiene at castration and parturition sites",
+      "Notify the veterinary authority only where the cause is an iatrogenic or reportable management failure"
+    ],
+    "public_health": [
+      "Human tetanus is a medical emergency and requires immediate medical attention",
+      "The infection is not transmitted from animals to humans; both are infected from the same environmental spore bank",
+      "Human vaccination status should be maintained — a booster every 10 years, and a booster with a contaminated wound if status is unknown",
+      "Tetanus in humans is preventable by vaccination and is a marker of poor maternal and neonatal health in resource-limited settings"
+    ],
+    "notes": "The single most useful clinical observation is that the animal is fully conscious. Rigidity with normal mentation is tetanus until proven otherwise."
+  },
+  "prognosis": "Guarded to poor. In horses and small ruminants, case fatality without intensive care is high, often above 50-80%. With early antitoxin, antibiotics and nursing care, recovery is possible but slow, and recovering animals may remain stiff for weeks.",
+  "related": ["botulism", "rabies", "blackleg"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Tetanus", "url": "https://www.merckvetmanual.com/" },
+    { "label": "WHO — Tetanus", "url": "https://www.who.int/news-room/fact-sheets/detail/tetanus" }
+  ]
+}

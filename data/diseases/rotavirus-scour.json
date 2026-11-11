@@ -1,0 +1,153 @@
+{
+  "slug": "rotavirus-scour",
+  "name": "Rotavirus scour",
+  "synonyms": ["Bovine rotavirus infection", "Neonatal calf diarrhoea (rotaviral)", "Rotaviral enteritis"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "virus",
+      "name": "Bovine rotavirus",
+      "notes": "A non-enveloped, segmented double-stranded RNA virus of the Reoviridae, with a wheel-like appearance on electron microscopy. Group A rotaviruses are the most important cause of neonatal calf diarrhoea. The segmented genome allows reassortment between strains, which complicates vaccine strain selection.",
+      "reservoir": "Infected calves and adult carriers; the virus is shed in very high numbers in the faeces and persists in the environment"
+    }
+  ],
+  "hosts": {
+    "primary": ["Calves", "Lambs", "Kids", "Piglets"],
+    "also": ["Foals", "Deer"],
+    "notes": "Neonates are affected almost exclusively. The most severe disease occurs in calves between 1 and 3 weeks of age, particularly when colostrum intake has been inadequate."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "Not notifiable. Human rotavirus is a major cause of infant diarrhoea worldwide but is a different epidemiological problem, transmitted person-to-person rather than from livestock."
+  },
+  "distribution": "Worldwide wherever cattle, sheep and pigs are reared. Rotavirus is endemic in most herds, and the disease reflects the interaction between viral challenge and the calf's immune status rather than the introduction of the virus.",
+  "aetiology": {
+    "summary": "Rotavirus is ubiquitous in cattle herds. The disease occurs when a susceptible neonate meets a high viral challenge from a contaminated environment at a time when maternal antibody protection has waned. It is therefore a disease of calving management, colostrum feeding and calf-rearing hygiene, not simply of viral presence.",
+    "determinants": [
+      "A high viral challenge in the calf's environment, from contaminated bedding and pens",
+      "Inadequate colostrum intake, which leaves the calf without protective maternal antibody",
+      "Age of the calf — the most susceptible window is roughly 1-3 weeks, after maternal antibody declines but before active immunity develops",
+      "Crowding and mixing of calves of different ages",
+      "Failure of hygiene and disinfection in calving and rearing pens"
+    ],
+    "risk_factors": [
+      "Poor calving hygiene and contaminated calving pens",
+      "Inadequate or delayed colostrum feeding",
+      "Mixing calves of different ages in rearing pens",
+      "Overcrowding and wet bedding",
+      "Cold, wet and stressful weather",
+      "Continuous calving without an all-in-all-out system",
+      "Unvaccinated dams in herds with endemic rotavirus"
+    ],
+    "epidemiology": "Rotavirus is enzootic on most farms, and the disease appears as calf-rearing outbreaks rather than as a point-source epidemic. The virus is extremely stable in the environment and survives on contaminated surfaces for months. Morbidity in a naive group of calves can be very high, with mortality determined largely by the adequacy of colostrum and the speed of supportive treatment."
+  },
+  "pathophysiology": {
+    "summary": "Rotavirus infects the mature enterocytes at the tips of the small intestinal villi, destroying them and leaving the crypt cells to replace them with immature, non-absorbing cells. The result is a malabsorptive, osmotic diarrhoea that is compounded by a loss of brush-border enzymes, particularly lactase, producing a secondary lactose intolerance.",
+    "cascade": [
+      {
+        "title": "Ingestion and small intestinal infection",
+        "detail": "The virus is ingested from the contaminated environment and infects the mature villous enterocytes of the small intestine, particularly in the jejunum."
+      },
+      {
+        "title": "Enterocyte destruction and villous atrophy",
+        "detail": "Viral replication destroys the mature enterocytes, and the crypt cells that replace them are immature and cannot absorb. The villi become shortened and blunted, reducing the absorptive surface area."
+      },
+      {
+        "title": "Loss of brush-border enzymes",
+        "detail": "The mature enterocytes carry the lactase and other disaccharidases needed to digest milk sugars. Their loss produces a transient lactose intolerance, so milk feeding worsens the diarrhoea by drawing water into the gut osmotically."
+      },
+      {
+        "title": "Osmotic diarrhoea and dehydration",
+        "detail": "Undigested nutrients remain in the lumen and hold water osmotically, producing profuse watery diarrhoea. The loss of fluid and electrolytes produces dehydration and metabolic acidosis."
+      },
+      {
+        "title": "Weakness, acidosis and death",
+        "detail": "Without fluid therapy, the calf becomes progressively dehydrated and acidotic, becomes recumbent and dies. Secondary bacterial and cryptosporidial infection is common and worsens the prognosis."
+      }
+    ],
+    "lesions": [
+      "Fluid small intestinal contents and a thin-walled, translucent intestine",
+      "Villous atrophy and blunting on histology",
+      "No gross mucosal ulceration, in contrast with coccidiosis",
+      "Dehydration and loss of body fat in fatal cases",
+      "Possible secondary infection of the gut with bacteria or Cryptosporidium"
+    ],
+    "clinical_signs": [
+      "Watery, yellow or greenish diarrhoea with a characteristic sour smell",
+      "Dehydration with sunken eyes and loss of skin turgor",
+      "Reduced suckle reflex and reluctance to feed",
+      "Weakness and recumbency",
+      "Cold extremities and a subnormal temperature in advanced cases",
+      "Metabolic acidosis with a slow, deep respiratory pattern",
+      "Death within days if untreated",
+      "Subclinical cases show transient softening of the faeces and reduced growth"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Rapid field test on faecal sample — rotavirus antigen ELISA or lateral flow test",
+      "Faecal examination to rule out Cryptosporidium, which frequently co-infects and requires different treatment",
+      "Assess dehydration and acid-base status to guide fluid therapy",
+      "Age of the calf and the colostrum history are important diagnostic clues"
+    ],
+    "postmortem": [
+      "Examination of the small intestine shows thin, fluid contents without gross mucosal necrosis",
+      "Histopathology shows villous atrophy with enterocyte loss",
+      "Submit intestinal tissue and faecal content for testing"
+    ],
+    "laboratory": [
+      "Rotavirus antigen ELISA or lateral flow test on faeces",
+      "Electron microscopy showing characteristic wheel-shaped particles",
+      "RT-PCR for confirmation and genotyping",
+      "Histopathology of the small intestine showing villous atrophy"
+    ],
+    "differentials": [
+      "Coronavirus infection — similar neonatal diarrhoea, often more severe and with more respiratory involvement",
+      "Cryptosporidiosis — also causes neonatal diarrhoea and commonly co-infects",
+      "Coccidiosis — usually in calves older than 3 weeks, with blood and mucus",
+      "Escherichia coli enteritis — often presents as septicaemia or peracute diarrhoea in the first days of life",
+      "Salmonellosis — diarrhoea with systemic signs and a different epidemiology",
+      "Nutritional or dietary scour — no fever, no virus detected, resolves with dietary correction"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Ensure adequate colostrum intake within the first 6 hours of life, with a measured volume of good-quality colostrum",
+      "Maintain clean, dry calving pens and single-use bedding",
+      "Use all-in-all-out calf rearing with disinfection between groups",
+      "Avoid mixing calves of different ages",
+      "Vaccinate dams in late pregnancy to increase colostral antibody",
+      "Feed calves individually and clean feeding utensils thoroughly"
+    ],
+    "vaccination": "Inactivated and modified-live rotavirus vaccines are available for administration to cows in late pregnancy, increasing the concentration of specific antibody in colostrum. This is the standard approach in dairy herds. Calf-level vaccination is not generally used for rotavirus.",
+    "treatment": [
+      "Oral rehydration solution is the mainstay of treatment, with the volume and frequency determined by the degree of dehydration",
+      "Intravenous fluid therapy for calves that are recumbent or unable to suckle",
+      "Correct the metabolic acidosis with bicarbonate-containing solutions in severe cases",
+      "Continue milk feeding — starvation prolongs recovery; reduce the volume and increase the frequency rather than stopping milk entirely",
+      "Do not use antibiotics routinely — they do not affect the virus and contribute to resistance; use them only where secondary bacterial infection is suspected",
+      "Supportive care: warmth, a dry environment and ease of access to feed"
+    ],
+    "outbreak": [
+      "Isolate affected calves and clean and disinfect the rearing area",
+      "Review colostrum management — the commonest root cause",
+      "Ensure all affected calves are rehydrated promptly",
+      "Submit faecal samples for diagnosis rather than assuming rotavirus",
+      "Review calving pen hygiene and calf moving practice"
+    ],
+    "public_health": [
+      "Bovine rotavirus is not considered a human pathogen; human rotavirus is a different epidemiological problem",
+      "Good hygiene when handling scouring calves is advisable for general biosecurity",
+      "Observe withdrawal periods for any veterinary medicines used"
+    ],
+    "notes": "The single most important intervention for rotavirus scour is colostrum. No treatment compensates for a calf that received too little colostrum too late."
+  },
+  "prognosis": "Good with prompt oral rehydration — most calves recover within a week. Poor in calves with severe dehydration, recumbency or concurrent infection. The underlying prevention problem recurs each calving season unless colostrum and hygiene are addressed.",
+  "related": ["coccidiosis", "parasitic-gastroenteritis"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Rotavirus", "url": "https://www.merckvetmanual.com/" },
+    { "label": "AHDB — Calf diarrhoea", "url": "https://ahdb.org.uk/" }
+  ]
+}

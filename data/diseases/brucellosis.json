@@ -1,0 +1,153 @@
+{
+  "slug": "brucellosis",
+  "name": "Brucellosis",
+  "synonyms": ["Contagious abortion", "Bang's disease", "Undulant fever", "Malta fever"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Brucella abortus",
+      "notes": "Gram-negative, facultatively intracellular coccobacillus with a preference for the gravid uterus and the mammary gland. B. abortus is the classical cattle pathogen; B. melitensis predominates in sheep and goats and is the most virulent in humans. B. suis affects pigs and B. ovis affects sheep. All are zoonotic.",
+      "reservoir": "Infected cattle, sheep and goats; wildlife including African buffalo and various ungulates; humans with occupational exposure"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats"],
+    "also": ["Pigs", "Dogs", "African buffalo", "Elk", "Humans"],
+    "notes": "Cattle are the main host for B. abortus; sheep and goats for B. melitensis and B. ovis; pigs for B. suis. Sexually mature animals are the most affected, and the gravid uterus is the principal target organ."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": true,
+    "national": true,
+    "note": "Brucellosis is one of the most important occupational zoonoses of livestock handlers, veterinarians, abattoir workers and laboratory staff. Control in animals is a public health intervention as much as an agricultural one."
+  },
+  "distribution": "Widespread in Africa, the Middle East, central Asia and Latin America, particularly where small ruminants are managed extensively. Many high-income countries have eradicated B. abortus from cattle through test-and-slaughter. In southern Africa, B. abortus remains present in cattle populations across Botswana, Zimbabwe and South Africa.",
+  "aetiology": {
+    "summary": "Infection is acquired by ingesting the organism, most importantly when a susceptible animal licks a placenta, fetal fluids or aborted material left on pasture. The organism penetrates the oral and pharyngeal mucosa, then travels to regional lymph nodes and eventually to the gravid uterus or mammary gland, where its affinity for erythritol-rich tissue drives late-term abortion.",
+    "determinants": [
+      "Exposure of susceptible animals to placentae, fetal fluids, aborted fetuses or vaginal discharge",
+      "Ingestion of the organism from contaminated pasture, water or feed",
+      "Entry through mucous membranes, conjunctiva or abraded skin",
+      "In utero the bacterium binds erythritol, a sugar abundant in the fetal cotyledons of cattle, sheep and pigs, which explains the uterine tropism",
+      "Non-pregnant animals are infected but do not show uterine disease until they are bred and become pregnant"
+    ],
+    "risk_factors": [
+      "Unassisted calvings and lambings where people and other animals contact placentae",
+      "Herds with no testing or vaccination programme",
+      "Introduction of untested animals, particularly females over 6 months of age",
+      "Shared grazing and water with infected neighbouring herds or wildlife",
+      "Consumption of raw milk and unpasteurised dairy products"
+    ],
+    "epidemiology": "Within-herd spread is driven by the explosive contamination of the environment at abortion or parturition — a single aborting cow can shed enormous numbers of organisms. The incubation period to abortion is typically 2-5 months. Infected animals remain infected for life in most cases, and shedding recurs at each subsequent calving or lambing, which is why control requires repeated testing rather than a single round."
+  },
+  "pathophysiology": {
+    "summary": "Brucella enters through mucosa, survives inside macrophages by preventing phagosome-lysosome fusion, and disseminates to the reticuloendothelial system and the gravid uterus. In the placenta, the erythritol-rich fetal cotyledons support massive bacterial multiplication, and the resulting necrotising placentitis destroys the fetal-maternal interface and causes late-term abortion.",
+    "cascade": [
+      {
+        "title": "Mucosal invasion",
+        "detail": "The organism enters through the oral, pharyngeal or conjunctival mucosa, or through abraded skin, and is taken up by local macrophages and dendritic cells."
+      },
+      {
+        "title": "Intracellular survival and dissemination",
+        "detail": "Brucella inhibits phagosome-lysosome fusion and survives and replicates inside macrophages, draining to regional lymph nodes and then spreading haematogenously to the spleen, liver, mammary gland and reproductive tract."
+      },
+      {
+        "title": "Uterine colonisation",
+        "detail": "In pregnancy, the fetal trophoblast of ruminants is rich in erythritol, which the bacterium uses to support very rapid growth. The organism colonises the cotyledons and the chorion, producing a severe necrotising placentitis with purulent, brownish exudate."
+      },
+      {
+        "title": "Fetal death and abortion",
+        "detail": "Destruction of the placentomes deprives the fetus of oxygen and nutrients, and bacterial invasion of the fetal tissues causes fetal death, usually in the last third of gestation. Abortion, stillbirth or birth of weak calves follows."
+      },
+      {
+        "title": "Chronic persistence and intermittent shedding",
+        "detail": "The organism persists in the mammary gland, supramammary lymph nodes and reproductive tract. Shedding in milk and vaginal discharge continues intermittently, especially around subsequent parturitions, which sustains herd transmission even after the clinical abortion has been forgotten."
+      }
+    ],
+    "lesions": [
+      "Necrotising placentitis with thickened, leathery cotyledons and yellowish-brown exudate",
+      "Aborted fetus with subcutaneous oedema, serosanguinous fluid in the cavities and enlarged liver and spleen",
+      "Enlarged, caseous or granulomatous supramammary and regional lymph nodes",
+      "Granulomatous mastitis",
+      "Orchitis and epididymitis in bulls, sometimes progressing to abscessation and testicular atrophy",
+      "Hygromas and bursitis in some chronically infected animals",
+      "Metritis and retained placenta in animals that abort late"
+    ],
+    "clinical_signs": [
+      "Late-term abortion (usually the last trimester), often without any preceding sign of illness",
+      "Retained placenta and metritis after an abortion or calving",
+      "Weak, unthrifty calves born alive, with a high neonatal mortality",
+      "Reduced milk yield and mastitis, sometimes in an animal that has not aborted at all",
+      "Orchitis and tail-swelling in bulls, with reduced fertility",
+      "Infertility and prolonged calving interval at herd level",
+      "Arthritis, bursitis and hygromas in chronic cases"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Blood sampling for serology is the mainstay: Rose Bengal plate test as a screen, with ELISA or complement fixation as confirmation",
+      "Culture of the placenta, vaginal discharge or milk isolates the organism but is not a routine field test",
+      "Bulk tank milk PCR is a useful herd-level surveillance tool"
+    ],
+    "postmortem": [
+      "Examine the aborted fetus and placenta, noting cotyledon appearance and exudate",
+      "Inspect the supramammary and iliac lymph nodes for enlargement and caseation",
+      "Check the testes and epididymides in bulls for orchitis"
+    ],
+    "laboratory": [
+      "Rose Bengal plate agglutination test for rapid screening",
+      "Indirect or competitive ELISA for confirmation and for distinguishing vaccine antibody from infection antibody",
+      "Complement fixation test — historically the reference method",
+      "Bacterial culture from placenta, fetal stomach contents, milk or lymph nodes, requiring prolonged incubation and strict biosafety",
+      "PCR for species-level identification, useful for differentiating vaccine and field strains"
+    ],
+    "differentials": [
+      "Campylobacteriosis and trichomonosis — also cause abortion but usually early in gestation, with a fetal liver lesion in campylobacter",
+      "Leptospirosis — abortion with haemoglobinuria, jaundice and often at any stage of gestation",
+      "Neosporosis — specifically causes abortion in the same late-gestation window in cattle",
+      "Salmonellosis — abortion with systemic illness and diarrhoea",
+      "Vitamin A deficiency and other nutritional causes of weak calves",
+      "Q fever and chlamydiosis — abortifacients but with different serology"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Test all incoming animals, particularly breeding females over 6 months old, and isolate them for a period with retesting",
+      "Vaccinate replacement heifers with a reduced-dose or killed vaccine under a defined scheme",
+      "Remove placentae and aborted tissue immediately and dispose of them properly; do not allow dogs or scavengers access",
+      "Pasteurise milk or boil it before consumption",
+      "Maintain herd biosecurity and avoid shared pasture and water with untested herds"
+    ],
+    "vaccination": "Whole-cell vaccines — S19 in cattle and Rev-1 in sheep and goats — give substantial protection but are rough on their own design: they are infectious to humans, cause abortion if given to pregnant animals, and produce antibody that confounds diagnostic serology. S19 is usually given to heifers at 4-8 months of age. Rough-strain and glycoprotein-based subunit vaccines reduce the diagnostic interference problem. Vaccination protects the herd; it does not eliminate the organism from an already infected one.",
+    "treatment": [
+      "Antibiotic treatment of cattle is not recommended — it does not clear the organism, masks infection and creates a carrier that is serologically negative",
+      "In sheep and goats some clinicians use long courses of tetracycline or combination therapy, with indifferent results",
+      "In humans, prolonged doxycycline combined with rifampicin or streptomycin is the standard regimen, and relapse is common without completing it",
+      "The control response in herds is removal of reactors, not therapy"
+    ],
+    "outbreak": [
+      "Notify the veterinary authority — brucellosis is notifiable in most jurisdictions",
+      "Isolate the aborting animal and quarantine the premises",
+      "Submit the aborted fetus and placenta for laboratory confirmation",
+      "Test the whole herd and remove reactors, or adopt a vaccination-and-retest strategy under official direction",
+      "Wear gloves and protective clothing when handling aborting animals, and disinfect the area thoroughly",
+      "Trace the source of infection — purchase history, neighbouring herds or wildlife contact"
+    ],
+    "public_health": [
+      "Human brucellosis presents as undulant fever, night sweats, arthralgia and fatigue, and is easily mistaken for influenza or malaria",
+      "The most common exposure routes are unpasteurised milk, fresh cheese and direct contact with aborting animals or placentae",
+      "Veterinarians, abattoir workers, shepherds and laboratory staff are the main occupational groups",
+      "B. melitensis from sheep and goats is the most virulent human pathogen of this genus and is a serious concern in the small-ruminant sector",
+      "Suspected human cases require prolonged combination antibiotic therapy under medical direction"
+    ],
+    "notes": "The erythritol/uterine-tropism point is the key to understanding both the disease and the control strategy. Non-pregnant animals are infected but silent, and the abortion is the moment the herd is contaminated."
+  },
+  "prognosis": "Infected animals remain infected for life in most cases and are culled. At herd level, control is achievable with sustained vaccination and testing, but eradication from a heavily infected herd is a multi-year project.",
+  "related": ["bovine-tuberculosis", "q-fever"],
+  "references": [
+    { "label": "WOAH — Brucellosis", "url": "https://www.woah.org/en/disease/brucellosis/" },
+    { "label": "WHO — Brucellosis", "url": "https://www.who.int/news-room/fact-sheets/detail/brucellosis" },
+    { "label": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "slug": "copper-deficiency",
+  "name": "Copper deficiency",
+  "synonyms": ["Hypocuprosis", "Copper-responsive disease", "Swayback (lambs)", "Enzootic ataxia"],
+  "category": "nutritional",
+  "agents": [
+    {
+      "kind": "mineral",
+      "name": "Copper",
+      "notes": "An essential trace element required for cytochrome c oxidase, superoxide dismutase, lysyl oxidase and caeruloplasmin. Its deficiency impairs the cross-linking of collagen and elastin, the maturation of erythrocytes and the protection of cells from oxidative damage."
+    },
+    {
+      "kind": "management",
+      "name": "Dietary antagonists and soil conditions",
+      "notes": "Copper deficiency is usually secondary to excess molybdenum, sulphur or iron in the diet, which form insoluble complexes with copper in the rumen and prevent absorption. Primary deficiency from low soil copper also occurs. The distinction matters because the treatment is different."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep"],
+    "also": ["Goats", "Deer"],
+    "notes": "Cattle and sheep differ importantly in tolerance: sheep are much more susceptible to copper toxicity, which constrains the treatment options. Lambs develop the neurological form (swayback/enzootic ataxia) from deficiency in utero."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A nutritional deficiency with no public health significance, but significant production and welfare effects in deficient areas."
+  },
+  "distribution": "Widespread in grazing livestock, particularly on sandy, leached or high-molybdenum soils. In southern Africa, copper deficiency is recognised in several cattle-rearing areas, and the region's often sandy soils and marginal trace-element status make it a relevant diagnosis in ill-thrift investigations.",
+  "aetiology": {
+    "summary": "Copper deficiency arises from an absolute shortage of copper in the diet or, more commonly, from interference with absorption by molybdenum, sulphur and iron. The distinction between primary and secondary deficiency determines whether supplementation must be increased or the antagonist addressed.",
+    "determinants": [
+      "Low copper concentration in pasture or feed",
+      "High molybdenum intake, which forms insoluble copper-molybdenum-sulphur complexes in the rumen",
+      "High sulphur intake, particularly from water or fertiliser, which worsens the copper-molybdenum interaction",
+      "High iron intake, which competes with copper for absorption",
+      "The animal's copper requirement, which rises in pregnancy and lactation"
+    ],
+    "risk_factors": [
+      "Grazing on sandy or leached soils with low copper availability",
+      "Pasture with high molybdenum or sulphur content, especially on certain soil types",
+      "High-iron water or feed supplements",
+      "Late pregnancy and lactation, when maternal copper is transferred to the fetus and milk",
+      "Sheep breeds with a high copper requirement, and the risks of over-supplementing sheep",
+      "Feeding conserved forage and concentrates with marginal copper content over long periods"
+    ],
+    "epidemiology": "Deficiency is a property of the land and the feed, so it affects whole herds and flocks, and recurs in the same areas. Clinical cases tend to appear in young animals — swayback in lambs, and in calves the neurological and skeletal forms — while adults show subclinical production loss, anaemia and infertility. Molybdenum-induced deficiency can be severe even when pasture copper looks adequate on analysis, which is why forage analysis alone can mislead."
+  },
+  "pathophysiology": {
+    "summary": "Copper is required by lysyl oxidase for the cross-linking of collagen and elastin, by cytochrome c oxidase for mitochondrial energy production, and by superoxide dismutase and caeruloplasmin for iron metabolism and oxidative defence. Deficiency therefore produces structural weakness of connective tissue, anaemia and neurological impairment depending on the tissue most affected at the time of the deficit.",
+    "cascade": [
+      {
+        "title": "Impaired copper absorption",
+        "detail": "Copper is absorbed in the rumen and small intestine, where molybdenum and sulphur form insoluble complexes with it. The bioavailability of dietary copper is therefore reduced to a fraction of its total content."
+      },
+      {
+        "title": "Depletion of liver stores",
+        "detail": "Liver copper is the primary reserve. It is depleted progressively in the face of a negative copper balance, and supplementation takes weeks to replenish it, which is why oral dosing has a delayed effect."
+      },
+      {
+        "title": "Impaired collagen and elastin cross-linking",
+        "detail": "Lysyl oxidase requires copper to cross-link collagen and elastin, so deficiency produces weak connective tissue. This manifests as skeletal fragility, arterial wall weakness and poor hoof and hair quality."
+      },
+      {
+        "title": "Neurological damage in the developing fetus",
+        "detail": "Copper is essential for myelination and neuronal development. Deficiency in late pregnancy produces the degenerative spinal cord lesion responsible for swayback in lambs, which develops before birth and is not reversible after birth."
+      },
+      {
+        "title": "Anaemia and production loss",
+        "detail": "Copper is required for iron mobilisation and haemoglobin synthesis. Deficiency produces a microcytic hypochromic anaemia, together with reduced growth, reduced fertility and impaired immune function."
+      }
+    ],
+    "lesions": [
+      "Pale, anaemic carcase with a microcytic, hypochromic anaemia on haematology",
+      "Degeneration of the white matter in the spinal cord and brainstem (swayback) in lambs",
+      "Osteoporosis and skeletal fragility, particularly in calves",
+      "Poor hair or wool quality, with 'steely' wool and depigmentation",
+      "Weak arterial walls and, rarely, aortic rupture",
+      "Low liver copper concentration on tissue analysis"
+    ],
+    "clinical_signs": [
+      "Ill-thrift and poor growth in young stock",
+      "Pale mucous membranes from anaemia",
+      "Rough, depigmented coat and poor hair growth",
+      "Hindlimb ataxia and swaying gait in lambs (swayback)",
+      "In calves, stiffness, reluctance to move and, in severe cases, knuckling of the fetlocks",
+      "Reduced fertility and delayed puberty",
+      "Poor immune function and increased susceptibility to disease",
+      "In horses, developmental orthopaedic disease and weak connective tissue"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Serum or plasma copper and caeruloplasmin measurement",
+      "Liver biopsy for liver copper concentration — the most reliable indicator of body status",
+      "Haematology showing a microcytic, hypochromic anaemia",
+      "Forage and water analysis for copper, molybdenum, sulphur and iron, interpreted together rather than in isolation"
+    ],
+    "postmortem": [
+      "Liver copper analysis, which is the definitive test of status",
+      "In lambs with swayback, examine the spinal cord for myelin degeneration",
+      "Note pale carcase, poor hair quality and skeletal fragility"
+    ],
+    "laboratory": [
+      "Liver copper concentration by dry-weight analysis",
+      "Serum copper and caeruloplasmin",
+      "Forage analysis including molybdenum, sulphur and iron to assess copper availability",
+      "Histopathology of the spinal cord in neurological cases"
+    ],
+    "differentials": [
+      "Selenium and vitamin E deficiency — white muscle disease causes similar weakness and gait abnormality",
+      "Cobalt deficiency — ill-thrift without the neurological signs",
+      "Zinc deficiency — skin and hoof lesions with poor growth",
+      "Parasitic gastroenteritis and other causes of ill-thrift",
+      "Swayback must be distinguished from other causes of neonatal ataxia, including birth trauma and cerebellar lesions",
+      "Enzootic ataxia of sheep and goats requires differentiation from caprine arthritis encephalitis in goats"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Supplement copper according to the level of deficiency and the amount of antagonist in the diet",
+      "Use mineral licks, injections or boluses appropriate to the species and the degree of deficiency",
+      "Correct excessive molybdenum and sulphur intake rather than simply adding more copper",
+      "Monitor liver or serum copper status regularly in high-risk herds",
+      "Avoid over-supplementation, particularly in sheep, which are highly susceptible to copper toxicity"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for a nutritional deficiency.",
+    "treatment": [
+      "Injectable copper glycinate or copper heptanoate gives a rapid response but has limited duration and carries a toxicity risk",
+      "Oral copper supplementation via mineral licks, drenches or boluses is the mainstay of herd supplementation",
+      "Copper oxide wire particles as rumen boluses provide slow release over several months",
+      "Crucially, do not treat sheep with the same dose used for cattle — sheep are 10-fold more susceptible to copper toxicity, which can be fatal",
+      "Where molybdenum excess is the cause, reduce molybdenum intake or increase copper supplementation accordingly"
+    ],
+    "outbreak": [
+      "Confirm the diagnosis with liver or serum copper before supplementing the herd",
+      "Analyse the forage, water and soil to identify whether the problem is primary deficiency or antagonism",
+      "Implement a supplementation programme appropriate to the species and season",
+      "Monitor the response and reassess copper status after several weeks",
+      "Review the grazing plan and consider moving animals away from high-molybdenum pasture"
+    ],
+    "public_health": [
+      "Copper deficiency in livestock has no direct public health significance",
+      "Observe meat and milk withdrawal periods for any injectable copper products used"
+    ],
+    "notes": "The sheep-cattle difference is the most important safety point in this record. Copper supplementation that is appropriate for cattle can kill sheep, and this is a recurring cause of avoidable sheep mortality on mixed farms."
+  },
+  "prognosis": "Good if the deficiency is corrected before permanent damage occurs. Neurological damage from swayback in lambs is permanent — those animals should be euthanased on welfare grounds. At herd level, the prognosis depends on correcting the underlying soil, forage or antagonist problem.",
+  "related": ["cobalt-deficiency", "selenium-deficiency", "zinc-deficiency"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Copper deficiency", "url": "https://www.merckvetmanual.com/" },
+    { "label": "MLA — Trace element deficiencies", "url": "https://www.mla.com.au/" }
+  ]
+}

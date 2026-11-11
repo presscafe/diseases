@@ -1,0 +1,155 @@
+{
+  "slug": "fasciolosis",
+  "name": "Fasciolosis",
+  "synonyms": ["Liver fluke disease", "Fascioliasis", "Distomatosis"],
+  "category": "parasitic",
+  "agents": [
+    {
+      "kind": "helminth",
+      "name": "Fasciola hepatica",
+      "notes": "The common liver fluke — a large, leaf-shaped trematode that migrates through the liver parenchyma before settling in the bile ducts. Its life cycle requires a freshwater snail intermediate host, which tightly constrains its geographic distribution.",
+      "reservoir": "Adult flukes in the bile ducts of ruminants; infected snail intermediate hosts"
+    },
+    {
+      "kind": "helminth",
+      "name": "Fasciola gigantica",
+      "notes": "The tropical liver fluke, larger than F. hepatica and adapted to warmer environments. It is the dominant species in many parts of sub-Saharan Africa, where its snail host thrives in permanent water bodies.",
+      "reservoir": "Adult flukes in bile ducts; Lymnaea snail intermediate hosts"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats"],
+    "also": ["Horses", "Pigs", "Rabbits", "Humans"],
+    "notes": "Cattle develop more resistance than sheep and goats, and are more likely to harbour chronic infections with relatively mild disease. Sheep and goats are more susceptible and can die in acute outbreaks."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": false,
+    "note": "Human fasciolosis is a neglected tropical disease and is acquired by eating contaminated watercress or other aquatic plants. It is not acquired from eating infected meat."
+  },
+  "distribution": "Fasciola hepatica is present in temperate and subtropical regions worldwide. F. gigantica is the dominant species in much of Africa and Asia. In southern Africa, fasciolosis is a significant constraint in cattle and small ruminants grazed in areas with permanent water, marshes or irrigation — including the Okavango and Chobe districts of Botswana.",
+  "aetiology": {
+    "summary": "Fasciolosis requires three things to occur: infected ruminants shedding eggs, a suitable snail population, and a wet environment in which the parasite's free-swimming stages can survive. The disease is therefore a function of hydrology and drainage, not simply of stocking.",
+    "determinants": [
+      "Presence of Lymnaea snail populations in the grazing area",
+      "Waterlogged, marshy or irrigated pasture where snails thrive",
+      "Shedding of eggs by infected animals, which must reach water to hatch",
+      "Ingestion of metacercariae encysted on grass or floating vegetation",
+      "The temperature and moisture conditions required for the free-living stages"
+    ],
+    "risk_factors": [
+      "Grazing near dams, streams, marshes, irrigation canals or floodplains",
+      "Warm, wet seasons favouring snail reproduction",
+      "High stocking density around water bodies, which concentrates egg deposition",
+      "Absence of drainage in irrigated pastures",
+      "Grazing aquatic plants or drinking from contaminated water sources"
+    ],
+    "epidemiology": "The disease is focal — it occurs where the snail habitat exists, so an affected property may have severe problems in one paddock and none in another. Outbreaks follow wet seasons. Chronic disease is more common in cattle; acute disease with mortality occurs more often in sheep and goats. Humans are infected by eating aquatic plants such as watercress, or by drinking contaminated water."
+  },
+  "pathophysiology": {
+    "summary": "Fasciola causes disease in two phases. During migration, the young flukes tunnel through the liver parenchyma, causing acute hepatic necrosis and haemorrhage. Once they reach the bile ducts, they provoke a chronic cholangitis and duct thickening, producing anaemia, hypoproteinaemia and ill-thrift that can persist for months.",
+    "cascade": [
+      {
+        "title": "Ingestion of metacercariae",
+        "detail": "Metacercariae encysted on grass are ingested with herbage. The cyst wall is digested in the intestine, releasing young flukes that penetrate the intestinal wall."
+      },
+      {
+        "title": "Migration through the liver capsule and parenchyma",
+        "detail": "Young flukes migrate through the peritoneal cavity, penetrate the liver capsule and tunnel through the parenchyma over several weeks, causing haemorrhage and necrosis along their tracks. This phase causes the acute disease and is the principal cause of death in sheep."
+      },
+      {
+        "title": "Settlement in the bile ducts",
+        "detail": "Flukes enter the bile ducts and mature. Their feeding and the host's response cause chronic cholangitis with duct thickening, fibrosis and, in heavy infections, calcification."
+      },
+      {
+        "title": "Blood loss, anaemia and hypoproteinaemia",
+        "detail": "Adult flukes ingest blood and plasma and damage the biliary epithelium, producing a chronic loss of protein and red cells. The resulting hypoalbuminaemia causes submandibular oedema, weight loss and reduced production."
+      },
+      {
+        "title": "Fibrosis, liver failure and secondary disease",
+        "detail": "Chronic fibrosis impairs hepatic function. Heavy burdens can lead to secondary bacterial infection of the biliary tree and, in cattle, to jaundice and reduced fertility. Coinfection with Clostridium novyi can precipitate bacillary haemoglobinuria."
+      }
+    ],
+    "lesions": [
+      "Acute: enlarged, haemorrhagic liver with extensive subcapsular and parenchymal haemorrhage and necrotic tracks",
+      "Chronic: thickened, fibrotic bile ducts with a pipe-stem appearance",
+      "Flukes visible in the bile ducts at post-mortem",
+      "Enlarged gall bladder with dark, thickened bile",
+      "Pale, oedematous carcase with submandibular oedema",
+      "Haemorrhagic enteritis in acute cases"
+    ],
+    "clinical_signs": [
+      "Weight loss and poor growth, often the only sign in cattle",
+      "Submandibular oedema ('bottle jaw') from hypoproteinaemia",
+      "Pale mucous membranes from anaemia",
+      "Diarrhoea in some animals",
+      "Reduced milk yield and poor fertility",
+      "Acute disease in sheep and goats: sudden death with haemorrhagic hepatitis, often with no prior signs",
+      "Jaundice in severe chronic cases"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Faecal sedimentation to detect fluke eggs — sensitive in chronic disease but negative during the acute migratory phase",
+      "Coprological examination for eggs with a specific gravity allowing the dense eggs to sediment",
+      "Antibody ELISA for cattle herds, useful for surveillance but not for individual diagnosis"
+    ],
+    "postmortem": [
+      "Examine the liver and bile ducts — flukes are visible in the ducts when the liver is opened",
+      "Note necrotic tracks and haemorrhage in acute cases",
+      "Inspect the bile duct wall for thickening and calcification"
+    ],
+    "laboratory": [
+      "Faecal sedimentation for Fasciola eggs",
+      "ELISA for antibody detection in milk or serum for herd surveillance",
+      "Coproantigen ELISA, which detects active infection and does not rely on egg shedding",
+      "Post-mortem examination remains one of the most sensitive detection methods"
+    ],
+    "differentials": [
+      "Parasitic gastroenteritis — anaemia and ill-thrift but with a different faecal profile",
+      "Hepatogenous photosensitisation from plant toxins, which also produces liver damage",
+      "Bacillary haemoglobinuria — occurs after fluke migration and must be considered in affected animals",
+      "Chronic copper poisoning",
+      "John's disease (paratuberculosis)",
+      "Nutritional protein deficiency causing oedema"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Fence off marshy areas, dams and stream banks to prevent grazing where metacercariae concentrate",
+      "Drain waterlogged pasture and improve irrigation management",
+      "Supply water from raised troughs rather than allowing access to snail habitat",
+      "Treat at appropriate times to reduce pasture contamination by eggs",
+      "Consider the snail intermediate host in any control plan — without snails, there is no fluke"
+    ],
+    "vaccination": "No commercial vaccine is available. Research vaccines based on cathepsin L proteases have shown partial protection but are not licensed for use.",
+    "treatment": [
+      "Triclabendazole is the drug of choice and is effective against both mature and immature flukes — it is the only widely available fasciolicide with good activity against young stages",
+      "Nitroxynil is effective against adult flukes but has poor activity against immature stages",
+      "Clorsulon is effective against adult flukes and is used in combination with ivermectin",
+      "Timing depends on the epidemiology: treat in late summer or autumn to kill flukes before they mature and shed eggs",
+      "Note that triclabendazole resistance is emerging in some regions and must be considered when treatment fails"
+    ],
+    "outbreak": [
+      "Treat affected animals with a fasciolicide effective against the stage present",
+      "Move animals away from marshy grazing immediately",
+      "Investigate the source and assess the snail habitat",
+      "Fence off the affected area or drain it",
+      "Submit livers for post-mortem examination to confirm the diagnosis and assess the stage of infection"
+    ],
+    "public_health": [
+      "Human fasciolosis is acquired by eating contaminated watercress or aquatic plants, not by eating livestock meat",
+      "Boiling or thoroughly cooking aquatic plants and drinking safe water prevents human infection",
+      "Human cases respond to triclabendazole under medical supervision",
+      "Human fasciolosis is a recognised neglected tropical disease in parts of Africa, the Middle East and South America"
+    ],
+    "notes": "The epidemiological constraint is the snail. A control programme that treats animals but leaves the marshy grazing intact will fail, because reinfection is continuous."
+  },
+  "prognosis": "Good if treated before the chronic fibrotic stage. Acute disease in sheep carries high mortality. Chronic infection in cattle imposes permanent production losses even after successful treatment.",
+  "related": ["parasitic-gastroenteritis", "coccidiosis"],
+  "references": [
+    { "label": "WOAH — Fasciolosis", "url": "https://www.woah.org/en/disease/fasciolosis/" },
+    { "label": "WHO — Foodborne trematode infections", "url": "https://www.who.int/news-room/fact-sheets/detail/foodborne-trematode-infections" },
+    { "label": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

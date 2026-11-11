@@ -1,0 +1,151 @@
+{
+  "slug": "peste-des-petits-ruminants",
+  "name": "Peste des petits ruminants",
+  "synonyms": ["PPR", "Sheep and goat plague", "Kata", "Pseudorinderpest of small ruminants"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "virus",
+      "name": "Peste des petits ruminants virus",
+      "notes": "A morbillivirus of the family Paramyxoviridae, closely related to rinderpest and measles. It is enveloped and therefore fragile in the environment, requiring close contact for transmission. A single serotype exists, which is what makes global eradication feasible.",
+      "reservoir": "Infected sheep and goats; the virus does not persist in wildlife on the continent, and recovered animals are immune for life"
+    }
+  ],
+  "hosts": {
+    "primary": ["Sheep", "Goats"],
+    "also": ["Gazelles", "Deer", "Camelids (rare)"],
+    "notes": "Goats are generally more severely affected than sheep. Cattle and pigs are not infected. The disease is a major constraint on small-ruminant production across Africa and Asia."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": true,
+    "national": true,
+    "note": "A WOAH-listed transboundary disease and the target of a global eradication programme led by WOAH and FAO, with the goal of eradication by 2030. It is notifiable in every country."
+  },
+  "distribution": "Endemic across much of Africa, the Middle East and Asia. Its expansion has been a major concern of the global eradication effort. In southern Africa, PPR is not endemic in the southernmost countries, which makes its introduction a serious event, and it is present in Angola, Zambia and other countries to the north and west.",
+  "aetiology": {
+    "summary": "PPR spreads by close contact between infected and susceptible small ruminants, principally through respiratory aerosols and contact with eye and nose secretions. As with rinderpest and measles, it is an immunising infection: recoverers are immune for life and animals that have never been exposed are fully susceptible.",
+    "determinants": [
+      "Close contact between infected and naive sheep or goats",
+      "Inhalation of infectious droplets from coughing or sneezing animals",
+      "Contact with eye, nose and mouth secretions, and with faeces",
+      "Movement of animals at markets, for seasonal grazing or across borders",
+      "Absence of vaccination in the population"
+    ],
+    "risk_factors": [
+      "Markets, auctions and shared grazing that mix animals from many sources",
+      "Transhumance and seasonal movement across borders",
+      "Introduction of untested animals into a naive flock",
+      "Flocks with no vaccination history",
+      "Dense husbandry and mixing of sheep and goats"
+    ],
+    "epidemiology": "Morbidity in a naive flock can reach very high levels, and mortality may exceed 50%. Transmission is efficient in close-contact settings, and the main driver of spread is animal movement. The virus is single-serotype and there is only one natural reservoir — sheep and goats — which is the biological basis for the eradication programme."
+  },
+  "pathophysiology": {
+    "summary": "PPR virus infects the epithelial cells of the respiratory tract, initially in the pharynx and lungs, and then spreads to the lymphoid tissues and the epithelium of the gastrointestinal tract. The result is a combined respiratory enteritis with mucosal necrosis, leukopenia and immunosuppression, which is responsible for the high mortality.",
+    "cascade": [
+      {
+        "title": "Inhalation and pharyngeal replication",
+        "detail": "The virus is inhaled into the respiratory tract and replicates in the epithelial cells of the pharynx and the regional lymph nodes, producing a short incubation period of about 3-6 days."
+      },
+      {
+        "title": "Viraemia and lymphoid dissemination",
+        "detail": "The virus spreads through the bloodstream within lymphocytes to the lymphoid tissues throughout the body, producing a marked leukopenia and the immunosuppression that permits secondary infection."
+      },
+      {
+        "title": "Respiratory and intestinal epithelial necrosis",
+        "detail": "Infection of the epithelial cells of the respiratory tract and the alimentary tract produces necrosis and erosions. The mucosal lesions in the mouth, oesophagus and gut explain the profuse diarrhoea and the salivation."
+      },
+      {
+        "title": "Diarrhoea, dehydration and electrolyte loss",
+        "detail": "Necrotising enteritis produces profuse watery diarrhoea with dehydration, electrolyte loss and metabolic acidosis. Secondary bacterial infection of the damaged gut is common."
+      },
+      {
+        "title": "Pneumonia and death",
+        "detail": "Bronchointerstitial pneumonia and secondary bacterial pneumonia are the terminal events, particularly in young animals. Death usually occurs 5-10 days after infection, with younger animals dying faster."
+      }
+    ],
+    "lesions": [
+      "Necrotising and erosive stomatitis with lesions on the tongue, gums and dental pad",
+      "Necrotising pharyngitis and laryngitis",
+      "Interstitial and bronchointerstitial pneumonia with consolidated, dark-red lungs",
+      "Necrotising and haemorrhagic enteritis, particularly in the ileum and large intestine",
+      "Erosion and necrosis of Peyer's patches",
+      "Generalised lymphadenopathy with lymphoid depletion",
+      "Enlarged spleen with necrosis in some cases"
+    ],
+    "clinical_signs": [
+      "Sudden high fever (40-41 degrees Celsius)",
+      "Nasal discharge progressing from serous to mucopurulent, with crusts around the nostrils",
+      "Excessive salivation and oral erosions",
+      "Watery diarrhoea with a characteristic, foul smell",
+      "Coughing, sneezing and laboured respiration",
+      "Conjunctivitis with mucopurulent ocular discharge",
+      "Pale mucous membranes and dehydration",
+      "Death within 5-10 days in severe cases"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical picture of fever, nasal discharge, oral erosions and diarrhoea in a naive flock",
+      "Collect nasal and ocular swabs and whole blood for virus detection",
+      "Rapid field tests such as lateral flow assays for antigen detection"
+    ],
+    "postmortem": [
+      "Examine the oral cavity, pharynx and intestine for necrotising lesions",
+      "Note the characteristic necrotising enteritis in the ileum, caecum and colon",
+      "Look for interstitial pneumonia with consolidated lungs"
+    ],
+    "laboratory": [
+      "RT-PCR on swabs, blood or tissue — the standard confirmatory test",
+      "Antigen ELISA for rapid confirmation",
+      "Virus isolation, though it is technically demanding and not routinely needed",
+      "Serology by ELISA or neutralisation for surveillance and to demonstrate absence of infection"
+    ],
+    "differentials": [
+      "Rinderpest — the historical differential, now eradicated but must be considered for reassurance",
+      "Foot-and-mouth disease — oral vesicles and salivation but no diarrhoea or pneumonia",
+      "Bluetongue — oral lesions and respiratory signs but with a different epidemiology",
+      "Contagious ecthyma (orf) — proliferative oral lesions rather than erosions",
+      "Coccidiosis and parasitic gastroenteritis causing diarrhoea",
+      "Bovine viral diarrhoea in cattle (small ruminants can be infected with pestiviruses)"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Vaccinate the whole flock with the live attenuated PPR vaccine, which provides lifelong immunity after a single dose",
+      "Quarantine and test all introduced animals",
+      "Control animal movements, particularly at markets and across borders",
+      "Establish surveillance and early-warning systems through participatory disease surveillance",
+      "Maintain a cold chain for vaccine delivery in remote areas"
+    ],
+    "vaccination": "The live attenuated PPR vaccine (Nigeria 75/1 strain) is highly effective, safe and gives immunity for life after a single dose. It is the foundation of the global eradication strategy. Post-vaccination serosurveillance requires a test that can distinguish vaccinated from infected animals, which is the main technical constraint on the programme.",
+    "treatment": [
+      "There is no specific antiviral treatment",
+      "Supportive care: oral rehydration, fluids and electrolytes",
+      "Antibiotics for secondary bacterial pneumonia and enteritis",
+      "NSAIDs for fever and oral pain",
+      "Soft feed and water for animals with oral lesions",
+      "Euthanasia on welfare grounds for severely affected animals"
+    ],
+    "outbreak": [
+      "Notify the veterinary authority immediately — PPR is notifiable in every jurisdiction and a suspected case is a national emergency",
+      "Impose immediate movement restrictions on the affected premises and the surrounding area",
+      "Ring vaccination around the outbreak, with a target coverage of high levels across the whole population",
+      "Cull affected and in-contact animals where the eradication policy requires it",
+      "Trace animal movements and identify the source of introduction",
+      "Conduct surveillance in the surrounding area to detect further cases"
+    ],
+    "public_health": [
+      "PPR is not a zoonosis and poses no human health risk",
+      "The public health significance is indirect — loss of a major dietary protein source and household income for smallholder producers"
+    ],
+    "notes": "PPR is biologically one of the most eradicable diseases known: single serotype, single reservoir, no wildlife maintenance, and a highly effective vaccine. The obstacles are logistical and political, not biological."
+  },
+  "prognosis": "Poor — case fatality in a naive flock commonly exceeds 50%, and is higher in young animals. Recovered animals are immune for life. At flock level, the only satisfactory intervention is vaccination before exposure.",
+  "related": ["parasitic-gastroenteritis", "foot-and-mouth-disease"],
+  "references": [
+    { "label": "WOAH — Peste des petits ruminants", "url": "https://www.woah.org/en/disease/peste-des-petits-ruminants/" },
+    { "label": "FAO — Global PPR eradication programme", "url": "https://www.fao.org/" }
+  ]
+}

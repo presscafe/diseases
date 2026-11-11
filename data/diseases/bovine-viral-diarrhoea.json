@@ -1,0 +1,147 @@
+{
+  "slug": "bovine-viral-diarrhoea",
+  "name": "Bovine viral diarrhoea",
+  "synonyms": ["BVD", "BVDV infection", "Mucosal disease", "Bovine pestivirus infection"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "virus",
+      "name": "Bovine viral diarrhoea virus",
+      "notes": "Genus Pestivirus, family Flaviviridae. A small, enveloped, positive-sense RNA virus. Two species are recognised — BVDV-1 and BVDV-2 — and two biotypes exist, cytopathic and non-cytopathic. The biotype distinction is central: only non-cytopathic virus establishes persistent infection in fetuses.",
+      "reservoir": "Persistently infected (PI) cattle, which shed virus continuously for life; sheep and other ruminants can carry related pestiviruses"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle"],
+    "also": ["Sheep", "Goats", "Pigs", "Deer", "Alpacas"],
+    "notes": "Cattle are the principal host. The most important host population is not the sick animal but the persistently infected calf — immunotolerant, virus-shedding and apparently healthy."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "Not a WOAH-listed disease, but subject to national control programmes in many countries and to voluntary or industry-led eradication schemes. Not a human pathogen."
+  },
+  "distribution": "Worldwide wherever cattle are intensively managed. Many European countries have eradication programmes in progress or completed. In southern Africa, BVD is present in cattle populations and is a recognised cause of reproductive wastage and ill-thrift, though systematic surveillance is limited.",
+  "aetiology": {
+    "summary": "The disease is perpetuated by a single mechanism: a non-cytopathic virus infects a fetus before its immune system can recognise the virus, and the calf is born immunotolerant and persistently infected. PI cattle shed virus for life and are the reservoir that sustains herd transmission, while the acute infections they cause are usually mild and transient.",
+    "determinants": [
+      "Infection of a susceptible pregnant cow with a non-cytopathic biotype between roughly day 40 and day 125 of gestation",
+      "Immune competence of the fetus at the time of infection — before about day 150 the fetus cannot mount an effective response",
+      "Presence of a persistently infected animal shedding virus continuously",
+      "Direct contact between naive cattle and a PI animal, or contaminated equipment and vehicles"
+    ],
+    "risk_factors": [
+      "Introduction of untested pregnant females or untested calves into a herd",
+      "Common calving areas and shared equipment",
+      "Herds with no biosecurity or vaccination programme",
+      "Show, market and auction mixing of cattle from multiple sources",
+      "Failure to identify and remove PI animals, the single most important risk factor"
+    ],
+    "epidemiology": "The epidemiology is dominated by the PI animal rather than by acute infection. A PI animal sheds enormous quantities of virus in all secretions and can infect every susceptible animal that comes into contact with it. Acute infections last a few days to weeks and are usually self-limiting. If a PI female survives to breeding age and calves, she will almost always produce another PI calf, creating a self-sustaining lineage within the herd. Control programmes work by identifying and removing PI animals, not by treating disease."
+  },
+  "pathophysiology": {
+    "summary": "BVDV has two distinct lesions that depend on the age of the animal and the biotype involved. In a fetus infected before immune competence develops, the virus establishes lifelong persistent infection. In a PI animal later superinfected with a cytopathic biotype, immune-mediated destruction of virus-infected tissue produces mucosal disease, a uniformly fatal enteritis.",
+    "cascade": [
+      {
+        "title": "Fetal infection before immune competence",
+        "detail": "A susceptible dam is infected with non-cytopathic virus between approximately day 40 and day 125 of gestation. The fetal immune system recognises the virus as self and does not mount a response."
+      },
+      {
+        "title": "Persistent infection and immunotolerance",
+        "detail": "The calf is born with lifelong viraemia and sheds virus from all secretions. Because it is immunotolerant, it does not seroconvert — which is why antibody testing cannot detect PI animals and antigen testing is required."
+      },
+      {
+        "title": "Mucosal disease after superinfection",
+        "detail": "If a PI animal is later infected with a cytopathic biotype — usually by mutation of the resident virus or by a heterologous strain — the immune system recognises the shared antigens and destroys virus-infected cells throughout the gut, skin and lymphoid tissue. This produces the classic mucosal disease syndrome."
+      },
+      {
+        "title": "Immunosuppression",
+        "detail": "Even transient acute infection suppresses neutrophil and lymphocyte function, predisposing to secondary bacterial pneumonia and enteritis, which is often the clinically apparent disease rather than BVD itself."
+      },
+      {
+        "title": "Reproductive failure",
+        "detail": "Depending on the gestational stage, infection causes early embryonic death, abortion, stillbirth, congenital defects (particularly cerebellar hypoplasia in calves infected in the second trimester) or the birth of a PI calf."
+      }
+    ],
+    "lesions": [
+      "Oral erosions and ulcers, particularly on the hard palate, dental pad, tongue and gingiva",
+      "Erosions throughout the oesophagus, rumen and abomasum with haemorrhagic margins",
+      "Severe necrotising enteritis with Peyer's patch destruction",
+      "Interdigital erosion and coronitis causing lameness",
+      "Cerebellar hypoplasia and hydranencephaly in calves infected mid-gestation",
+      "Atrophy of the thymus and lymphoid depletion",
+      "Secondary bacterial bronchopneumonia"
+    ],
+    "clinical_signs": [
+      "Most acute infections are subclinical — a large proportion of infections are never noticed",
+      "Transient fever, leucopenia and mild diarrhoea in acutely infected animals",
+      "Ill-thrift, poor growth and immunosuppression in young stock",
+      "Abortion, stillbirth and early embryonic loss at the herd level",
+      "Calves born with cerebellar hypoplasia and ataxia",
+      "In mucosal disease: profuse watery diarrhoea, weight loss, oral erosion, lameness and death within weeks",
+      "Poor reproductive performance that is otherwise unexplained"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Antigen ELISA or PCR on whole blood or ear-notch tissue for the detection of PI animals",
+      "Serology (ELISA or neutralisation) for herd exposure — but serology cannot identify PI animals because they are seronegative",
+      "Bulk tank milk PCR or ELISA as a herd-level screening tool"
+    ],
+    "postmortem": [
+      "Examine the oral cavity, oesophagus, rumen and small intestine for erosions and Peyer's patch necrosis",
+      "Inspect the cerebellum in calves with neurological signs",
+      "Submit spleen, lymph node and intestinal tissue for virus detection"
+    ],
+    "laboratory": [
+      "Antigen ELISA on blood or ear notch — the primary PI detection test",
+      "RT-PCR on blood, tissue or milk",
+      "Virus isolation in cell culture for confirmation and biotype determination",
+      "Immunohistochemistry on ear-notch or skin biopsy, widely used in eradication programmes",
+      "Histopathology of mucosal and lymphoid lesions"
+    ],
+    "differentials": [
+      "Malignant catarrhal fever — similar mucosal lesions but with a different epidemiological context and no PI animals",
+      "Bovine papular stomatitis — mild and transient lesions",
+      "Foot-and-mouth disease and vesicular stomatitis — vesicles, not erosions",
+      "Salmonellosis and other enteritis-causing bacteria",
+      "Parasitic gastritis and coccidiosis",
+      "Mucosal disease is often mistaken for 'poisoning' when the oral lesions are prominent"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Identify and remove all PI animals — this is the foundation of every successful control programme",
+      "Test all purchased cattle for PI status and quarantine before introduction",
+      "Test calves at birth with ear-notch antigen testing in herds with a known problem",
+      "Vaccinate where vaccines are available, primarily to reduce fetal infection and reproductive loss",
+      "Maintain biosecurity on equipment, vehicles and personnel, and avoid sharing bulls or semen from untested sources"
+    ],
+    "vaccination": "Inactivated and modified-live vaccines are available. Inactivated vaccines are safe in pregnancy but require a primary course followed by annual boosters. Modified-live vaccines give stronger and longer immunity but must not be given to pregnant animals or calves with unknown PI status. Vaccination reduces fetal infection and clinical disease but does not compensate for the presence of PI animals.",
+    "treatment": [
+      "No specific antiviral treatment exists",
+      "Supportive care for acute cases: fluids, electrolytes and nutritional support",
+      "Antibiotics only for secondary bacterial infection",
+      "Mucosal disease is uniformly fatal; euthanasia on welfare grounds is the appropriate response",
+      "PI animals should be culled rather than treated"
+    ],
+    "outbreak": [
+      "Identify and remove PI animals promptly — this is the intervention that stops transmission",
+      "Test all calves born in the following year, as PI calves may still be in utero at the time of the outbreak",
+      "Vaccinate susceptible breeding stock",
+      "Review biosecurity and the source of the introduced infection",
+      "Notify the veterinary authority where a national control programme exists"
+    ],
+    "public_health": [
+      "BVDV is not a human pathogen and has no public health significance"
+    ],
+    "notes": "The clinically important insight is that a healthy-looking calf can be the source of an entire herd's reproductive failure. Control is an administrative and testing problem, not a treatment problem."
+  },
+  "prognosis": "Acute infections usually resolve with full recovery and lifelong immunity. PI animals have a poor prognosis — many die before 2 years of age, and those that survive are a persistent source of infection. Mucosal disease is uniformly fatal.",
+  "related": ["lumpy-skin-disease", "malignant-catarrhal-fever", "foot-and-mouth-disease"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Bovine viral diarrhoea", "url": "https://www.merckvetmanual.com/" },
+    { "label": "WOAH — Manual of Diagnostic Tests and Vaccines for Terrestrial Animals", "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/terrestrial-manual-online-access/" }
+  ]
+}

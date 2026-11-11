@@ -1,0 +1,154 @@
+{
+  "slug": "botulism",
+  "name": "Botulism",
+  "synonyms": ["Botulism intoxication", "Forage poisoning", "Limberneck", "Shaker foal syndrome"],
+  "category": "toxic",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Clostridium botulinum",
+      "notes": "Gram-positive, spore-forming, strictly anaerobic rod. Spores are widespread in soil and sediment. The bacterium itself does not invade tissue — disease is caused entirely by preformed toxin ingested in feed or water.",
+      "toxins": ["Botulinum neurotoxin A", "Botulinum neurotoxin B", "Botulinum neurotoxin C", "Botulinum neurotoxin D", "Botulinum neurotoxin E", "Botulinum neurotoxin F"],
+      "reservoir": "Soil and aquatic sediment spore banks; decaying animal and plant matter"
+    },
+    {
+      "kind": "toxin",
+      "name": "Botulinum neurotoxin",
+      "notes": "The most potent biological toxin known. It is a zinc-dependent metalloprotease that cleaves SNARE proteins at the presynaptic terminal, permanently blocking acetylcholine release. Heat-labile — destroyed by boiling for 10 minutes — but the spores survive boiling and require 120 degrees Celsius under pressure to inactivate.",
+      "toxins": ["BoNT/A", "BoNT/B", "BoNT/C", "BoNT/D", "BoNT/E", "BoNT/F"]
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Horses"],
+    "also": ["Goats", "Pigs", "Wild birds", "Waterfowl", "Humans", "Dogs"],
+    "notes": "Cattle and sheep are affected mainly by toxin types C and D from decaying carcases or poultry litter. Horses are exquisitely sensitive and are usually affected by type B from hay or silage. Waterfowl die in large numbers from type C in anaerobic pond sediment."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": false,
+    "note": "Human botulism is a public health notifiable event in most countries and is almost always food-borne, from home-preserved or improperly canned food rather than from livestock."
+  },
+  "distribution": "Worldwide. Spores are ubiquitous in soil, so the disease appears wherever feed or water is allowed to become anaerobic and toxin-producing.",
+  "aetiology": {
+    "summary": "Botulism is an intoxication, not an infection. The animal ingests preformed toxin in spoiled feed, contaminated water or decaying carcase material, and the toxin is absorbed from the gut to produce a descending flaccid paralysis. The bacterium does not need to colonise the animal.",
+    "determinants": [
+      "Anaerobic conditions allowing C. botulinum to multiply and produce toxin — waterlogged feed, sealed silage, decaying carcases",
+      "Ingestion of the preformed toxin by a susceptible animal",
+      "A toxin type the host is sensitive to — type B for horses, C and D for ruminants",
+      "For young animals, ingestion of spores that germinate in the immature gut (infant botulism pattern)",
+      "Carcase material or poultry litter contaminating feed or pasture"
+    ],
+    "risk_factors": [
+      "Feeding poorly fermented or wet-wrapped silage, or hay baled damp",
+      "Poultry litter or deep litter used as fertiliser or feed",
+      "Dead animals or bones in feed, water troughs or pasture",
+      "Stagnant water with decaying organic matter in a drought",
+      "Phosphorus deficiency causing pica, which drives bone and carcase chewing",
+      "Broiler litter or fish-meal based rations in cattle"
+    ],
+    "epidemiology": "Outbreaks are feed-associated and often involve a group of animals that shared the same ration, so attack rates can be high within a cohort while unaffected groups remain normal. Mortality is high without treatment. The disease is not transmitted between animals. The critical epidemiological clue is that cases appear together after a feed change or exposure to a common source, with no fever."
+  },
+  "pathophysiology": {
+    "summary": "Botulinum toxin is absorbed intact from the small intestine, travels in blood to the neuromuscular junction, and irreversibly cleaves the SNARE proteins that mediate acetylcholine vesicle fusion. The result is a failure of cholinergic transmission producing descending flaccid paralysis, with consciousness and sensation fully preserved.",
+    "cascade": [
+      {
+        "title": "Ingestion and intestinal absorption",
+        "detail": "Preformed toxin survives gastric acid, is absorbed across the small intestinal mucosa and enters the lymphatic and portal circulation. In young animals, ingested spores may germinate and produce toxin in the gut instead."
+      },
+      {
+        "title": "Haematogenous delivery to the neuromuscular junction",
+        "detail": "Toxin reaches the presynaptic terminal of cholinergic synapses throughout the body, with a particular affinity for the highly vascularised, high-turnover junctions of the cranial nerves and proximal limb muscles."
+      },
+      {
+        "title": "SNARE cleavage",
+        "detail": "The heavy chain binds the presynaptic membrane and the light chain, a zinc protease, cleaves SNAP-25, syntaxin or synaptobrevin depending on toxin type. Vesicles can no longer dock or fuse, so acetylcholine is not released."
+      },
+      {
+        "title": "Descending flaccid paralysis",
+        "detail": "Without acetylcholine release, muscles receive no excitatory signal. Weakness begins in the hindlimbs and progresses cranially, involving the trunk, forelimbs and then the pharynx, larynx and respiratory muscles."
+      },
+      {
+        "title": "Respiratory failure and death",
+        "detail": "Paralysis of the diaphragm and intercostal muscles produces hypoventilation and hypoxia. Death is from asphyxia, or from aspiration pneumonia after pharyngeal paralysis."
+      }
+    ],
+    "lesions": [
+      "No gross lesions — post-mortem examination is typically unremarkable, which is itself a diagnostic finding",
+      "Possible aspiration pneumonia from pharyngeal paralysis",
+      "Gastric or intestinal content may contain suspect feed material",
+      "Histology shows no inflammatory lesion in muscle or nerve, as the toxin is functional rather than structural"
+    ],
+    "clinical_signs": [
+      "Rapidly progressive flaccid paralysis, starting in the hindlimbs and ascending cranially",
+      "Normal consciousness, appetite and sensation throughout — the animal is fully aware and unable to move",
+      "Dysphagia, drooling and inability to swallow, with food and water returning through the nose",
+      "Reduced pupillary light reflex and ptosis late in the course",
+      "Weak, shallow respiration progressing to respiratory distress",
+      "In cattle, 'downer cow' presentation that must be distinguished from hypocalcaemia and other recumbency causes",
+      "Sudden death in waterfowl, often with neck limpness ('limberneck')"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical picture of flaccid paralysis with intact mentation, no fever and an identifiable feed risk",
+      "Examine the feed and water source — the epidemiological history is often more informative than any test",
+      "Differentiate from hypocalcaemia and hypomagnesaemia with a blood sample and a therapeutic trial"
+    ],
+    "postmortem": [
+      "No characteristic lesion; the value of the examination is in excluding other causes",
+      "Look for foreign material, bones or carcase remnants in the rumen",
+      "Inspect the feed source and troughs for anaerobic spoilage"
+    ],
+    "laboratory": [
+      "Demonstration of toxin in serum, rumen or intestinal contents, or in the suspect feed, by mouse bioassay or ELISA",
+      "Culture of C. botulinum from feed with toxin detection in the culture supernatant",
+      "PCR for the neurotoxin genes bont/A-F",
+      "Serum is only useful if collected before toxin is cleared, which is early in the course"
+    ],
+    "differentials": [
+      "Hypocalcaemia — responds to calcium, whereas botulism does not",
+      "Hypomagnesaemia — tetany rather than flaccidity",
+      "Rabies — behavioural change, aggression and fever absent here",
+      "Tick paralysis — often with a visible engorged tick and a faster recovery after removal",
+      "Organophosphate poisoning — hypersalivation, miosis and muscle twitching rather than flaccidity",
+      "Snake envenomation — local swelling and a defined bite site",
+      "Poliomyelitis and other myelopathies"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Feed properly fermented silage and dry, correctly baled hay; reject wet, mouldy or foul-smelling forage",
+      "Do not feed poultry litter or manure-contaminated material to cattle without appropriate control",
+      "Remove and bury carcases and bones from pasture and water sources promptly and completely",
+      "Correct phosphorus deficiency to reduce pica and bone-chewing",
+      "Provide clean, flowing water and prevent stagnation in troughs and dams"
+    ],
+    "vaccination": "Toxoid vaccines are available for cattle and are used in high-risk areas where feed contamination cannot be avoided. Horses and sheep have limited or no widely used licensed vaccines in most jurisdictions.",
+    "treatment": [
+      "Antitoxin (polyvalent) is the specific therapy and is most effective if given very early, before toxin is fixed at nerve terminals",
+      "Remove the suspect feed and flush the gut with fluids; activated charcoal may bind remaining toxin in the gut",
+      "Supportive care: intravenous fluids, recumbent animal management, and sling support",
+      "Mechanical ventilation and tracheostomy in animals with respiratory failure — rarely available in field conditions",
+      "Antibiotics are of limited use because the bacterium is not invasive and toxin is already formed"
+    ],
+    "outbreak": [
+      "Withdraw the suspect feed from the entire group immediately",
+      "Submit feed samples for toxin testing before disposal",
+      "Identify and remove the source — a silage bunk, a dead animal in the water trough or a batch of litter",
+      "Notify the veterinary authority and, where human food is implicated, the public health authority"
+    ],
+    "public_health": [
+      "Human botulism is a medical emergency and requires immediate antitoxin administration",
+      "Home-canned, preserved or vacuum-packed foods are the common vehicle; commercial products are implicated occasionally",
+      "Boiling suspect food for at least 10 minutes destroys the toxin, though not the spores",
+      "Infants under 12 months should not be given honey, which can carry spores"
+    ],
+    "notes": "There is no fever in botulism, and that single observation carries a great deal of diagnostic weight in the field."
+  },
+  "prognosis": "Guarded to poor without antitoxin, with mortality commonly in the range of 50-90%. Recovery in survivors is slow because recovery requires regeneration of the nerve terminals, taking weeks to months. Animals that survive are generally unaffected long-term.",
+  "related": ["rabies", "tetanus", "blackleg"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Botulism", "url": "https://www.merckvetmanual.com/" },
+    { "label": "WHO — Botulism", "url": "https://www.who.int/news-room/fact-sheets/detail/botulism" }
+  ]
+}

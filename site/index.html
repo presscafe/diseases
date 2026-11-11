@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diseases — agents, aetiology, pathophysiology, control</title>
+<meta name="description" content="A structured reference of livestock disease agents, aetiology, pathophysiology, and control and management.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦠</text></svg>">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbfaf8;
+    --surface: #ffffff;
+    --ink: #1c1a17;
+    --muted: #6b645c;
+    --line: #e3ded6;
+    --accent: #8a4b23;
+    --accent-soft: #f3e9e1;
+    --danger: #9b2226;
+    --warn: #8a6d1f;
+    --radius: 10px;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+    --sans: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --serif: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14130f;
+      --surface: #1c1a16;
+      --ink: #eae5dc;
+      --muted: #9a9288;
+      --line: #2e2b25;
+      --accent: #d99a6c;
+      --accent-soft: #2a211a;
+      --danger: #e8827f;
+      --warn: #d9bc6a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); }
+
+  /* ---------- layout ---------- */
+  .shell { display: grid; grid-template-columns: 320px 1fr; min-height: 100vh; }
+  @media (max-width: 860px) { .shell { grid-template-columns: 1fr; } }
+
+  aside {
+    border-right: 1px solid var(--line);
+    background: var(--surface);
+    padding: 1.5rem 1rem 3rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  @media (max-width: 860px) {
+    aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  }
+
+  main { padding: 2.5rem clamp(1.25rem, 4vw, 3.5rem) 6rem; max-width: 62rem; }
+
+  /* ---------- masthead ---------- */
+  .brand { display: flex; align-items: baseline; gap: .5rem; margin-bottom: .25rem; }
+  .brand h1 { font-family: var(--serif); font-size: 1.35rem; margin: 0; letter-spacing: -.01em; }
+  .brand .count { font-family: var(--mono); font-size: .72rem; color: var(--muted); }
+  .tagline { font-size: .8rem; color: var(--muted); margin: 0 0 1.25rem; line-height: 1.45; }
+
+  /* ---------- search ---------- */
+  .search-wrap { position: relative; margin-bottom: 1rem; }
+  input[type="search"] {
+    width: 100%;
+    padding: .6rem .75rem;
+    font: inherit;
+    font-size: .9rem;
+    color: var(--ink);
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  input[type="search"]:focus { outline: 2px solid var(--accent); outline-offset: -1px; border-color: transparent; }
+  .search-hint { font-size: .7rem; color: var(--muted); margin: .35rem 0 0; font-family: var(--mono); }
+
+  /* ---------- filters ---------- */
+  .filters { display: flex; flex-wrap: wrap; gap: .35rem; margin: 1rem 0 1.25rem; }
+  .chip {
+    font: inherit;
+    font-size: .74rem;
+    padding: .28rem .6rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: background .12s, color .12s, border-color .12s;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  @media (prefers-color-scheme: dark) { .chip[aria-pressed="true"] { color: #14130f; } }
+  .chip .n { font-family: var(--mono); font-size: .68rem; opacity: .7; margin-left: .3rem; }
+
+  /* ---------- nav list ---------- */
+  .group-label {
+    font-family: var(--mono);
+    font-size: .66rem;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    color: var(--muted);
+    margin: 1.4rem 0 .45rem;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid var(--line);
+  }
+  nav ul { list-style: none; margin: 0; padding: 0; }
+  nav li button {
+    display: flex;
+    align-items: baseline;
+    gap: .4rem;
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    font-size: .86rem;
+    padding: .32rem .5rem;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  nav li button:hover { background: var(--accent-soft); }
+  nav li button[aria-current="true"] { background: var(--accent-soft); font-weight: 600; box-shadow: inset 2px 0 0 var(--accent); }
+  nav li .flag { font-size: .62rem; color: var(--danger); font-family: var(--mono); }
+  .empty { color: var(--muted); font-size: .85rem; font-style: italic; padding: .5rem; }
+
+  /* ---------- article ---------- */
+  .welcome h2 { font-family: var(--serif); font-weight: 600; font-size: clamp(1.6rem, 3.5vw, 2.3rem); line-height: 1.15; margin: 0 0 1rem; letter-spacing: -.02em; }
+  .welcome p { max-width: 46rem; color: var(--muted); }
+  .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .75rem; margin: 2rem 0; }
+  .pillar { border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem; background: var(--surface); }
+  .pillar h3 { margin: 0 0 .3rem; font-size: .82rem; font-family: var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
+  .pillar p { margin: 0; font-size: .84rem; color: var(--muted); line-height: 1.5; }
+
+  header.disease { border-bottom: 1px solid var(--line); padding-bottom: 1rem; margin-bottom: 1.75rem; }
+  header.disease .kicker { font-family: var(--mono); font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+  header.disease h2 { font-family: var(--serif); font-size: clamp(1.7rem, 4vw, 2.4rem); line-height: 1.1; margin: .2rem 0 .4rem; letter-spacing: -.02em; }
+  header.disease .synonyms { font-size: .85rem; color: var(--muted); font-style: italic; }
+
+  .badges { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .8rem; }
+  .badge {
+    font-family: var(--mono);
+    font-size: .68rem;
+    padding: .2rem .5rem;
+    border-radius: 5px;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    background: var(--bg);
+  }
+  .badge.zoons { border-color: var(--danger); color: var(--danger); }
+  .badge.notif { border-color: var(--warn); color: var(--warn); }
+  .badge.cat { border-color: var(--accent); color: var(--accent); }
+
+  section.block { margin: 0 0 2.25rem; scroll-margin-top: 1rem; }
+  section.block > h3 {
+    font-family: var(--mono);
+    font-size: .74rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: var(--accent);
+    margin: 0 0 .6rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+  section.block > h3::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+  section.block > p.lede { margin: 0 0 1rem; font-size: .95rem; }
+
+  ul.plain { margin: 0 0 1rem; padding-left: 1.15rem; }
+  ul.plain li { margin-bottom: .4rem; font-size: .92rem; }
+  ul.plain li::marker { color: var(--muted); }
+
+  .kv { margin: 0 0 1rem; font-size: .9rem; }
+  .kv dt { font-family: var(--mono); font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-top: .7rem; }
+  .kv dd { margin: .15rem 0 0; }
+
+  /* cascade */
+  ol.cascade { list-style: none; counter-reset: step; margin: 0; padding: 0; }
+  ol.cascade > li {
+    counter-increment: step;
+    position: relative;
+    padding: 0 0 1.1rem 2.6rem;
+    border-left: 2px solid var(--line);
+    margin-left: .9rem;
+  }
+  ol.cascade > li:last-child { border-left-color: transparent; padding-bottom: 0; }
+  ol.cascade > li::before {
+    content: counter(step);
+    position: absolute;
+    left: -0.95rem;
+    top: 0;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-family: var(--mono);
+    font-size: .72rem;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+  }
+  @media (prefers-color-scheme: dark) { ol.cascade > li::before { color: #14130f; } }
+  ol.cascade strong { display: block; font-size: .92rem; margin-bottom: .15rem; }
+  ol.cascade span { font-size: .89rem; color: var(--muted); line-height: 1.55; }
+
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.5rem; }
+  @media (max-width: 700px) { .cols { grid-template-columns: 1fr; } }
+
+  .callout {
+    border-left: 3px solid var(--warn);
+    background: var(--accent-soft);
+    padding: .7rem .9rem;
+    border-radius: 0 6px 6px 0;
+    font-size: .87rem;
+    margin: 0 0 1rem;
+  }
+  .callout strong { font-family: var(--mono); font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; display: block; margin-bottom: .2rem; color: var(--warn); }
+
+  .refs { list-style: none; margin: 0; padding: 0; font-size: .85rem; }
+  .refs li { margin-bottom: .35rem; }
+  .refs a { text-decoration: none; border-bottom: 1px solid var(--line); }
+  .refs a:hover { border-bottom-color: var(--accent); }
+
+  .related { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .related button {
+    font: inherit; font-size: .8rem; padding: .3rem .65rem;
+    border: 1px solid var(--line); border-radius: 999px;
+    background: var(--surface); color: var(--accent); cursor: pointer;
+  }
+  .related button:hover { border-color: var(--accent); }
+
+  footer.page { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); font-size: .74rem; color: var(--muted); font-family: var(--mono); }
+
+  .loading { color: var(--muted); font-family: var(--mono); font-size: .8rem; }
+  mark { background: var(--accent-soft); color: inherit; border-radius: 2px; padding: 0 1px; }
+
+  @media print {
+    aside, .badges, .related { display: none; }
+    .shell { display: block; }
+    body { background: #fff; color: #000; }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside>
+    <div class="brand">
+      <h1>Diseases</h1>
+      <span class="count" id="count"></span>
+    </div>
+    <p class="tagline">Agents · aetiology · pathophysiology · control and management</p>
+
+    <div class="search-wrap">
+      <input type="search" id="q" placeholder="Search names, agents, signs…" autocomplete="off" spellcheck="false" aria-label="Search diseases">
+      <p class="search-hint" id="hint">Type to filter</p>
+    </div>
+
+    <div class="filters" id="filters" role="group" aria-label="Filter by category"></div>
+
+    <nav id="nav" aria-label="Diseases"><p class="loading">Loading…</p></nav>
+  </aside>
+
+  <main id="main">
+    <div class="welcome">
+      <h2>A structured reference of livestock disease.</h2>
+      <p>
+        Every record answers the same four questions, in the same order. The point is
+        not to collect descriptions but to force the causal chain to be explicit —
+        from the agent, through what makes disease possible, to the mechanism that
+        produces the signs, to what can actually be done about it.
+      </p>
+      <div class="pillars">
+        <div class="pillar">
+          <h3>Agents</h3>
+          <p>What the cause is — pathogen, toxin, mineral, management factor or gene. Named precisely, with toxins, vectors and reservoirs where they apply.</p>
+        </div>
+        <div class="pillar">
+          <h3>Aetiology</h3>
+          <p>What has to be true for disease to occur. Determinants and risk factors, not just a list of causes.</p>
+        </div>
+        <div class="pillar">
+          <h3>Pathophysiology</h3>
+          <p>The ordered mechanism from exposure to lesion, and the clinical signs that mechanism explains.</p>
+        </div>
+        <div class="pillar">
+          <h3>Control &amp; management</h3>
+          <p>Prevention, vaccination, treatment, outbreak response and public health — separated, because they are different jobs.</p>
+        </div>
+      </div>
+      <p><strong id="welcome-count">—</strong> records. Pick one from the list, or search.</p>
+    </div>
+  </main>
+</div>
+
+<script type="module">
+const state = { data: null, query: '', category: null, current: null };
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => (
+  { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+));
+
+/** Wrap query matches in <mark>, on already-escaped text. */
+function highlight(text, query) {
+  const safe = esc(text);
+  if (!query) return safe;
+  const terms = query.split(/\s+/).filter(Boolean)
+    .map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  if (!terms.length) return safe;
+  return safe.replace(new RegExp(`(${terms.join('|')})`, 'gi'), '<mark>$1</mark>');
+}
+
+/** Free-text haystack for one record. */
+function haystack(d) {
+  return [
+    d.name, ...(d.synonyms ?? []), d.category,
+    ...(d.agents ?? []).flatMap((a) => [a.name, a.kind, a.vector ?? '', a.reservoir ?? '']),
+    ...(d.hosts?.primary ?? []), ...(d.hosts?.also ?? []),
+    ...(d.pathophysiology?.clinical_signs ?? []),
+    ...(d.pathophysiology?.lesions ?? []),
+    ...(d.control?.prevention ?? []),
+    ...(d.diagnosis?.differentials ?? []),
+  ].join(' ').toLowerCase();
+}
+
+function matches(d) {
+  if (state.category && d.category !== state.category) return false;
+  if (!state.query) return true;
+  const hay = haystack(d);
+  return state.query.toLowerCase().split(/\s+/).filter(Boolean).every((t) => hay.includes(t));
+}
+
+/* ---------------- sidebar ---------------- */
+
+function renderFilters() {
+  const el = $('filters');
+  const cats = state.data.categories;
+  el.innerHTML = '';
+  const all = document.createElement('button');
+  all.className = 'chip';
+  all.textContent = 'All';
+  all.setAttribute('aria-pressed', String(state.category === null));
+  all.onclick = () => { state.category = null; renderFilters(); renderNav(); };
+  el.append(all);
+
+  for (const c of cats) {
+    const b = document.createElement('button');
+    b.className = 'chip';
+    b.innerHTML = `${esc(c.label)}<span class="n">${c.count}</span>`;
+    b.setAttribute('aria-pressed', String(state.category === c.id));
+    b.onclick = () => {
+      state.category = state.category === c.id ? null : c.id;
+      renderFilters(); renderNav();
+    };
+    el.append(b);
+  }
+}
+
+function renderNav() {
+  const nav = $('nav');
+  const visible = state.data.diseases.filter(matches);
+
+  if (!visible.length) {
+    nav.innerHTML = '<p class="empty">No records match.</p>';
+    $('hint').textContent = '0 matches';
+    return;
+  }
+
+  const groups = new Map();
+  for (const d of visible) {
+    if (!groups.has(d.category)) groups.set(d.category, []);
+    groups.get(d.category).push(d);
+  }
+
+  const labelFor = (id) => state.data.categories.find((c) => c.id === id)?.label ?? id;
+  let html = '';
+  for (const [category, items] of groups) {
+    html += `<p class="group-label">${esc(labelFor(category))}</p><ul>`;
+    for (const d of items) {
+      const current = state.current === d.slug;
+      const flag = d.zoonotic ? '<span class="flag" title="Zoonotic">zoonotic</span>' : '';
+      html += `<li><button data-slug="${esc(d.slug)}" aria-current="${current}">
+        <span>${highlight(d.name, state.query)}</span>${flag}</button></li>`;
+    }
+    html += '</ul>';
+  }
+  nav.innerHTML = html;
+  nav.querySelectorAll('button[data-slug]').forEach((b) => {
+    b.onclick = () => select(b.dataset.slug);
+  });
+  $('hint').textContent = `${visible.length} of ${state.data.count} records`;
+}
+
+/* ---------------- article ---------------- */
+
+const list = (items, cls = 'plain') =>
+  items?.length ? `<ul class="${cls}">${items.map((i) => `<li>${highlight(i, state.query)}</li>`).join('')}</ul>` : '';
+
+function renderDisease(d) {
+  const zoons = d.zoonotic
+    ? '<span class="badge zoons">Zoonotic</span>' : '';
+  const notif = [
+    d.notifiable?.woah ? '<span class="badge notif">WOAH listed</span>' : '',
+    d.notifiable?.national ? '<span class="badge notif">Nationally notifiable</span>' : '',
+  ].join('');
+
+  const agents = (d.agents ?? []).map((a) => {
+    const meta = [
+      a.vector ? `<dt>Vector</dt><dd>${highlight(a.vector, state.query)}</dd>` : '',
+      a.reservoir ? `<dt>Reservoir</dt><dd>${highlight(a.reservoir, state.query)}</dd>` : '',
+      a.toxins?.length ? `<dt>Toxins</dt><dd>${a.toxins.map((t) => highlight(t, state.query)).join(', ')}</dd>` : '',
+      a.notes ? `<dt>Notes</dt><dd>${highlight(a.notes, state.query)}</dd>` : '',
+    ].join('');
+    return `<dl class="kv">
+      <dt>${esc(a.kind)}</dt>
+      <dd><strong>${highlight(a.name, state.query)}</strong></dd>
+      ${meta}
+    </dl>`;
+  }).join('');
+
+  const cascade = (d.pathophysiology?.cascade ?? []).map((s) => `
+    <li><strong>${highlight(s.title, state.query)}</strong><span>${highlight(s.detail, state.query)}</span></li>
+  `).join('');
+
+  const refs = (d.references ?? []).map((r) =>
+    `<li><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.label)}</a></li>`).join('');
+
+  const related = (d.related ?? []).map((slug) => {
+    const target = state.data.diseases.find((x) => x.slug === slug);
+    return target ? `<button data-slug="${esc(slug)}">${esc(target.name)}</button>` : '';
+  }).join('');
+
+  return `
+    <article>
+      <header class="disease">
+        <p class="kicker">${esc(d.category)}</p>
+        <h2>${highlight(d.name, state.query)}</h2>
+        ${d.synonyms?.length ? `<p class="synonyms">Also: ${d.synonyms.map((s) => esc(s)).join(' · ')}</p>` : ''}
+        <div class="badges">
+          <span class="badge cat">${esc(d.category)}</span>
+          ${zoons}${notif}
+          ${d.hosts?.primary?.length ? `<span class="badge">${d.hosts.primary.map(esc).join(', ')}</span>` : ''}
+        </div>
+      </header>
+
+      <section class="block">
+        <h3>Agents</h3>
+        ${agents}
+      </section>
+
+      <section class="block">
+        <h3>Aetiology</h3>
+        <p class="lede">${highlight(d.aetiology.summary, state.query)}</p>
+        <div class="cols">
+          <div>
+            <h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Determinants</h4>
+            ${list(d.aetiology.determinants)}
+          </div>
+          <div>
+            <h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Risk factors</h4>
+            ${list(d.aetiology.risk_factors)}
+          </div>
+        </div>
+        ${d.aetiology.epidemiology ? `<p>${highlight(d.aetiology.epidemiology, state.query)}</p>` : ''}
+      </section>
+
+      <section class="block">
+        <h3>Pathophysiology</h3>
+        <p class="lede">${highlight(d.pathophysiology.summary, state.query)}</p>
+        <ol class="cascade">${cascade}</ol>
+      </section>
+
+      <section class="block">
+        <h3>Lesions and clinical signs</h3>
+        <div class="cols">
+          <div>
+            <h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Lesions</h4>
+            ${list(d.pathophysiology.lesions)}
+          </div>
+          <div>
+            <h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Clinical signs</h4>
+            ${list(d.pathophysiology.clinical_signs)}
+          </div>
+        </div>
+      </section>
+
+      <section class="block">
+        <h3>Diagnosis</h3>
+        ${d.diagnosis.antemortem?.length ? `<h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Antemortem</h4>${list(d.diagnosis.antemortem)}` : ''}
+        ${d.diagnosis.postmortem?.length ? `<h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Postmortem</h4>${list(d.diagnosis.postmortem)}` : ''}
+        <h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Laboratory</h4>
+        ${list(d.diagnosis.laboratory)}
+        <h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Differentials</h4>
+        ${list(d.diagnosis.differentials)}
+      </section>
+
+      <section class="block">
+        <h3>Control and management</h3>
+        <h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Prevention</h4>
+        ${list(d.control.prevention)}
+        ${d.control.vaccination ? `<div class="callout"><strong>Vaccination</strong>${highlight(d.control.vaccination, state.query)}</div>` : ''}
+        <h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Treatment</h4>
+        ${d.control.treatment?.length ? list(d.control.treatment) : '<p class="lede" style="color:var(--muted)">No practical treatment.</p>'}
+        ${d.control.outbreak?.length ? `<h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Outbreak response</h4>${list(d.control.outbreak)}` : ''}
+        ${d.control.public_health?.length ? `<h4 style="font-size:.78rem;font-family:var(--mono);color:var(--muted);margin:0 0 .3rem">Public health</h4>${list(d.control.public_health)}` : ''}
+        ${d.control.notes ? `<div class="callout"><strong>Note</strong>${highlight(d.control.notes, state.query)}</div>` : ''}
+      </section>
+
+      ${d.prognosis ? `<section class="block"><h3>Prognosis</h3><p>${highlight(d.prognosis, state.query)}</p></section>` : ''}
+
+      ${related ? `<section class="block"><h3>Related</h3><div class="related">${related}</div></section>` : ''}
+
+      <section class="block">
+        <h3>References</h3>
+        <ul class="refs">${refs}</ul>
+      </section>
+
+      <footer class="page">
+        Record <code>${esc(d.slug)}.json</code> · source in <code>data/diseases/</code>
+      </footer>
+    </article>
+  `;
+}
+
+/* ---------------- routing ---------------- */
+
+function select(slug, { push = true } = {}) {
+  const d = state.data.diseases.find((x) => x.slug === slug);
+  if (!d) return;
+  state.current = slug;
+  $('main').innerHTML = renderDisease(d);
+  $('main').querySelectorAll('.related button[data-slug]').forEach((b) => {
+    b.onclick = () => select(b.dataset.slug);
+  });
+  renderNav();
+  if (push) history.pushState({ slug }, '', `#${slug}`);
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+function boot() {
+  $('count').textContent = state.data.count;
+  $('welcome-count').textContent = state.data.count;
+  renderFilters();
+
+  const initial = location.hash.slice(1);
+  if (initial && state.data.diseases.some((d) => d.slug === initial)) {
+    state.current = initial;
+    $('main').innerHTML = renderDisease(state.data.diseases.find((d) => d.slug === initial));
+    $('main').querySelectorAll('.related button[data-slug]').forEach((b) => {
+      b.onclick = () => select(b.dataset.slug);
+    });
+  }
+  renderNav();
+}
+
+$('q').addEventListener('input', (event) => {
+  state.query = event.target.value.trim();
+  renderNav();
+});
+
+window.addEventListener('popstate', (event) => {
+  const slug = event.state?.slug ?? location.hash.slice(1);
+  if (slug) select(slug, { push: false });
+});
+
+fetch('index.json')
+  .then((r) => {
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  })
+  .then((data) => {
+    state.data = data;
+    boot();
+  })
+  .catch((error) => {
+    $('nav').innerHTML = `<p class="empty">Could not load index.json — ${esc(error.message)}.<br><br>Run <code>npm run build</code> first.</p>`;
+  });
+</script>
+</body>
+</html>

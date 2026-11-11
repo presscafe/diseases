@@ -1,0 +1,166 @@
+{
+  "slug": "aflatoxicosis",
+  "name": "Aflatoxicosis",
+  "synonyms": ["Aflatoxin poisoning", "Aspergillus toxicosis", "Groundnut poisoning"],
+  "category": "toxic",
+  "agents": [
+    {
+      "kind": "mycotoxin",
+      "name": "Aflatoxin B1",
+      "notes": "The most toxic and most common of the aflatoxins, produced by Aspergillus flavus and A. parasiticus. Aflatoxin B1 is a potent hepatotoxin and the most potent natural carcinogen known. It is activated by hepatic cytochrome P450 to an epoxide that binds DNA and protein, causing hepatocellular necrosis and mutations.",
+      "toxins": ["Aflatoxin B1", "Aflatoxin B2", "Aflatoxin G1", "Aflatoxin G2", "Aflatoxin M1 (metabolite in milk)"]
+    },
+    {
+      "kind": "fungus",
+      "name": "Aspergillus flavus",
+      "notes": "A ubiquitous mould that colonises stored grains, oilseeds and nuts. Growth and toxin production are favoured by warm temperatures (25-33 degrees Celsius), high humidity and insect or mechanical damage to the seed coat. Aflatoxin production is not visible — the mould may be present without toxin, and toxin may be present in feed that looks normal.",
+      "reservoir": "Contaminated stored grain, groundnuts, cottonseed, maize and their by-products"
+    },
+    {
+      "kind": "fungus",
+      "name": "Aspergillus parasiticus",
+      "notes": "A closely related species that produces both the B and G series of aflatoxins. It is less common than A. flavus but is a significant source of contamination in groundnuts in particular.",
+      "reservoir": "Contaminated groundnuts and oilseeds; soil"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats", "Pigs", "Poultry"],
+    "also": ["Horses", "Dogs", "Humans"],
+    "notes": "All animals are susceptible, but ruminants are generally more resistant to acute aflatoxicosis than pigs and poultry. Dairy cattle are a special concern because they convert aflatoxin B1 to aflatoxin M1, which is excreted in milk and is a regulated human food contaminant."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": false,
+    "note": "Aflatoxin is a regulated food and feed contaminant rather than a notifiable animal disease. Human exposure is a major public health issue across sub-Saharan Africa, where aflatoxin contamination of staple maize and groundnuts is widespread and contributes to liver cancer and childhood stunting."
+  },
+  "distribution": "Endemic in tropical and subtropical regions with warm, humid climates. Sub-Saharan Africa has among the highest dietary aflatoxin exposure levels in the world. In southern Africa, contamination of maize, groundnuts and sorghum is a recurring problem, particularly in years with a wet growing season and poor storage conditions.",
+  "aetiology": {
+    "summary": "Aflatoxicosis is caused by ingestion of feed contaminated with aflatoxins produced by Aspergillus moulds growing on poorly stored grain and oilseeds. The toxin is heat-stable and survives normal feed processing, so the only reliable control is preventing mould growth and rejecting contaminated batches.",
+    "determinants": [
+      "Presence of aflatoxin-producing Aspergillus on the feed",
+      "Warm, humid storage conditions that allow mould growth and toxin production",
+      "Insect or mechanical damage to grain, which provides entry points for the fungus",
+      "Prolonged storage of grain at high moisture content",
+      "The dose and duration of exposure — chronic low-level exposure is more common than acute poisoning"
+    ],
+    "risk_factors": [
+      "Feeding stored maize, groundnuts or cottonseed that has been poorly dried or stored",
+      "Warm, humid climates and rainy harvests",
+      "Damaged or mouldy grain, particularly that which has been damp or insect-infested",
+      "Feeding dairy cows contaminated concentrate — the milk residue risk is the critical issue",
+      "Feeding pigs and poultry on contaminated rations, as they are the most susceptible species",
+      "Poor storage in sacks on the floor, without ventilation or moisture control"
+    ],
+    "epidemiology": "Aflatoxicosis is a feed-borne problem that affects groups of animals receiving the same ration. Acute outbreaks occur when a highly contaminated batch enters the feed chain. Chronic low-level exposure is far more common and produces subclinical effects — reduced growth, immunosuppression and reduced fertility — which are easy to overlook. In dairy cattle, the economic issue is often the milk residue rather than the cow's health."
+  },
+  "pathophysiology": {
+    "summary": "Aflatoxin B1 is absorbed from the gut and transported to the liver, where cytochrome P450 converts it to a reactive epoxide. The epoxide binds covalently to DNA and proteins, causing hepatocellular necrosis, inhibition of protein synthesis and, with chronic exposure, DNA mutations that initiate liver tumours. The same mechanism explains the immunosuppression and the reduced growth.",
+    "cascade": [
+      {
+        "title": "Ingestion and hepatic uptake",
+        "detail": "Aflatoxin B1 is absorbed from the small intestine and transported to the liver via the portal circulation, where it is concentrated in hepatocytes."
+      },
+      {
+        "title": "Metabolic activation",
+        "detail": "Cytochrome P450 enzymes convert aflatoxin B1 to a highly reactive 8,9-epoxide, which is the toxic and carcinogenic metabolite. The balance between activation and detoxification determines species susceptibility."
+      },
+      {
+        "title": "DNA and protein adduct formation",
+        "detail": "The epoxide binds covalently to guanine residues in DNA and to lysine residues in proteins. DNA adducts cause mutations, particularly in the p53 tumour suppressor gene, and protein adducts impair enzyme function and cause cellular injury."
+      },
+      {
+        "title": "Hepatocellular necrosis and impaired protein synthesis",
+        "detail": "Acute high-dose exposure produces centrilobular hepatic necrosis with jaundice and haemorrhage. Chronic exposure inhibits protein synthesis, reducing growth, milk production and immune function."
+      },
+      {
+        "title": "Immunosuppression, carcinogenesis and milk residues",
+        "detail": "Chronic exposure suppresses cell-mediated immunity, increasing susceptibility to infectious disease. In the long term, DNA damage leads to hepatocellular carcinoma. In dairy cattle, aflatoxin B1 is converted to aflatoxin M1 and excreted in milk, creating a human food safety issue even when the cow shows no clinical signs."
+      }
+    ],
+    "lesions": [
+      "Enlarged, pale, yellow-brown liver with centrilobular necrosis",
+      "Gall bladder distension with thickened bile",
+      "Subcutaneous and visceral haemorrhages from impaired clotting factor synthesis",
+      "Jaundice and generalised oedema in acute cases",
+      "Hepatic fibrosis and, in chronic cases, nodular regeneration and tumours",
+      "Atrophy of the thymus and lymphoid tissues in chronic exposure"
+    ],
+    "clinical_signs": [
+      "Reduced feed intake and growth rate",
+      "Weight loss and poor feed conversion",
+      "Jaundice and pale mucous membranes in acute cases",
+      "Diarrhoea, sometimes with blood",
+      "Reduced milk yield in dairy cattle",
+      "Increased susceptibility to infectious disease from immunosuppression",
+      "In pigs: reduced growth, and in severe cases, abortion",
+      "In poultry: reduced growth, poor feathering and increased mortality",
+      "In acute outbreaks: sudden death in young animals"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Feed analysis for total aflatoxin concentration — the most direct approach",
+      "Serum liver enzyme activity, particularly AST and GGT, which reflects hepatocellular damage",
+      "Serum bile acids or bilirubin in cases with jaundice",
+      "Feeding history and a comparison with unaffected groups on a different ration"
+    ],
+    "postmortem": [
+      "Examine the liver for pallor, enlargement and necrosis",
+      "Note jaundice, haemorrhages and oedema",
+      "Submit liver tissue for histopathology and feed samples for toxin analysis"
+    ],
+    "laboratory": [
+      "Feed analysis by HPLC, ELISA or lateral flow tests for aflatoxin",
+      "Liver histopathology showing centrilobular necrosis and bile duct proliferation",
+      "Detection of aflatoxin M1 in milk, which is a regulatory test in many countries",
+      "Aflatoxin-DNA or albumin adduct measurement in research and human biomonitoring"
+    ],
+    "differentials": [
+      "Other mycotoxins — fumonisin, ochratoxin, deoxynivalenol, which produce different syndromes",
+      "Pyrrolizidine alkaloid poisoning from plants such as ragwort and Crotalaria — similar hepatic damage",
+      "Infectious hepatitis and leptospirosis",
+      "Copper poisoning — jaundice and hepatic necrosis with a different exposure history",
+      "Photosensitisation from liver damage, which can be a consequence of aflatoxicosis rather than an alternative",
+      "Nutritional protein deficiency"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Dry grain to below the safe moisture level before storage and keep it dry",
+      "Store feed in cool, dry, well-ventilated conditions and prevent insect damage",
+      "Test incoming feed batches for aflatoxin, particularly maize, groundnuts and cottonseed",
+      "Buy feed from suppliers with a documented mycotoxin testing programme",
+      "Use a mould inhibitor or organic acid preservative in high-risk feeds",
+      "Rotate feed stocks and avoid prolonged storage in humid conditions"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for mycotoxicosis. A vaccine for human aflatoxin exposure is in development but is not available.",
+    "treatment": [
+      "Remove the contaminated feed immediately — this is the only specific treatment",
+      "Provide clean feed and good-quality forage",
+      "Use a toxin binder in the feed — hydrated sodium calcium aluminosilicate or yeast cell wall products — to reduce absorption",
+      "Supportive care: fluids, liver support with antioxidants and methionine, and vitamin E supplementation",
+      "Do not feed contaminated milk or produce to humans or calves"
+    ],
+    "outbreak": [
+      "Withdraw the suspect feed and submit samples for analysis",
+      "Identify the contaminated batch and its source",
+      "Treat affected animals supportively",
+      "Test milk for aflatoxin M1 if dairy cattle are involved, and withhold contaminated milk",
+      "Review storage and feed procurement practices"
+    ],
+    "public_health": [
+      "Aflatoxin is a Group 1 human carcinogen and a major cause of hepatocellular carcinoma in sub-Saharan Africa",
+      "Chronic dietary exposure causes childhood stunting and immune impairment",
+      "Aflatoxin M1 in milk is a regulated contaminant, and milk from exposed cows must not enter the human food chain",
+      "Maize and groundnuts for human consumption should be tested and stored properly; sorting and processing reduce contamination but do not eliminate it"
+    ],
+    "notes": "Aflatoxin is heat-stable — cooking, baking and normal feed processing do not destroy it. Prevention is entirely a matter of storage and sourcing."
+  },
+  "prognosis": "Good if exposure is removed early and liver damage is limited. Poor in acute high-dose outbreaks with severe hepatic necrosis, where mortality can be significant. Chronic exposure causes permanent production loss and, in dairy cattle, persistent milk residue risk.",
+  "related": ["botulism", "rumen-acidosis"],
+  "references": [
+    { "label": "WHO — Mycotoxins", "url": "https://www.who.int/news-room/fact-sheets/detail/mycotoxins" },
+    { "label": "FAO — Mycotoxins in food and feed", "url": "https://www.fao.org/" },
+    { "label": "Merck Veterinary Manual — Mycotoxicosis", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

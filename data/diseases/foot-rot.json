@@ -1,0 +1,154 @@
+{
+  "slug": "foot-rot",
+  "name": "Foot rot",
+  "synonyms": ["Interdigital phlegmon", "Interdigital necrobacillosis", "Foul in the foot", "Panaritium"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Fusobacterium necrophorum",
+      "notes": "A Gram-negative, anaerobic rod and a normal inhabitant of the rumen and faeces. It is an opportunistic pathogen that requires a damaged interdigital skin to establish infection, and it is the primary cause of the acute necrotising lesion."
+    },
+    {
+      "kind": "bacterium",
+      "name": "Porphyromonas levii",
+      "notes": "An anaerobic bacterium that frequently co-infects with F. necrophorum and is associated with the severity of the lesion. The combination of the two organisms is more pathogenic than either alone."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep"],
+    "also": ["Goats"],
+    "notes": "Foot rot in cattle (interdigital phlegmon) is a disease of all ages but most common in adults. Sheep foot rot is caused by a different combination of bacteria, principally Dichelobacter nodosus and Fusobacterium necrophorum, and is a distinct disease with a different epidemiology."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A production and welfare disease with no public health significance, but one of the most economically important causes of lameness in cattle."
+  },
+  "distribution": "Worldwide. It is particularly associated with wet, muddy conditions and with intensive cattle production. In southern Africa, foot rot is common in feedlots and dairy herds during wet periods and on muddy ground.",
+  "aetiology": {
+    "summary": "Foot rot is an opportunistic infection that requires a skin breach. Fusobacterium necrophorum is present in faeces and slurry everywhere, but it cannot penetrate intact skin. Maceration of the interdigital skin from wet, muddy conditions, or physical damage from footing, allows the bacteria to invade and produce the acute necrotising infection.",
+    "determinants": [
+      "Maceration and damage of the interdigital skin from wet, muddy conditions or abrasive flooring",
+      "Exposure to faecal contamination, the source of F. necrophorum",
+      "Anaerobic conditions in the interdigital space, required by the bacteria",
+      "Physical trauma from stones, footing or a foreign body in the interdigital space"
+    ],
+    "risk_factors": [
+      "Wet, muddy pens and holding yards",
+      "Slurry and high faecal contamination in the hoof environment",
+      "Abrasive or uneven flooring",
+      "Warm, humid conditions that maintain moisture in the interdigital space",
+      "Overcrowding and standing in wet conditions for long periods",
+      "Introduction of infected animals into a clean herd"
+    ],
+    "epidemiology": "Foot rot is sporadic in most herds but can reach epidemic proportions in wet conditions, particularly in feedlots during rainy periods. It is more common in cattle on wet ground than in those on dry pasture. Sheep foot rot, by contrast, is a true contagious disease maintained in the flock by carrier animals, which is why eradication is possible in sheep but not in cattle."
+  },
+  "pathophysiology": {
+    "summary": "Once the bacteria enter the damaged interdigital skin, they multiply in the anaerobic environment and produce a rapidly spreading necrotising infection of the subcutaneous tissue. The resulting swelling and necrosis produce acute pain and lameness, and the endotoxaemia from the necrotic tissue contributes to the systemic signs.",
+    "cascade": [
+      {
+        "title": "Skin breach",
+        "detail": "The intact interdigital skin is an effective barrier. Maceration from prolonged moisture, or a physical abrasion, breaches the stratum corneum and allows faecal bacteria to access the deeper tissue."
+      },
+      {
+        "title": "Bacterial invasion and multiplication",
+        "detail": "Fusobacterium necrophorum and Porphyromonas levii colonise the damaged tissue and multiply rapidly in the anaerobic environment of the interdigital space, protected from the circulation and from surface antiseptics."
+      },
+      {
+        "title": "Necrotising inflammation and swelling",
+        "detail": "The bacteria produce toxins, including leukotoxin, that destroy neutrophils and local tissue. The resulting necrotising cellulitis produces marked swelling of the interdigital space, with the two digits forced apart and the skin of the heel and pastern distended."
+      },
+      {
+        "title": "Pain and lameness",
+        "detail": "The swelling and tissue tension are intensely painful, producing acute lameness in which the animal bears little or no weight on the affected limb. The pain may be severe enough to produce a marked systemic response."
+      },
+      {
+        "title": "Systemic effects and complications",
+        "detail": "Endotoxins from the necrotic tissue produce fever and reduced feed intake. In severe cases, the infection can extend to the deeper structures of the foot, causing septic arthritis, osteomyelitis and tendon necrosis, which are far more difficult to treat and often require amputation or culling."
+      }
+    ],
+    "lesions": [
+      "Swelling of the interdigital space with separation of the two digits",
+      "Necrotic, greyish-white ulceration of the interdigital skin",
+      "Foul-smelling necrotic tissue in the interdigital cleft",
+      "Swelling extending to the heel and pastern",
+      "Possible extension to deeper structures, with tendon necrosis and septic arthritis in advanced cases",
+      "Sloughing of the interdigital skin in severe cases"
+    ],
+    "clinical_signs": [
+      "Sudden onset of severe lameness, often in one limb",
+      "Swelling of the affected foot, particularly the interdigital space",
+      "Fever (40-41 degrees Celsius)",
+      "Reluctance to bear weight and a rapid, painful gait",
+      "Reduced feed intake and milk yield",
+      "Foul odour from the affected foot",
+      "Recumbency in severe cases",
+      "Welfare and production losses even in animals that recover"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical examination of the foot: acute interdigital swelling with necrosis and a foul smell is diagnostic",
+      "Clean the foot to visualise the lesion and exclude a foreign body",
+      "Differentiate from digital dermatitis, which is a chronic proliferative heel lesion rather than an acute necrotising infection"
+    ],
+    "postmortem": [
+      "Examine the affected foot for interdigital necrosis and deeper extension",
+      "Note the presence of a foreign body if one is present"
+    ],
+    "laboratory": [
+      "Diagnosis is clinical; no laboratory test is required in the field",
+      "Culture of F. necrophorum from the lesion requires anaerobic conditions and is not routinely performed",
+      "Histopathology of the affected interdigital tissue may be used in research or in atypical cases"
+    ],
+    "differentials": [
+      "Digital dermatitis — chronic proliferative heel lesion, no acute systemic signs",
+      "Interdigital hyperplasia — a chronic fibrotic swelling between the digits, not painful or acute",
+      "Foot abscess or sole penetration — a different lesion site, usually without interdigital swelling",
+      "Fracture of the pedal bone",
+      "Snakebite or insect sting on the foot",
+      "Septic arthritis of the distal interphalangeal joint",
+      "Laminitis — generalised rather than a single acute foot"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Keep grazing and housing areas dry and well drained",
+      "Minimise slurry and standing water in pens and holding yards",
+      "Use foot baths with an appropriate disinfectant in high-risk periods",
+      "Maintain good hoof health and regular trimming",
+      "Reduce crowding and long periods of standing",
+      "Isolate and treat affected animals promptly to limit spread"
+    ],
+    "vaccination": "A vaccine against F. necrophorum has been developed and is used in some countries, and may reduce the incidence and severity of foot rot. It is not widely used in southern Africa, and control largely relies on management and hygiene.",
+    "treatment": [
+      "Systemic antibiotics are the mainstay: penicillin, oxytetracycline or a cephalosporin",
+      "Trim and clean the foot, and remove any foreign body or devitalised tissue",
+      "Apply a topical antiseptic or antibiotic dressing after cleaning",
+      "NSAIDs for pain relief and to reduce the inflammatory response",
+      "Foot bandaging may be useful in severe cases",
+      "Animals that do not respond within a few days, or that develop deeper infection, may require surgical intervention or culling"
+    ],
+    "outbreak": [
+      "Identify and treat affected animals promptly",
+      "Review the environment — wetness and faecal contamination are the usual source",
+      "Introduce foot bathing in the affected group",
+      "Provide dry lying areas and improve drainage",
+      "Check for a foreign body problem, such as sharp stones on a trackway"
+    ],
+    "public_health": [
+      "Foot rot has no human health significance",
+      "Observe meat and milk withdrawal periods for any antibiotics used",
+      "Antibiotic stewardship is important even where the direct public health risk is low"
+    ],
+    "notes": "The distinction from digital dermatitis is practical and important: foot rot is an acute, systemic, treatable infection, whereas digital dermatitis is a chronic, environment-driven, recurrent lesion."
+  },
+  "prognosis": "Good if treated early — most cases respond within days. Guarded if the infection has extended to deeper structures, which frequently requires culling. Recurrence is likely if the wet, contaminated environment persists.",
+  "related": ["digital-dermatitis", "laminitis"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Foot rot", "url": "https://www.merckvetmanual.com/" },
+    { "label": "AHDB — Lameness in dairy cattle", "url": "https://ahdb.org.uk/" }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "q-fever",
+  "name": "Q fever",
+  "synonyms": ["Query fever", "Coxiellosis", "Nine Mile fever", "Balkan grippe"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Coxiella burnetii",
+      "notes": "Gram-negative, obligately intracellular bacterium with a small-cell form that is highly resistant to drying, heat and disinfectants. It does not require an arthropod vector for transmission to livestock but ticks are involved in wildlife maintenance. Aerosol infection is the dominant route, and the organism is excreted in enormous quantities in placental tissue and birth fluids.",
+      "reservoir": "Cattle, sheep and goats, particularly at parturition; goats are the major source of human outbreaks; wildlife including ticks"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats"],
+    "also": ["Dogs", "Cats", "Wild rodents", "Humans"],
+    "notes": "Ruminants are the maintenance hosts. Humans are infected by aerosols from parturient animals or contaminated dust. The organism is shed in birth fluids, placenta, urine, faeces and milk."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": true,
+    "national": true,
+    "note": "One of the most infectious zoonoses — a single organism can establish human infection by inhalation. Q fever is a serious occupational risk for farmers, veterinarians and abattoir workers."
+  },
+  "distribution": "Worldwide. In southern Africa, Q fever is reported in cattle, sheep and goats, and human seroprevalence is significant, but surveillance is limited and the disease is probably underdiagnosed.",
+  "aetiology": {
+    "summary": "Q fever is overwhelmingly an aerosol-transmitted disease. Coxiella concentrates in the placenta of infected ruminants and is released in massive quantities at parturition, where it contaminates bedding, wool, soil and dust. Inhalation of a contaminated aerosol — not a bite, not direct contact — is the route of infection for both animals and people.",
+    "determinants": [
+      "The concentration of the organism in placental tissue and birth fluids",
+      "Generation of an infectious aerosol by dust, bedding, wool or parturition",
+      "Survival of the small-cell form in dry, dusty conditions for months to years",
+      "Inhalation of the aerosol by a susceptible host",
+      "Windborne dispersal of dust from contaminated premises"
+    ],
+    "risk_factors": [
+      "Assisting at lambing, kidding or calving without respiratory protection",
+      "Handling placentae, aborted material or contaminated bedding",
+      "Working in dusty barns, sheds or pens previously used by infected animals",
+      "Shearing and handling wool from infected sheep",
+      "Abattoir and hide processing work",
+      "Proximity of dwellings to livestock birthing areas"
+    ],
+    "epidemiology": "The domestic ruminant cycle is largely silent — infected animals rarely show clinical disease, and the tip-off is often a human case. Shedding is concentrated at parturition, and the organism is highly infectious: experimental evidence suggests a very small number of organisms, possibly a single one, can cause human infection. Human outbreaks are commonly traced to a lambing or kidding season, or to windborne dust from a farm."
+  },
+  "pathophysiology": {
+    "summary": "Inhaled Coxiella is taken up by alveolar macrophages, where its acid-adapted metabolism allows it to survive and replicate in the phagolysosome rather than being killed. In animals this produces a largely subclinical infection with placental colonisation; in humans it produces a systemic febrile illness that may progress to endocarditis or chronic fatigue syndromes.",
+    "cascade": [
+      {
+        "title": "Inhalation and macrophage uptake",
+        "detail": "The small-cell form is inhaled into the alveoli and phagocytosed by macrophages, which are unable to kill it."
+      },
+      {
+        "title": "Phagolysosomal survival",
+        "detail": "Coxiella is adapted to the acidic environment of the phagolysosome and replicates there rather than being digested, a strategy shared with other intracellular pathogens and the basis for its persistence."
+      },
+      {
+        "title": "Haematogenous dissemination",
+        "detail": "The organism spreads through the blood to the lungs, liver, spleen, bone marrow and, importantly in pregnancy, the placenta."
+      },
+      {
+        "title": "Placental colonisation and shedding",
+        "detail": "In pregnant ruminants, the organism replicates massively in trophoblast cells of the placenta, producing a placentitis that is usually subclinical but leads to enormous shedding at parturition."
+      },
+      {
+        "title": "Human granulomatous disease and complications",
+        "detail": "In people, the infection causes granulomatous hepatitis and pneumonitis. Chronic Q fever follows in a small proportion, particularly in those with pre-existing valvular disease or immunosuppression, and manifests as culture-negative endocarditis."
+      }
+    ],
+    "lesions": [
+      "Placentitis with grossly normal or slightly thickened cotyledons in ruminants — lesions are often minimal",
+      "Granulomatous inflammation of the placenta and uterus on histology",
+      "In humans: granulomatous hepatitis and interstitial pneumonitis",
+      "In humans with chronic disease: endocarditis vegetations and vascular graft infection"
+    ],
+    "clinical_signs": [
+      "In livestock: usually no clinical signs at all",
+      "Late-term abortion or stillbirth in sheep, goats and cattle, but this is uncommon relative to silent infection",
+      "Infertility and reproductive wastage in some flocks",
+      "In humans: sudden onset of high fever, severe headache, myalgia and profuse sweating",
+      "In humans: pneumonia and hepatitis in the acute form",
+      "In humans: chronic fatigue, night sweats and weight loss in the chronic form"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Serology is the mainstay: indirect immunofluorescence assay for phase I and phase II antibodies",
+      "Phase II antibodies predominate in acute infection; high phase I titres indicate chronic infection",
+      "PCR on blood, milk or placental tissue"
+    ],
+    "postmortem": [
+      "Examine the placenta for mild thickening and cotyledon pathology",
+      "Note that gross placental lesions are often unremarkable, and the diagnosis depends on laboratory testing"
+    ],
+    "laboratory": [
+      "Indirect immunofluorescence assay for phase I and phase II IgG and IgM",
+      "ELISA for serological screening",
+      "PCR on placenta, birth fluids, milk or blood",
+      "Culture is hazardous and requires biosafety level 3 containment; it is not a routine diagnostic approach"
+    ],
+    "differentials": [
+      "Brucellosis — causes the same late-term abortion syndrome with similar occupational risk, but with distinct serology",
+      "Chlamydiosis — abortion and reproductive disease with different serology",
+      "Campylobacteriosis and trichomonosis — earlier abortion and different lesion distribution",
+      "Leptospirosis — haemoglobinuria and jaundice accompanying abortion",
+      "Toxoplasmosis and neosporosis — protozoal abortifacients",
+      "Influenza and other acute febrile illnesses in humans — Q fever is frequently missed"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Wear respiratory protection (P2/N95 or better) when assisting at parturition or handling placentae",
+      "Dispose of placentae and birth fluids promptly and hygienically; do not spread them on pasture",
+      "Avoid dust-generating activities in lambing and kidding sheds without respiratory protection",
+      "Vaccinate high-risk livestock where an approved vaccine is available",
+      "Pasteurise milk before human consumption",
+      "Keep birthing areas away from houses and prevailing wind toward dwellings"
+    ],
+    "vaccination": "An inactivated phase I vaccine (Coxevac) is licensed for cattle and goats in some countries and reduces shedding at parturition. Human vaccination with the Q-Vax vaccine is used in high-risk occupational groups in Australia and is highly effective but requires pre-screening for prior exposure.",
+    "treatment": [
+      "Antibiotic treatment in livestock is not indicated — it does not eliminate the organism and is not economically justified",
+      "In humans, doxycycline for 2-3 weeks is the standard acute treatment",
+      "Chronic Q fever requires prolonged combination therapy, typically doxycycline with hydroxychloroquine for 18 months or more",
+      "Treatment of infected animals is not a control measure; management is aimed at reducing exposure to parturient material"
+    ],
+    "outbreak": [
+      "Notify the public health and veterinary authorities — Q fever is reportable in many jurisdictions",
+      "Identify the source premises and restrict access to the birthing area",
+      "Warn and screen exposed persons, particularly those who assisted at parturition",
+      "Avoid moving bedding, manure or animals from the affected premises during the outbreak",
+      "Consider vaccinating at-risk livestock and at-risk people under medical direction"
+    ],
+    "public_health": [
+      "Q fever is among the most infectious zoonoses known — a very low inhaled dose can cause human infection",
+      "Pregnant women, people with valvular heart disease and immunocompromised people should avoid contact with lambing and kidding",
+      "Human infection presents as a non-specific febrile illness and is underdiagnosed as a result",
+      "Chronic Q fever endocarditis is life-threatening and requires long-term specialist treatment",
+      "Notification of human cases to public health authorities is essential to identify the animal source"
+    ],
+    "notes": "The striking feature of Q fever is the asymmetry between animal and human disease: livestock are almost always asymptomatic while people can become seriously ill from the same exposure event."
+  },
+  "prognosis": "Livestock recover without treatment and remain infected carriers, with shedding at subsequent parturitions. In humans, acute Q fever usually resolves with appropriate antibiotic treatment; chronic Q fever has a guarded prognosis even with prolonged therapy.",
+  "related": ["brucellosis", "bovine-tuberculosis"],
+  "references": [
+    { "label": "WOAH — Q fever", "url": "https://www.woah.org/en/disease/q-fever/" },
+    { "label": "CDC — Q fever", "url": "https://www.cdc.gov/qfever/" },
+    { "label": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

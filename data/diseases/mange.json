@@ -1,0 +1,160 @@
+{
+  "slug": "mange",
+  "name": "Mange",
+  "synonyms": ["Sarcoptic mange", "Scabies", "Psoroptic mange", "Chorioptic mange", "Scrapie (in sheep — do not confuse)"],
+  "category": "parasitic",
+  "agents": [
+    {
+      "kind": "arthropod",
+      "name": "Sarcoptes scabiei",
+      "notes": "A burrowing mite that excavates tunnels in the epidermis and causes intense pruritus. It is highly contagious and can affect humans — the human form is classical scabies, and animal-derived infections cause a self-limiting but intensely itchy dermatitis.",
+      "reservoir": "Infested animals; the mite does not survive long off the host"
+    },
+    {
+      "kind": "arthropod",
+      "name": "Psoroptes ovis",
+      "notes": "A non-burrowing, surface-living mite that feeds on epidermal debris and causes a severe exudative dermatitis with thick scabs. It is the cause of sheep scab, a serious welfare and economic disease in sheep.",
+      "reservoir": "Infested sheep; the mite can survive on fences and handling equipment for a short period"
+    },
+    {
+      "kind": "arthropod",
+      "name": "Chorioptes bovis",
+      "notes": "A surface mite that typically affects the lower limbs and tail of cattle, causing less severe disease than Sarcoptes or Psoroptes. Often associated with 'leg mange' and tail-head dermatitis.",
+      "reservoir": "Infested cattle"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats"],
+    "also": ["Horses", "Pigs", "Dogs", "Humans"],
+    "notes": "Each mite species has a preferred host but can often infest related species. Sheep are the most commonly affected livestock species in terms of welfare impact. Goats are highly susceptible to Sarcoptes."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": false,
+    "note": "Psoroptic mange in sheep (sheep scab) is subject to statutory control in several countries and has been a notifiable disease in some jurisdictions. It is not currently WOAH-listed."
+  },
+  "distribution": "Worldwide. Mange is a disease of crowding, poor body condition and limited access to veterinary care. In southern Africa, sarcoptic and psoroptic mange are economically significant in sheep, goats and cattle, particularly in communal and extensively managed flocks.",
+  "aetiology": {
+    "summary": "Mange is transmitted by direct contact between animals, with mites surviving only briefly off the host. The disease is therefore a function of stocking density, mixing and the immune and nutritional status of the animals. Outbreaks in well-managed herds are usually traceable to an introduced infested animal.",
+    "determinants": [
+      "Direct contact with an infested animal",
+      "Mite survival on fomites such as fences, crushes and bedding for short periods",
+      "Crowding and mixing of animals from different sources",
+      "Compromised immunity and poor body condition",
+      "Absence of a treatment or control programme in an affected group"
+    ],
+    "risk_factors": [
+      "Overcrowding in pens, kraals or transport",
+      "Introducing untested or untreatably infested animals into a clean herd",
+      "Poor nutrition and concurrent disease, which increase susceptibility and severity",
+      "Shared rubbing posts and fences",
+      "Shearing and handling equipment that is not cleaned between flocks"
+    ],
+    "epidemiology": "The mites have a direct life cycle completed entirely on the host, with a generation time of 2-3 weeks. Transmission requires close contact, so the disease spreads slowly through a herd unless animals are crowded. Sarcoptic mange is more contagious and more pruritic than chorioptic mange, which tends to be chronic and localised to the legs and tail."
+  },
+  "pathophysiology": {
+    "summary": "The mite's feeding and burrowing damage the epidermis and provoke an intense hypersensitivity reaction to mite antigens and faeces. The resultant pruritus drives self-trauma, and the combination of excoriation, secondary bacterial infection and serum exudation produces the thickened, crusted skin that characterises the disease.",
+    "cascade": [
+      {
+        "title": "Mite establishment",
+        "detail": "Mites transfer from an infested animal and establish on the new host. Sarcoptes burrows into the stratum corneum; Psoroptes and Chorioptes remain on the surface and feed on epidermal debris and tissue fluid."
+      },
+      {
+        "title": "Sensitisation",
+        "detail": "After an initial period of 2-3 weeks, the host becomes sensitised to mite antigens and develops an intense type I and type IV hypersensitivity reaction, which is responsible for most of the pruritus."
+      },
+      {
+        "title": "Self-trauma and excoriation",
+        "detail": "Intense itching causes rubbing, biting and scratching, which excoriates the skin, damages hair follicles and creates secondary lesions that spread beyond the original sites of mite activity."
+      },
+      {
+        "title": "Epidermal hyperplasia and crusting",
+        "detail": "Chronic irritation produces hyperkeratosis, acanthosis and a thickened, folded appearance to the skin with adherent crusts, alopecia and lichenification."
+      },
+      {
+        "title": "Secondary infection and debility",
+        "detail": "Bacterial infection of excoriated skin is common. In severe and prolonged cases, chronic pruritus, loss of condition and reduced feed intake produce significant debility and can contribute to mortality, particularly in young or malnourished animals."
+      }
+    ],
+    "lesions": [
+      "Papules, vesicles and crusts on the face, ears, neck and flanks in sarcoptic mange",
+      "Thick, adherent, yellowish scabs over large areas of the body in psoroptic mange",
+      "Alopecia, lichenification and thickened, folded skin in chronic cases",
+      "Excoriation and secondary pyoderma from self-trauma",
+      "Chorioptic mange: lesions on the lower limbs, tail and perineum",
+      "Emaciation and poor body condition in severe cases"
+    ],
+    "clinical_signs": [
+      "Intense pruritus, with persistent rubbing, biting and scratching",
+      "Hair loss, starting on the face, ears and neck in sarcoptic mange",
+      "Thick scabs and crusts, often with a musty odour",
+      "Thickened, corrugated skin in chronic cases",
+      "Restlessness and reduced grazing, leading to weight loss",
+      "Rubbing against fences and posts to the point of excoriation",
+      "Secondary bacterial infection with pustules and exudate"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Skin scraping from the margin of a fresh lesion — ideally several sites, because mites can be hard to find",
+      "Examine the scrapings microscopically; Sarcoptes is best recovered from deep scrapings of the most recent lesions",
+      "Consider a therapeutic trial when mites are not found but the clinical picture is compatible"
+    ],
+    "postmortem": [
+      "Mange is diagnosed on the live animal; post-mortem findings are limited to skin lesions and secondary infection",
+      "Note emaciation and the distribution of skin lesions"
+    ],
+    "laboratory": [
+      "Microscopic examination of skin scrapings for mites or eggs",
+      "ELISA for Sarcoptes antibodies, available in some countries for herd screening",
+      "PCR-based identification of species from skin lesions, increasingly used for confirmation",
+      "Histopathology of skin biopsy, which shows eosinophilic dermatitis with mites in some cases"
+    ],
+    "differentials": [
+      "Dermatophilosis — paintbrush scabs and a wet-environment association, different organisms on smear",
+      "Ringworm — circular lesions with raised margins and hair loss, fungal elements on microscopy",
+      "Photosensitisation — dermatitis restricted to unpigmented skin, no mites",
+      "Zinc deficiency — crusting on the face and limbs with a nutritional history",
+      "Allergic dermatitis from insects or plant contact",
+      "Poxvirus skin lesions, such as lumpy skin disease"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Quarantine and treat all incoming animals before mixing with the herd",
+      "Avoid overcrowding and reduce stocking density in pens and kraals",
+      "Maintain adequate nutrition, as poor body condition increases susceptibility",
+      "Clean and disinfect handling equipment, rails and shared rubbing posts",
+      "Monitor herds regularly and treat early when pruritus is noticed"
+    ],
+    "vaccination": "No vaccine is available. Control relies on acaricide treatment and management.",
+    "treatment": [
+      "Macrocyclic lactones, particularly ivermectin and doramectin, are the most effective and widely used treatment",
+      "Moxidectin and eprinomectin are alternatives with variable residual activity",
+      "Organophosphate or amitraz dips are used in some countries but resistance and residue concerns limit their use",
+      "Treat the entire affected group rather than individual animals, because in-contact animals are often infested subclinically",
+      "Repeat treatment at intervals matching the mite life cycle — usually two treatments 10-14 days apart"
+    ],
+    "outbreak": [
+      "Treat all animals in the affected group simultaneously",
+      "Repeat treatment to catch newly hatched mites",
+      "Isolate and treat affected animals where practical",
+      "Clean and disinfect equipment and shared rubbing surfaces",
+      "Trace the source — usually an introduced animal — and review biosecurity",
+      "Notify the veterinary authority where statutory control applies, notably for sheep scab"
+    ],
+    "public_health": [
+      "Animal-derived Sarcoptes can cause transient, self-limiting dermatitis in people — an itchy rash on the forearms and hands is common in handlers",
+      "Human scabies from the human-adapted mite is a different condition and spreads person-to-person, not from livestock",
+      "Wear gloves and protective clothing when handling infested animals, and wash thoroughly afterwards",
+      "Animal mites do not establish sustained infestations on humans, so human cases resolve once exposure stops"
+    ],
+    "notes": "The most common cause of treatment failure is treating only the visibly affected animals. Mites survive at low levels on in-contact animals, and any untreated animal becomes a source of reinfestation."
+  },
+  "prognosis": "Good with appropriate treatment of the whole group and improved management. Chronic cases with extensive skin damage take weeks to recover. Welfare implications are significant in untreated animals, and chronic cases can contribute to mortality in already debilitated stock.",
+  "related": ["dermatophilosis", "lumpy-skin-disease"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Mange in livestock", "url": "https://www.merckvetmanual.com/" },
+    { "label": "WOAH — Manual of Diagnostic Tests and Vaccines for Terrestrial Animals", "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/terrestrial-manual-online-access/" }
+  ]
+}

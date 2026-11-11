@@ -1,0 +1,151 @@
+{
+  "slug": "cobalt-deficiency",
+  "name": "Cobalt deficiency",
+  "synonyms": ["Cobalt/vitamin B12 deficiency", "Pine (in sheep)", "Bush sickness (in cattle)", "Coast disease", "Enzootic marasmus"],
+  "category": "nutritional",
+  "agents": [
+    {
+      "kind": "mineral",
+      "name": "Cobalt",
+      "notes": "Cobalt is required by rumen bacteria to synthesise vitamin B12 (cobalamin). Animals cannot use cobalt directly — the requirement is entirely mediated through rumen microbial synthesis. Deficiency therefore produces a functional vitamin B12 deficiency."
+    },
+    {
+      "kind": "management",
+      "name": "Deficient pasture and grazing land",
+      "notes": "Cobalt deficiency is a property of the soil and the pasture growing on it, and it recurs in the same localities. It is typically associated with sandy, leached or granite-derived soils with low cobalt content."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep"],
+    "also": ["Goats", "Deer"],
+    "notes": "All ruminants depend on rumen microbial synthesis of B12 and are therefore susceptible. Young, growing animals are most severely affected because their requirement is highest."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A nutritional deficiency with no public health significance. It is a classic cause of unexplained ill-thrift in grazing livestock."
+  },
+  "distribution": "Occurs worldwide in specific soil types, particularly sandy, granitic or leached soils. Historically documented as 'bush sickness' in New Zealand and Australia, and as 'pine' in Scottish sheep. In southern Africa, cobalt deficiency is recognised as a cause of ill-thrift in grazing livestock on certain soil types, though it is less frequently diagnosed than copper deficiency.",
+  "aetiology": {
+    "summary": "Cobalt deficiency is a rumen-microbial problem before it is an animal problem. The rumen bacteria cannot synthesise adequate vitamin B12 without sufficient dietary cobalt, so the animal develops a functional B12 deficiency even though it never receives any B12 in its diet. The resulting impairment of propionate metabolism and of methylmalonyl-CoA mutase is what produces the ill-thrift.",
+    "determinants": [
+      "Low cobalt concentration in the pasture or feed",
+      "Low cobalt availability in the soil, typical of sandy, granitic or leached soils",
+      "The requirement of the rumen microbial population for cobalt to synthesise B12",
+      "High demand in young, growing animals and in pregnant or lactating females",
+      "Rumen health — anything that disrupts the rumen microbial population reduces B12 synthesis"
+    ],
+    "risk_factors": [
+      "Grazing on cobalt-deficient soils, particularly sandy or granitic areas",
+      "Young, rapidly growing animals",
+      "Late pregnancy and lactation",
+      "Periods of pasture shortage when animals are forced to graze closer to the soil",
+      "Exclusive reliance on conserved forage from deficient land without supplementation"
+    ],
+    "epidemiology": "Like other trace-element deficiencies, cobalt deficiency is a property of the land and affects whole herds and flocks in defined areas. It is a diagnosis of exclusion and is often missed because animals lose condition gradually without specific signs. The clinical picture is indistinguishable from other causes of ill-thrift without laboratory confirmation."
+  },
+  "pathophysiology": {
+    "summary": "Cobalt is a component of the vitamin B12 molecule, which is required for two key reactions: the conversion of propionate to succinate (via methylmalonyl-CoA mutase) and the methylation of homocysteine to methionine (via methionine synthase). Deficiency therefore impairs glucose production from propionate and disrupts protein and folate metabolism, producing weight loss, poor growth and anaemia.",
+    "cascade": [
+      {
+        "title": "Inadequate cobalt in the rumen",
+        "detail": "Rumen bacteria require cobalt to synthesise cobalamin. When dietary cobalt is low, the bacterial production of B12 falls, and the animal's supply of vitamin B12 declines even though the animal itself has no direct cobalt requirement."
+      },
+      {
+        "title": "Impaired propionate metabolism",
+        "detail": "The conversion of propionate to succinate requires methylmalonyl-CoA mutase, a B12-dependent enzyme. Propionate is the major glucose precursor in ruminants, so its accumulation impairs glucose production and energy metabolism."
+      },
+      {
+        "title": "Impaired amino acid and folate metabolism",
+        "detail": "Methionine synthase, also B12-dependent, is impaired, disrupting the methyl folate cycle and causing functional folate deficiency. Protein synthesis and cell division are affected, explaining the poor growth and anaemia."
+      },
+      {
+        "title": "Progressive weight loss and ill-thrift",
+        "detail": "The animal loses appetite and condition, becomes lethargic and develops a rough coat. The process is gradual, and by the time clinical signs are apparent the animal may have lost considerable weight."
+      },
+      {
+        "title": "Anaemia, infertility and death in severe cases",
+        "detail": "B12 deficiency impairs erythropoiesis, producing a macrocytic anaemia. Reproductive performance declines, and in severe, prolonged deficiency animals can die from progressive emaciation."
+      }
+    ],
+    "lesions": [
+      "Pale, emaciated carcase with depleted fat reserves",
+      "Macrocytic anaemia on haematology",
+      "Fatty degeneration of the liver in severe cases",
+      "No specific gross lesion — the diagnosis depends on blood or liver B12 measurement and pasture cobalt analysis"
+    ],
+    "clinical_signs": [
+      "Progressive weight loss and poor growth in young stock",
+      "Reduced appetite and feed intake",
+      "Rough, dull coat and lethargy",
+      "Pale mucous membranes from anaemia",
+      "Reduced fertility and delayed puberty",
+      "In severe cases, weakness, recumbency and death",
+      "Often a herd-level problem rather than individual cases"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Serum vitamin B12 measurement — the practical diagnostic test",
+      "Liver vitamin B12 concentration for a more definitive assessment of status",
+      "Forage and soil cobalt analysis to assess the supply",
+      "Haematology showing a macrocytic anaemia"
+    ],
+    "postmortem": [
+      "Note generalised emaciation and pale carcase",
+      "Liver B12 measurement on post-mortem tissue",
+      "No specific lesion, so the diagnosis rests on laboratory confirmation"
+    ],
+    "laboratory": [
+      "Serum or plasma vitamin B12 assay",
+      "Liver vitamin B12 concentration",
+      "Pasture and soil cobalt analysis",
+      "Response to cobalt supplementation is a useful retrospective confirmation"
+    ],
+    "differentials": [
+      "Copper deficiency — also causes ill-thrift and anaemia, and often coexists",
+      "Selenium deficiency — weakness and poor growth",
+      "Parasitic gastroenteritis — weight loss with a different faecal finding",
+      "John's disease (paratuberculosis) — chronic weight loss with diarrhoea",
+      "Chronic malnutrition and inadequate protein intake",
+      "Chronic liver disease",
+      "Generalised chronic disease including tuberculosis"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Supplement cobalt via mineral licks, drenches or slow-release boluses",
+      "Use cobalt-containing fertiliser on deficient pasture where practical",
+      "Provide cobalt-supplemented concentrate or mineral mixes during high-demand periods",
+      "Monitor animals on deficient land and treat groups rather than individuals",
+      "Test pasture and soil cobalt before developing new grazing land"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for a nutritional deficiency.",
+    "treatment": [
+      "Oral cobalt supplementation — cobalt sulphate or cobalt chloride in the drinking water, mineral mix or drench",
+      "Vitamin B12 injection for a rapid response in severely affected animals",
+      "Cobalt boluses or slow-release devices for sustained supplementation in extensive systems",
+      "Treat the whole group on affected land, because subclinical deficiency is usual",
+      "Address pasture cobalt status through fertiliser application for a long-term solution"
+    ],
+    "outbreak": [
+      "Confirm the diagnosis before blanket supplementation",
+      "Analyse the pasture and soil to characterise the deficiency",
+      "Implement a supplementation programme appropriate to the grazing system",
+      "Monitor weight gain and body condition response over the following weeks",
+      "Consider that copper and cobalt deficiencies frequently coexist, and test for both"
+    ],
+    "public_health": [
+      "Cobalt deficiency in livestock has no direct public health significance",
+      "Cobalt is a regulated feed additive, and supplementation levels must comply with local feed regulations"
+    ],
+    "notes": "The diagnosis is almost always of ill-thrift without a specific sign. Cobalt deficiency is worth testing for whenever a herd shows unexplained poor growth on a soil type known to be deficient."
+  },
+  "prognosis": "Excellent if treated before severe emaciation. Recovery of appetite and weight gain follows supplementation within weeks. At herd level, the prognosis is good with a sustained supplementation programme.",
+  "related": ["copper-deficiency", "selenium-deficiency", "zinc-deficiency"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Cobalt deficiency", "url": "https://www.merckvetmanual.com/" },
+    { "label": "MLA — Trace element deficiencies", "url": "https://www.mla.com.au/" }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "foot-and-mouth-disease",
+  "name": "Foot-and-mouth disease",
+  "synonyms": ["FMD", "Aphthous fever", "Hoof-and-mouth disease"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "virus",
+      "name": "Foot-and-mouth disease virus",
+      "notes": "Genus Aphthovirus, family Picornaviridae. Seven serotypes — O, A, C, SAT 1, SAT 2, SAT 3 and Asia 1 — with no cross-protection between them. Southern Africa's SAT serotypes are maintained in African buffalo.",
+      "vector": "Not arthropod-borne, but mechanically spread on vehicles, clothing, feed and by wind-borne aerosol over land",
+      "reservoir": "African buffalo (Syncerus caffer) in endemic regions; persistently infected carrier cattle and sheep"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Pigs", "Sheep", "Goats"],
+    "also": ["African buffalo", "Wild boar", "Deer", "Hedgehogs"],
+    "notes": "Cattle and pigs show the most dramatic signs; sheep and goats are often mildly affected and are the classic source of missed diagnosis. Camelids are susceptible."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": true,
+    "national": true,
+    "note": "One of the most economically damaging notifiable diseases. In Botswana and neighbouring states, a single case closes export markets for beef, which is the dominant agricultural export."
+  },
+  "distribution": "Endemic across much of Africa, the Middle East and Asia. Southern Africa is divided into zones: infected buffalo areas, protection zones and FMD-free zones that underpin beef export. Botswana has repeatedly lost export status following outbreaks in the northern buffalo-contact areas.",
+  "aetiology": {
+    "summary": "Infection requires direct or close indirect contact with virus shed in respiratory and salivary secretions from an infected animal. The virus is among the most infectious known: tiny doses establish disease, and wind-borne plumes can carry infection several kilometres over land.",
+    "determinants": [
+      "Contact between susceptible livestock and infected animals or contaminated fomites",
+      "Viral serotype — immunity to one serotype does not protect against another",
+      "Introduction of infected animals, semen or animal products from an endemic zone",
+      "Shared water points and kraals where animals from different groups mix",
+      "Movement of people, vehicles and equipment between premises without disinfection"
+    ],
+    "risk_factors": [
+      "Livestock production adjacent to a buffalo area or a game fence",
+      "Uncontrolled livestock movement and informal trade across borders",
+      "Market and auction gatherings where animals from many sources mix",
+      "Sheep and goats, which shed virus while showing minimal signs and mask spread",
+      "Wind and low humidity favouring aerosol transmission"
+    ],
+    "epidemiology": "Morbidity can approach 100% in a naive herd; mortality in adult cattle is usually low (1-5%) but rises sharply in calves and lambs, where it can exceed 50% because of myocardial involvement. Transmission is respiratory and direct-contact driven, with an incubation period of 2-14 days. The maintenance strategy in Africa is the buffalo-carrier system: buffalo remain subclinically infected and periodically infect cattle that contact them."
+  },
+  "pathophysiology": {
+    "summary": "The virus replicates first in the pharyngeal epithelium and regional lymph nodes, then produces a brief viraemia that seeds epithelial tissues with high mitotic activity, especially the tongue, dental pad, coronary band and teat. Vesicle formation and subsequent erosion cause the pain that stops eating and walking, while viral replication in the myocardium of young animals is the mechanism of sudden death.",
+    "cascade": [
+      {
+        "title": "Primary replication",
+        "detail": "After inhalation or ingestion, virus replicates in the pharyngeal epithelium and drains to regional lymph nodes, producing a 24-72 hour viraemia before any clinical sign appears."
+      },
+      {
+        "title": "Epithelial localisation",
+        "detail": "Viraemic virus targets stratified squamous epithelium at sites of mechanical stress and high turnover — the tongue, dental pad, ruminal pillars, coronary band and teat skin."
+      },
+      {
+        "title": "Ballooning degeneration and vesicle formation",
+        "detail": "Cytopathic viral replication causes intracellular oedema and cell rounding, which coalesce into a fluid-filled vesicle between the epithelial layers. The vesicle ruptures within 24-48 hours, leaving a raw, painful erosion."
+      },
+      {
+        "title": "Pain-driven failure of intake",
+        "detail": "Oral erosions make eating painful, producing drooling, anorexia and rapid condition loss. Coronary band lesions cause lameness and reluctance to walk, which compounds the reduction in feed intake."
+      },
+      {
+        "title": "Myocardial involvement in the young",
+        "detail": "Virus replicates in cardiac muscle in calves, piglets and lambs, causing acute myocarditis and arrhythmia. This is the mechanism of the sudden deaths that characterise FMD in young stock, and it can occur with no oral lesions."
+      }
+    ],
+    "lesions": [
+      "Vesicles and subsequent erosions on the tongue, dental pad, gums and palate",
+      "Vesicles at the coronary band and interdigital skin, often progressing to complete sloughing of the hoof horn",
+      "Vesicles on teats, leading to mastitis and loss of milk yield",
+      "Pale, streaked 'tiger heart' myocarditis in young animals from focal necrosis",
+      "Rumenal pillar erosions",
+      "Secondary bacterial infection of eroded areas with purulent exudate"
+    ],
+    "clinical_signs": [
+      "Profuse, ropy salivation and lip-smacking",
+      "Fever of 40-41 degrees Celsius at the onset, often resolving before lesions are seen",
+      "Lameness, reluctance to move and shifting weight between feet",
+      "Oral vesicles and ragged erosions after they rupture",
+      "Sudden death in calves, lambs and piglets",
+      "Sharp drop in milk yield and abortion in some cases"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Inspect the mouth, feet and teats of every animal in a suspect group — sheep require close examination of the dental pad and coronary band",
+      "Collect epithelium from a ruptured vesicle or vesicular fluid in buffered glycerol saline for transport",
+      "Oropharyngeal swab and serum from a probang sample in recovering animals"
+    ],
+    "postmortem": [
+      "Look for oral and coronary band erosions and examine the myocardium of young animals for streaking",
+      "Rumenal pillar erosions are a useful confirmatory finding"
+    ],
+    "laboratory": [
+      "Virus isolation in cell culture, with neutralisation for serotype identification",
+      "RT-PCR targeting conserved regions, followed by VP1 sequencing for serotype and strain",
+      "Antigen ELISA for rapid field confirmation",
+      "Serology: virus neutralisation or ELISA for antibody, noting that vaccinal and infection-derived antibody are indistinguishable"
+    ],
+    "differentials": [
+      "Vesicular stomatitis — indistinguishable clinically, and zoonotic",
+      "Swine vesicular disease — pigs only",
+      "Bluetongue — oral erosions possible, but with oedema and nasal discharge",
+      "Bovine papular stomatitis and pseudocowpox — milder, no lameness typically",
+      "Chemical or caustic burns of the mouth",
+      "Peste des petits ruminants in small ruminants — oral necrosis with pneumonia and diarrhoea"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Maintain and enforce movement controls between infected, protection and free zones",
+      "Vaccinate strategically with serotype-matched vaccine appropriate to the zone",
+      "Quarantine and test incoming animals, particularly from endemic areas",
+      "Disinfect vehicles, equipment and footwear at farm and boundary entry points",
+      "Maintain game fencing and buffer zones between buffalo areas and livestock"
+    ],
+    "vaccination": "Inactivated, serotype-specific vaccines are used in endemic and buffer zones. Protection is short-lived — revaccination every 4-6 months is common in high-risk areas — and vaccination does not prevent infection or carriage, only clinical disease. Inactivated vaccines also complicate serological surveillance, because vaccine and infection antibody cannot be distinguished.",
+    "treatment": [
+      "No specific antiviral treatment exists",
+      "Supportive care: soft palatable feed, water, and analgesia",
+      "Treat secondary bacterial infection of oral and foot lesions with appropriate antibiotics",
+      "Wound care for sloughed hooves; affected animals may need weeks of protection from hard ground",
+      "Milk affected cows separately and manage mastitis"
+    ],
+    "outbreak": [
+      "Notify the veterinary authority immediately — this is a mandatory report in every FMD-free jurisdiction",
+      "Impose immediate standstill on the premises and restrict all animal and vehicle movement",
+      "Ring vaccination around the index premises where policy permits",
+      "Stamping out (culling of affected and in-contact animals) where the policy objective is regaining free status quickly",
+      "Trace all movements from the premises for 21 days before detection",
+      "Establish a surveillance zone with intensive clinical inspection and sampling"
+    ],
+    "public_health": [
+      "FMD is not a human health threat and is not transmitted through properly cooked meat or pasteurised milk",
+      "Human infections reported historically were mild and are not a management consideration",
+      "The public health consequence is economic and nutritional, through loss of livestock income and protein supply"
+    ],
+    "notes": "FMD is the archetype of a disease where the control decision is economic rather than clinical. Vaccination controls disease; only movement control and stamping out restore trade status."
+  },
+  "prognosis": "Most adult animals recover within two to three weeks but may be permanently unthrifty, with chronic lameness and reduced milk yield. Mortality in young stock can exceed 50% from myocarditis. At population level, the economic prognosis of an outbreak in an export-dependent country is severe regardless of animal survival.",
+  "related": ["rabies", "lumpy-skin-disease"],
+  "references": [
+    { "label": "WOAH — Foot and mouth disease", "url": "https://www.woah.org/en/disease/foot-and-mouth-disease/" },
+    { "label": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

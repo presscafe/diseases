@@ -1,0 +1,148 @@
+{
+  "slug": "anaplasmosis",
+  "name": "Bovine anaplasmosis",
+  "synonyms": ["Gall sickness", "Yellow water", "Anaplasma infection"],
+  "category": "parasitic",
+  "agents": [
+    {
+      "kind": "protozoan",
+      "name": "Anaplasma marginale",
+      "notes": "A rickettsial organism now classified among the Anaplasmataceae, occupying the margin of erythrocytes. It is transmitted biologically by ticks and mechanically by biting flies and contaminated instruments — the latter is a defining and often overlooked route.",
+      "vector": "Rhipicephalus ticks biologically; Tabanid flies and mosquitoes mechanically",
+      "reservoir": "Persistently infected cattle, which remain carriers for life"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle"],
+    "also": ["Water buffalo", "Deer", "Bison"],
+    "notes": "Adults are more severely affected than calves, in contrast to babesiosis. Bulls and older animals tend to develop the most severe disease."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": true,
+    "note": "WOAH-listed. Humans are not infected by A. marginale; human anaplasmosis is caused by A. phagocytophilum, which is a different organism transmitted by different ticks."
+  },
+  "distribution": "Worldwide in tropical and subtropical regions. In southern Africa it is widespread in cattle areas and is arguably more common than babesiosis in many districts. The organism is present in most of Botswana's cattle-rearing areas.",
+  "aetiology": {
+    "summary": "Anaplasmosis is transmitted both biologically by ticks and mechanically by blood-contaminated mouthparts of biting flies and by shared needles, ear tags and surgical instruments. Because the organism can be transmitted mechanically, it spreads in herds even where ticks are well controlled.",
+    "determinants": [
+      "Blood transfer from a persistently infected carrier to a susceptible animal",
+      "Tick transmission, principally by Rhipicephalus species",
+      "Mechanical transmission by Tabanid flies, stable flies and mosquitoes",
+      "Iatrogenic transmission via contaminated needles, ear taggers and castration instruments",
+      "Susceptibility of adult cattle in an endemic area without prior exposure"
+    ],
+    "risk_factors": [
+      "Introducing adult cattle into an endemic herd without vaccination",
+      "Reusing needles or surgical instruments between animals",
+      "High tabanid and stable fly populations",
+      "Dense stocking and shared handling facilities",
+      "Splitting a herd so that part loses natural exposure and immunity"
+    ],
+    "epidemiology": "Carriers remain infected for life and are the reservoir. As with babesiosis, enzootic stability develops in endemic areas where calves are infected early and become immune; disease appears when adults are exposed for the first time. Because transmission can be mechanical, anaplasmosis can spread in a herd even under good tick control, which distinguishes it epidemiologically from babesiosis."
+  },
+  "pathophysiology": {
+    "summary": "Anaplasma marginale invades erythrocytes and, unlike Babesia, is removed by the spleen through a macrophage-mediated process rather than by direct lysis. Infected erythrocytes are rapidly cleared, producing extravascular haemolysis, progressive anaemia and jaundice, while the parasite is controlled but not eliminated — leaving the animal a lifelong carrier.",
+    "cascade": [
+      {
+        "title": "Inoculation and erythrocyte invasion",
+        "detail": "Organisms are transferred in blood from a carrier animal and invade erythrocytes, initially appearing at the cell margin as small, dense, round bodies."
+      },
+      {
+        "title": "Opsonisation and splenic clearance",
+        "detail": "Infected erythrocytes are recognised as abnormal, opsonised and removed by macrophages in the spleen and liver. This is extravascular haemolysis, so free haemoglobinuria is less prominent than in babesiosis."
+      },
+      {
+        "title": "Progressive anaemia",
+        "detail": "Continued removal of erythrocytes outstrips the bone marrow's regenerative capacity, producing a severe anaemia with pale mucous membranes and weakness. Erythrophagocytosis also leads to jaundice from bilirubin overload."
+      },
+      {
+        "title": "Fever and metabolic strain",
+        "detail": "The destruction of large numbers of erythrocytes and the inflammatory response produce high fever, anorexia and rapid loss of condition, compounding the anaemia."
+      },
+      {
+        "title": "Hypoxia and death, or chronic carriage",
+        "detail": "Animals that survive mount a regenerative response and control parasitaemia, but the organism persists at low levels in erythrocytes for life. Death in the acute phase results from tissue hypoxia and cardiovascular collapse."
+      }
+    ],
+    "lesions": [
+      "Marked pallor of mucous membranes and internal organs",
+      "Jaundice with yellow discolouration of fat, fascia and liver",
+      "Enlarged, soft spleen from erythrophagocytosis",
+      "Enlarged liver with a distended gall bladder containing thick, dark bile",
+      "Thin, watery blood with a low packed cell volume",
+      "Petechial haemorrhages in some cases",
+      "Emaciation in chronic cases"
+    ],
+    "clinical_signs": [
+      "High fever (40-41 degrees Celsius) and lethargy",
+      "Pale mucous membranes and a weak, rapid pulse",
+      "Jaundice, best appreciated in the sclera and unpigmented skin",
+      "Anorexia and rapid loss of condition",
+      "Constipation followed by diarrhoea in some animals",
+      "Incoordination, head pressing and aggression in the late stages",
+      "Abortion and reduced fertility in cows",
+      "Sudden death in peracute cases, particularly in older animals"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Blood smear from an ear vein, stained with Giemsa — organisms appear at the erythrocyte margin as small, round, dark-blue dots",
+      "Note the difference from Babesia, which sits within the erythrocyte and is often pear-shaped",
+      "Haematology showing anaemia with a regenerative response after the acute phase"
+    ],
+    "postmortem": [
+      "Pale, jaundiced carcase with an enlarged, softened spleen",
+      "Examine blood smears from the heart blood or a peripheral vessel",
+      "Note the absence of dark urine in the bladder, which helps differentiate from babesiosis"
+    ],
+    "laboratory": [
+      "Giemsa-stained thin blood smear — the rapid field test",
+      "PCR for confirmation, particularly in chronic carriers with low parasitaemia",
+      "Competitive ELISA for herd prevalence and carrier detection",
+      "Haematology to assess the severity of anaemia"
+    ],
+    "differentials": [
+      "Babesiosis — dark urine, organisms within erythrocytes, more acute haemolysis",
+      "Theileriosis — enlarged lymph nodes and a different organism morphology",
+      "Leptospirosis — jaundice with haemoglobinuria and exposure history",
+      "Chronic copper poisoning — haemolytic crisis, but with a history of copper excess and liver copper levels",
+      "Bacillary haemoglobinuria — sudden death with haemoglobinuria",
+      "Iron deficiency or other causes of anaemia"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Vaccinate naive cattle with a live attenuated A. marginale vaccine before introduction into endemic areas",
+      "Use a fresh needle for each animal and disinfect instruments between animals",
+      "Control ticks and biting flies",
+      "Test and monitor animals moved between zones",
+      "Maintain natural herd immunity through controlled exposure where appropriate"
+    ],
+    "vaccination": "Live attenuated A. marginale vaccines are used in southern Africa, giving reliable protection against disease but not against infection — vaccinated animals can still become carriers. The vaccine requires a cold chain and should not be given to animals already immune or in late pregnancy.",
+    "treatment": [
+      "Imidocarb dipropionate is effective and is also used for babesiosis",
+      "Oxytetracycline, particularly long-acting formulations, is effective against Anaplasma and is the treatment of choice in some circumstances",
+      "Supportive care: blood transfusion for severe anaemia, fluids and anti-inflammatory therapy",
+      "Note that treated animals remain carriers, so treatment does not eliminate the reservoir"
+    ],
+    "outbreak": [
+      "Treat affected animals and identify carriers within the herd",
+      "Assess herd immunity and consider vaccination of naive animals",
+      "Review needle and instrument hygiene as a likely mechanical transmission route",
+      "Step up tick and fly control around the affected group",
+      "Notify the veterinary authority where the disease is not endemic"
+    ],
+    "public_health": [
+      "A. marginale is not infectious to humans",
+      "Human granulocytic anaplasmosis is a separate disease caused by A. phagocytophilum and is not transmitted from cattle"
+    ],
+    "notes": "The mechanical transmission route is the detail that makes anaplasmosis practically different from babesiosis. Herd hygiene with needles and instruments matters as much as tick control."
+  },
+  "prognosis": "With treatment, most animals recover but remain carriers for life. Mortality in untreated adult cattle can be 20-50%, with older animals faring worst. Calves usually suffer mild or inapparent infection.",
+  "related": ["babesiosis", "theileriosis", "heartwater"],
+  "references": [
+    { "label": "WOAH — Bovine anaplasmosis", "url": "https://www.woah.org/en/disease/bovine-anaplasmosis/" },
+    { "label": "Merck Veterinary Manual — Anaplasmosis", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

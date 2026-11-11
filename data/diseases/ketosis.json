@@ -1,0 +1,153 @@
+{
+  "slug": "ketosis",
+  "name": "Ketosis",
+  "synonyms": ["Bovine ketosis", "Acetonemia", "Pregnancy toxaemia (in ewes)", "Twin lamb disease (in ewes)"],
+  "category": "metabolic",
+  "agents": [
+    {
+      "kind": "management",
+      "name": "Negative energy balance",
+      "notes": "The proximate cause. In early lactation, energy demand for milk production exceeds energy intake, and the cow mobilises body fat. The liver cannot fully oxidise the resulting free fatty acids, which are converted to ketone bodies — acetoacetate, beta-hydroxybutyrate and acetone — that accumulate in blood, urine and milk."
+    },
+    {
+      "kind": "management",
+      "name": "Rumen environment and feed intake",
+      "notes": "Poor feed quality, sudden dietary change and reduced rumen health reduce energy intake and precipitate the disorder, as does overconditioning at calving, which increases the mobilisation of fat."
+    }
+  ],
+  "hosts": {
+    "primary": ["Dairy cattle"],
+    "also": ["Ewes in late pregnancy", "Goats"],
+    "notes": "Dairy cows in early lactation are the classic group. Ewes carrying multiple lambs are at risk in the last 6 weeks of pregnancy when the growing fetuses compete with the ewe for glucose. Overconditioned cows are at higher risk than thin ones."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A production disease with no public health significance. Human ketosis is a separate physiological state and is unrelated to bovine ketosis."
+  },
+  "distribution": "Worldwide in dairy production, with the highest incidence in intensive systems where cows are fed high-concentrate diets and are selected for very high milk yield. In southern Africa, ketosis is recognised in intensive dairy herds and in ewes in extensive flocks during late pregnancy.",
+  "aetiology": {
+    "summary": "Ketosis is a disease of energy imbalance. The cow's energy requirement rises steeply at calving and peaks in early lactation, while feed intake lags behind — the result is a period of negative energy balance in which body fat is mobilised faster than it can be oxidised, and ketone bodies accumulate.",
+    "determinants": [
+      "An energy requirement that exceeds intake, peaking around 2-6 weeks after calving",
+      "Impaired adaptation to negative energy balance, with excessive fat mobilisation",
+      "Insufficient or unpalatable feed, particularly inadequate concentrate in early lactation",
+      "Overconditioning at calving, which increases the amount of fat that can be mobilised",
+      "Concurrent conditions — retained placenta, metritis and displaced abomasum all reduce intake and precipitate ketosis"
+    ],
+    "risk_factors": [
+      "High-producing dairy cows in early lactation",
+      "Older cows and those carrying multiple fetuses in sheep",
+      "Overconditioned body condition score at calving",
+      "Poor transition management and abrupt dietary change",
+      "Concurrent disease such as metritis, mastitis or lameness",
+      "Hot weather and heat stress reducing intake",
+      "In sheep, late pregnancy in ewes carrying twins or triplets"
+    ],
+    "epidemiology": "Ketosis is most common in the first 4-6 weeks after calving and affects a significant proportion of cows in some herds. It is often subclinical, with only reduced milk yield and fertility as consequences, which makes the true incidence hard to measure. It clusters in herds with poor transition management and in cows with concurrent periparturient disease."
+  },
+  "pathophysiology": {
+    "summary": "In negative energy balance, adipose tissue is broken down faster than the liver can process free fatty acids. The liver esterifies excess fatty acids into triglycerides, partly stored and partly exported as very low-density lipoprotein, and the remainder is converted to ketone bodies. When ketone production outpaces utilisation, they accumulate and produce the clinical syndrome, while liver fat accumulation impairs hepatic function.",
+    "cascade": [
+      {
+        "title": "Negative energy balance",
+        "detail": "At calving, energy demand for colostrum and milk synthesis rises abruptly, while dry matter intake falls. The gap is met by mobilising body fat, initially an appropriate adaptation."
+      },
+      {
+        "title": "Lipid mobilisation and hepatic uptake",
+        "detail": "Free fatty acids are released into the circulation and taken up by the liver. When the supply exceeds the liver's capacity for oxidation and export, they are esterified to triglycerides."
+      },
+      {
+        "title": "Ketone body production",
+        "detail": "Excess acetyl-CoA is converted to ketone bodies, which accumulate in the blood and are excreted in milk and urine. Ketones at high concentrations depress appetite, creating a vicious cycle of worsening negative energy balance."
+      },
+      {
+        "title": "Hepatic lipidosis",
+        "detail": "Accumulated triglycerides produce fatty liver, which impairs gluconeogenesis and further reduces the liver's capacity to process the incoming fatty acid load. This is why ketosis and fatty liver are usually described together."
+      },
+      {
+        "title": "Production loss and clinical signs",
+        "detail": "The combination of reduced feed intake, impaired rumen function, liver dysfunction and dehydration produces the clinical picture of a dull, anorexic cow with a rapid drop in milk yield. In sheep, the fetuses continue to demand glucose, and the ewe may progress to recumbency and death."
+      }
+    ],
+    "lesions": [
+      "Pale, swollen and greasy liver with a fatty, yellow appearance",
+      "Increased liver weight with rounded margins",
+      "No other specific lesion — diagnosis is primarily clinical and biochemical",
+      "Possible evidence of concurrent periparturient disease"
+    ],
+    "clinical_signs": [
+      "Reduced appetite and reduced feed intake, often with refusal of concentrate",
+      "Sharp drop in milk yield, particularly in a high-producing cow",
+      "Rapid weight loss",
+      "A sweet, acetone-like odour on the breath and in the milk",
+      "Dullness, depression and reduced rumination",
+      "Hard, dry faeces and reduced rumen motility",
+      "In ewes: recumbency, blindness, tremors and eventual death",
+      "Subclinical cases show only reduced fertility and reduced milk yield"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical signs and history of early lactation with reduced appetite and milk yield",
+      "Urine dipstick for ketones — a rapid field test with good sensitivity",
+      "Milk ketone testing, which is useful for herd-level monitoring",
+      "Blood beta-hydroxybutyrate measurement, with concentrations above 1.2 millimoles per litre considered indicative"
+    ],
+    "postmortem": [
+      "Examine the liver for fatty infiltration, pallor and greasiness",
+      "Look for evidence of concurrent disease that precipitated the episode"
+    ],
+    "laboratory": [
+      "Serum or plasma beta-hydroxybutyrate measurement",
+      "Urine ketone dipstick testing",
+      "Milk ketone testing",
+      "Liver biopsy or post-mortem histology showing fatty change, if required"
+    ],
+    "differentials": [
+      "Milk fever — recumbency and a response to calcium, not to glucose and ketone management",
+      "Displaced abomasum — reduced appetite and milk yield with a characteristic resonant ping",
+      "Retained placenta and metritis — fever and vaginal discharge",
+      "Rumen acidosis — a different history of concentrate feeding and rumen pH change",
+      "Fatty liver disease — usually occurs alongside ketosis rather than as an alternative",
+      "In ewes, pregnancy toxaemia is the same pathophysiology and is treated the same way"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Improve transition-cow management, with a properly formulated close-up diet",
+      "Avoid overconditioning at calving — aim for a body condition score of about 3.0-3.5",
+      "Provide adequate, palatable feed in early lactation and increase concentrate gradually",
+      "Monitor early-lactation cows with regular ketone testing of milk or urine",
+      "Prevent and treat concurrent periparturient disease promptly",
+      "In ewes, feed a balanced diet in late pregnancy and manage litter size stress"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for a metabolic disorder.",
+    "treatment": [
+      "Intravenous glucose (usually as a 40-50% dextrose solution) corrects hypoglycaemia and is immediately effective but short-lived",
+      "Oral propylene glycol or glycerol provides a sustained glucose precursor and is the mainstay of treatment",
+      "Corticosteroids such as dexamethasone mobilise glucose and stimulate appetite, but they are contraindicated in late pregnancy and in animals with concurrent infection",
+      "Supportive care: encourage feed intake, provide palatable forage and good-quality hay",
+      "In ewes, consider a caesarean section or induction of parturition in severe pregnancy toxaemia, alongside glucose therapy"
+    ],
+    "outbreak": [
+      "Review the transition diet and the body condition of the affected group",
+      "Institution of ketone monitoring in early lactation",
+      "Identify and address concurrent disease such as metritis or lameness",
+      "Adjust the ration to improve energy density and intake in the first weeks of lactation",
+      "In sheep flocks, review the late-pregnancy feeding programme for ewes carrying multiples"
+    ],
+    "public_health": [
+      "Ketosis has no human health significance",
+      "Observe milk withdrawal periods for any corticosteroids or other veterinary medicines used"
+    ],
+    "notes": "Subclinical ketosis is the economically larger problem. A cow does not need to be visibly ill to lose milk yield and fertility — regular monitoring of early-lactation cows catches it before clinical disease."
+  },
+  "prognosis": "Good with prompt treatment — most cows respond to glucose and propylene glycol within 24-48 hours. Guarded if secondary complications develop or if recumbency has occurred. In ewes, pregnancy toxaemia carries a high mortality without early intervention.",
+  "related": ["milk-fever", "grass-tetany", "rumen-acidosis"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Ketosis in cattle", "url": "https://www.merckvetmanual.com/" },
+    { "label": "DairyNZ — Metabolic disorders", "url": "https://www.dairynz.co.nz/" }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "rabies",
+  "name": "Rabies",
+  "synonyms": ["Hydrophobia", "Lyssa"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "virus",
+      "name": "Rabies virus",
+      "notes": "Genus Lyssavirus, family Rhabdoviridae. A bullet-shaped, enveloped, negative-sense single-stranded RNA virus. Envelope fragility means it is inactivated rapidly by drying, sunlight and detergent — which is why transmission requires deposition into tissue.",
+      "reservoir": "Domestic dogs are the reservoir for over 99% of human deaths globally; insectivorous and vampire bats maintain independent cycles"
+    }
+  ],
+  "hosts": {
+    "primary": ["Dogs", "Cats", "Cattle", "Sheep", "Goats"],
+    "also": ["Horses", "Pigs", "Bats", "Jackals", "Humans"],
+    "notes": "All mammals are susceptible. Carnivores and bats are the maintenance hosts; herbivores are almost always dead-end hosts infected by a rabid carnivore."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": true,
+    "national": true,
+    "note": "Rabies is the only disease in this reference where the animal diagnosis is inseparable from a human life-or-death decision. Every suspected case requires immediate notification to both veterinary and human health authorities."
+  },
+  "distribution": "Present on every continent except Antarctica. In southern Africa, domestic dog rabies remains endemic in parts of Botswana, Zimbabwe, South Africa and Mozambique, with wildlife cycles in jackal and bat-eared fox populations. Botswana's human cases are overwhelmingly dog-mediated.",
+  "aetiology": {
+    "summary": "Transmission requires the virus to be introduced into tissue, almost always through a bite that deposits saliva containing virus into muscle or subcutaneous tissue. The virus does not cross intact skin and does not survive long outside the host.",
+    "determinants": [
+      "A rabid animal shedding virus in saliva, typically from 1-5 days before clinical signs appear",
+      "Penetrating exposure — a bite, scratch or mucosal contamination — not mere contact",
+      "Viral dose and the innervation density of the bite site",
+      "Failure to provide timely post-exposure prophylaxis to an exposed person",
+      "Absence of an effective dog vaccination programme maintaining herd immunity"
+    ],
+    "risk_factors": [
+      "Unvaccinated free-roaming dog populations",
+      "Bite wounds to the head, face, hands and neck, where the distance to the central nervous system is short",
+      "Children, who are bitten more often and report exposures less reliably",
+      "Occupational handling of wildlife or unvaccinated dogs",
+      "Bat exposures in caves or roosts, where bites may go unnoticed"
+    ],
+    "epidemiology": "Case fatality approaches 100% once clinical signs develop — rabies is the most lethal known infectious disease of humans. Dog-mediated transmission accounts for the overwhelming majority of human cases. The incubation period is typically 1-3 months in humans and 2-8 weeks in animals, but can range from days to years depending on wound site and viral load. Control is entirely a question of maintaining dog vaccination coverage above roughly 70%."
+  },
+  "pathophysiology": {
+    "summary": "Rabies virus replicates in striated muscle at the wound site, enters peripheral nerve endings, and travels by retrograde axonal transport to the spinal cord and brain without triggering an immune response. Once in the central nervous system it causes a non-suppurative encephalitis that produces the behavioural change and loss of swallowing coordination responsible for salivary shedding, before spreading centrifugally to the salivary glands.",
+    "cascade": [
+      {
+        "title": "Local replication",
+        "detail": "Virus replicates in striated muscle cells at the inoculation site for days to weeks. This eclipse phase is the therapeutic window — post-exposure prophylaxis works here and stops working once virus reaches nerve."
+      },
+      {
+        "title": "Centripetal axonal transport",
+        "detail": "Virus binds nicotinic acetylcholine receptors at the neuromuscular junction and travels retrograde along axons at roughly 50-100 millimetres per day toward the dorsal root ganglia and spinal cord."
+      },
+      {
+        "title": "CNS dissemination and encephalitis",
+        "detail": "Once in the brain, virus spreads cell to cell across synapses and causes non-suppurative encephalitis with Negri bodies in hippocampal and Purkinje neurons. Crucially, it does not trigger a detectable immune response at this stage — the virus suppresses interferon signalling and evades antibody."
+      },
+      {
+        "title": "Centrifugal spread to salivary glands",
+        "detail": "Virus travels outward along parasympathetic and sympathetic nerves to the salivary glands and is shed in saliva before clinical signs appear, which is why an apparently healthy dog can transmit the disease."
+      },
+      {
+        "title": "Brainstem dysfunction and death",
+        "detail": "Involvement of the brainstem and cranial nerve nuclei abolishes swallowing and produces the classic inability to drink while still attempting to, with hypersalivation and hydrophobia. Death follows from respiratory and cardiac failure caused by brainstem destruction, not by the virus directly damaging those organs."
+      }
+    ],
+    "lesions": [
+      "Gross lesions are typically absent — a normal brain at post-mortem does not exclude rabies",
+      "Non-suppurative encephalomyelitis with perivascular cuffing and gliosis on histology",
+      "Negri bodies — eosinophilic intracytoplasmic inclusions in hippocampal pyramidal cells and Purkinje cells",
+      "Ganglionitis of the dorsal root ganglia and cranial nerve ganglia",
+      "Salivary gland inflammation with virus demonstrable in acinar cells"
+    ],
+    "clinical_signs": [
+      "Behavioural change — aggression, restlessness or unusual depression and hiding",
+      "Hypersalivation and difficulty swallowing, with attempts to drink but inability to do so (the origin of 'hydrophobia')",
+      "Altered phonation — a change or loss of bark",
+      "Progressive paralysis, often ascending, with lower motor neuron signs",
+      "Ataxia, seizures and terminal coma",
+      "In cattle, bellowing, tenesmus and posterior paresis that can mimic bloat or a foreign body"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "No reliable antemortem test exists for animals. Clinical suspicion is managed by isolation, not by testing.",
+      "In humans, skin biopsy from the nape of the neck, saliva and cerebrospinal fluid can be tested, but a negative result does not exclude disease"
+    ],
+    "postmortem": [
+      "Submit the intact head or the brain fresh, chilled and unfixed — do not freeze if histology is required",
+      "Gross examination is unremarkable and has no diagnostic value"
+    ],
+    "laboratory": [
+      "Direct fluorescent antibody test on brain tissue — the standard confirmatory test, results within hours",
+      "RT-PCR on brain tissue, saliva or cerebrospinal fluid",
+      "Histological demonstration of Negri bodies is supportive but insensitive",
+      "Virus isolation in cell culture or mouse inoculation as a confirmatory adjunct"
+    ],
+    "differentials": [
+      "Canine distemper — respiratory and gastrointestinal signs with myoclonus, but no hypersalivation of this pattern",
+      "Tetanus — rigidity and 'sardonic grin' with intact consciousness",
+      "Botulism — flaccid paralysis with no behavioural change",
+      "Poliomyelitis or other viral encephalitis",
+      "Poisoning with organophosphates, strychnine or lead",
+      "Laryngeal foreign body or oesophageal obstruction, which mimic the swallowing failure"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Sustain mass dog vaccination at or above 70% coverage — this is the single intervention that eliminates human rabies",
+      "Sterilise and manage free-roaming dog populations",
+      "Quarantine and observe any animal that bites a person for 10 days",
+      "Vaccinate cats, cattle and horses in endemic areas as a secondary barrier",
+      "Educate communities to seek care immediately after any bite and to wash wounds with soap and water for 15 minutes"
+    ],
+    "vaccination": "Inactivated cell-culture vaccines are safe and highly effective in animals and humans. Dogs require a primary course from 12 weeks of age and boosters; humans require pre-exposure prophylaxis in high-risk occupations and post-exposure regimens of vaccine with rabies immunoglobulin for category III exposures.",
+    "treatment": [
+      "There is no effective treatment for clinical rabies in animals. Management is palliative and aimed at preventing human exposure.",
+      "In humans, the Milwaukee protocol has produced a handful of survivors but is not a reliable treatment; prevention is the only dependable strategy",
+      "Immediate wound washing with soap and water for at least 15 minutes substantially reduces the risk of infection"
+    ],
+    "outbreak": [
+      "Notify veterinary and public health authorities immediately — a rabid animal is a public health emergency",
+      "Isolate and confine the suspect animal; do not attempt home treatment or observation without veterinary direction",
+      "Identify and trace every person and animal exposed to the suspect animal's saliva",
+      "Refer all exposed persons for post-exposure prophylaxis without delay — do not wait for the animal's test result when the exposure was significant",
+      "Submit the brain for fluorescent antibody testing if the animal dies or is euthanased",
+      "Implement ring vaccination of dogs in the affected area"
+    ],
+    "public_health": [
+      "Wash any bite or scratch immediately with soap and water for 15 minutes and seek medical care the same day",
+      "Post-exposure prophylaxis must not wait for laboratory confirmation when the exposure warrants it",
+      "Rabies immunoglobulin is indicated for category III exposures — transdermal bites, scratches, and mucosal or saliva contamination of broken skin",
+      "Human deaths from rabies are almost entirely preventable and almost always reflect a failure of access to prophylaxis, not of vaccine efficacy"
+    ],
+    "notes": "This record deliberately states the post-exposure position bluntly. The commonest fatal error in rabies management is a delay waiting for an animal to be observed or tested."
+  },
+  "prognosis": "Uniformly fatal once clinical signs appear in any species. The prognosis is excellent if post-exposure prophylaxis is completed before symptom onset, and good for animals with a verified current vaccination and a provoked, minimal exposure.",
+  "related": ["tetanus", "botulism"],
+  "references": [
+    { "label": "WOAH — Rabies", "url": "https://www.woah.org/en/disease/rabies/" },
+    { "label": "WHO — Rabies", "url": "https://www.who.int/news-room/fact-sheets/detail/rabies" },
+    { "label": "CDC — Rabies", "url": "https://www.cdc.gov/rabies/" }
+  ]
+}

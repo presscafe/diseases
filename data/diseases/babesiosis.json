@@ -1,0 +1,156 @@
+{
+  "slug": "babesiosis",
+  "name": "Babesiosis",
+  "synonyms": ["Redwater", "Texas fever", "Cattle tick fever", "Piroplasmosis"],
+  "category": "parasitic",
+  "agents": [
+    {
+      "kind": "protozoan",
+      "name": "Babesia bovis",
+      "notes": "An intraerythrocytic apicomplexan parasite. B. bovis is the most virulent species in cattle and is transmitted transovarially by Rhipicephalus (Boophilus) microplus. It causes cerebral babesiosis through sequestration of infected erythrocytes in capillaries.",
+      "vector": "Rhipicephalus (Boophilus) microplus, R. decoloratus",
+      "reservoir": "Persistently infected cattle and the tick population itself"
+    },
+    {
+      "kind": "protozoan",
+      "name": "Babesia bigemina",
+      "notes": "The other major cattle species in southern Africa, transmitted by the same tick vectors. Generally less virulent than B. bovis and associated with classic haemoglobinuria rather than cerebral disease.",
+      "vector": "Rhipicephalus (Boophilus) microplus, R. decoloratus, R. annulatus",
+      "reservoir": "Persistently infected cattle; the tick vector"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle"],
+    "also": ["Water buffalo", "Bison"],
+    "notes": "Cattle are the principal host. Calves under 9 months show strong age-related resistance to disease even when infected. Adult cattle in an endemic area are usually immune; the disease appears when naive adults enter an endemic zone."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": true,
+    "note": "Bovine babesiosis is a WOAH-listed disease because of its importance to cattle trade and movement. Human babesiosis exists but is caused by different species and is not transmitted from cattle."
+  },
+  "distribution": "Widespread wherever the tick vectors occur, which includes much of sub-Saharan Africa, southern Europe, Asia, Australia and the Americas. In southern Africa, babesiosis is endemic in the higher-rainfall eastern areas and in the coastal belt of South Africa; in Botswana it is present in areas with suitable tick populations, and is a serious risk for cattle moved from tick-free to tick-infested zones.",
+  "aetiology": {
+    "summary": "Babesiosis is a tick-transmitted haemoparasite disease. The tick acquires the parasite while feeding on an infected animal, and the parasite is transmitted to subsequent tick generations transovarially — so an infected tick population is itself a lasting reservoir. Disease is therefore less about the parasite than about the immunological status of the host relative to the local tick challenge.",
+    "determinants": [
+      "Presence of infected Rhipicephalus ticks on the pasture",
+      "A susceptible, non-immune host — either a naive animal introduced to an endemic area or an animal whose immunity has waned",
+      "Tick challenge sufficient to deliver a dose of parasites",
+      "Absence of enzootic stability — where ticks are abundant and calves are infected early, herd immunity develops naturally"
+    ],
+    "risk_factors": [
+      "Moving naive cattle from a tick-free to an endemic area without vaccination",
+      "Cessation of tick control in a herd where enzootic stability has not been established",
+      "Young calves entering tick-infested pasture in a herd with no natural challenge",
+      "Live vaccine failures or vaccine unavailability, which create a gap in herd immunity",
+      "Splitting one herd into a tick-controlled and a tick-exposed group so that immunity is lost in part of the herd"
+    ],
+    "epidemiology": "In endemic areas with continuous tick challenge, calves become infected while still protected by maternal antibody and age resistance, develop mild disease and emerge immune — the state known as enzootic stability. Disease emerges when this equilibrium breaks: naive animals are introduced, tick control is relaxed abruptly, or herd immunity wanes. Mortality in a fully naive adult herd can be very high — 30-50% or more with B. bovis."
+  },
+  "pathophysiology": {
+    "summary": "Babesia invades erythrocytes, replicates by binary fission and ruptures them, producing a haemolytic anaemia that accounts for the haemoglobinuria and jaundice. B. bovis adds a second and more dangerous mechanism: infected erythrocytes become sticky and sequester in the capillaries of the brain, lungs and kidneys, producing cerebral babesiosis and organ failure.",
+    "cascade": [
+      {
+        "title": "Sporozoite inoculation",
+        "detail": "The tick inoculates sporozoites during feeding. Sporozoites invade erythrocytes directly and begin the intraerythrocytic cycle."
+      },
+      {
+        "title": "Erythrocyte invasion and replication",
+        "detail": "Trophozoites undergo merogony within erythrocytes, producing merozoites that lyse the host cell and invade neighbouring erythrocytes. B. bovis preferentially parasitises older erythrocytes and can reach very high parasitaemias."
+      },
+      {
+        "title": "Haemolysis",
+        "detail": "Rupture of infected erythrocytes releases haemoglobin into the plasma, which exceeds the haptoglobin-binding capacity. Free haemoglobin is excreted in urine, producing the dark red to port-coloured urine that gives the disease its name."
+      },
+      {
+        "title": "Sequestration and microvascular obstruction",
+        "detail": "In B. bovis infection, parasitised erythrocytes adhere to capillary endothelium in the brain, lungs and kidneys, obstructing microcirculation. This produces cerebral babesiosis with ataxia, head pressing, seizures and coma, and can produce respiratory and renal failure."
+      },
+      {
+        "title": "Anaemia, hypoxia and death",
+        "detail": "The combination of massive erythrocyte destruction, impaired microcirculation and a systemic inflammatory response produces severe anaemia, hypoxia, acidosis and death. Tissue hypoxia from anaemia is compounded by capillary obstruction."
+      }
+    ],
+    "lesions": [
+      "Pale, jaundiced mucous membranes and body fat",
+      "Enlarged, dark-red to black spleen",
+      "Enlarged liver with a yellowish-brown hue and gall bladder distension",
+      "Kidneys swollen and dark, with haemoglobinuric casts in the tubules",
+      "Haemoglobinuria — dark red to port-wine urine in the bladder",
+      "Pulmonary oedema and congestion, particularly in B. bovis infection",
+      "Petechial haemorrhages on serosal surfaces",
+      "Brain congestion and oedema with capillary sequestration in cerebral cases"
+    ],
+    "clinical_signs": [
+      "High fever (41 degrees Celsius or above) that rises rapidly",
+      "Dark, red-brown urine — the cardinal sign of redwater",
+      "Pale or jaundiced mucous membranes with anaemia",
+      "Reluctance to move, weakness and rapid respiration",
+      "Dehydration and anorexia",
+      "Cerebral signs in B. bovis infection: ataxia, head pressing, seizures and coma",
+      "Abortion in pregnant cows",
+      "Sudden death in the peracute form"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Examine a thin blood smear from the ear or tail vein, stained with Giemsa — pear-shaped organisms within erythrocytes are diagnostic",
+      "Examine urine: dark, haemoglobin-positive on dipstick",
+      "Assess packed cell volume and note anaemia and jaundice"
+    ],
+    "postmortem": [
+      "Note jaundice, pale mucous membranes, enlarged spleen and liver",
+      "Examine a blood smear from the heart or a peripheral vessel",
+      "Look for dark urine in the bladder and pulmonary oedema"
+    ],
+    "laboratory": [
+      "Giemsa-stained thin blood smear showing intraerythrocytic piroplasms — the rapid field test",
+      "PCR for species-level identification and differentiation between B. bovis and B. bigemina",
+      "Serology for herd immunity assessment, not for individual diagnosis",
+      "Haematology showing anaemia and thrombocytopenia"
+    ],
+    "differentials": [
+      "Anaplasmosis (Anaplasma marginale) — causes anaemia and jaundice but the organisms are at the erythrocyte margin and urine is usually normal",
+      "Theileriosis — enlarged lymph nodes and piroplasms of a different form, plus a different tick vector",
+      "Leptospirosis — haemoglobinuria with jaundice, but a different epidemiological picture",
+      "Chronic copper poisoning — haemolytic crisis with jaundice and haemoglobinuria",
+      "Bacillary haemoglobinuria (C. novyi type D) — sudden death with haemoglobinuria and liver lesions",
+      "Babesiosis and anaplasmosis frequently occur together and both should be considered"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Vaccinate naive cattle with live attenuated B. bovis and B. bigemina vaccine before moving into endemic areas",
+      "Maintain a planned tick control programme with acaricides, rotating compounds to manage resistance",
+      "Avoid abrupt cessation of tick control in a herd that has not established enzootic stability",
+      "Quarantine and monitor animals moved between zones",
+      "Keep herd immunity by allowing controlled exposure in enzootically stable herds"
+    ],
+    "vaccination": "Live attenuated vaccines containing B. bovis and B. bigemina are the standard control in southern Africa. They produce solid immunity but must be handled and stored as live products, and they should not be used in cattle already immune or in the last trimester of pregnancy. Vaccination does not prevent infection, it prevents disease.",
+    "treatment": [
+      "Imidocarb dipropionate is the treatment of choice and is effective against both species",
+      "Diminazene aceturate (berenil) is an alternative",
+      "Supportive care: blood transfusion for severe anaemia, intravenous fluids and anti-inflammatory therapy",
+      "Corticosteroids are used in cerebral babesiosis to reduce the inflammatory component",
+      "Treat early — the prognosis falls sharply once parasitaemia and anaemia are advanced"
+    ],
+    "outbreak": [
+      "Treat affected animals promptly and identify the extent of the outbreak",
+      "Assess herd immunity and consider vaccinating unaffected naive animals",
+      "Intensify tick control to reduce challenge, while being careful not to remove the challenge that maintains herd immunity",
+      "Notify the veterinary authority in areas where the disease is not endemic",
+      "Investigate the source: movement of cattle, tick spread on vehicles or animal carriers"
+    ],
+    "public_health": [
+      "Bovine babesiosis is not a human disease",
+      "Human babesiosis is caused by different species and is rare — it is not acquired from cattle"
+    ],
+    "notes": "The critical concept here is enzootic stability. In an endemic area, the disease is a problem of broken immunity, not of parasite presence."
+  },
+  "prognosis": "With early treatment, recovery is usual but convalescence is slow. Without treatment, mortality in naive adult cattle can reach 30-50% for B. bovis. Calves generally recover well. Animals that recover remain carriers for months to years.",
+  "related": ["anaplasmosis", "theileriosis", "heartwater"],
+  "references": [
+    { "label": "WOAH — Bovine babesiosis", "url": "https://www.woah.org/en/disease/bovine-babesiosis/" },
+    { "label": "Merck Veterinary Manual — Babesiosis", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

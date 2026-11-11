@@ -1,0 +1,150 @@
+{
+  "slug": "lumpy-skin-disease",
+  "name": "Lumpy skin disease",
+  "synonyms": ["LSD", "Neethling disease", "Knobbelzucht", "Pseudo-urticaria"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "virus",
+      "name": "Lumpy skin disease virus",
+      "notes": "Genus Capripoxvirus, family Poxviridae. A large, enveloped, double-stranded DNA virus that is exceptionally stable in dried scabs and lesion material, remaining infectious for months in the environment.",
+      "vector": "Biting arthropods — stable flies (Stomoxys), mosquitoes (Aedes, Culex) and biting midges (Culicoides) — with mechanical transmission between animals; iatrogenic spread via contaminated needles and vaccination equipment is also documented",
+      "reservoir": "Infected cattle; the virus persists in scabs and in the environment; a wildlife reservoir has not been clearly established"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle"],
+    "also": ["African buffalo", "Water buffalo", "Giraffe", "Impala"],
+    "notes": "Cattle are the main host. All ages are susceptible; young calves and lactating cows are most severely affected. The disease is not a risk to humans."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": true,
+    "national": true,
+    "note": "A transboundary disease of major economic significance because of hide damage, milk loss, abortion and trade restrictions. Notifiable in most cattle-producing countries."
+  },
+  "distribution": "Historically confined to sub-Saharan Africa, but since the 2010s it has spread rapidly through the Middle East, the Balkans, Turkey, Russia, the Caucasus and across Asia, reaching India and South-East Asia. In southern Africa it is endemic in parts of Botswana, Zimbabwe, Namibia and South Africa, with periodic epidemic waves following good rains.",
+  "aetiology": {
+    "summary": "LSD spreads mechanically between cattle by biting arthropods, which transmit virus from skin lesions, scabs and the viraemic blood of infected animals. Because the virus survives in lesion material and on fomites, mechanical spread by flies, needles, and contaminated equipment is central. Direct contact is a less important route than biting flies.",
+    "determinants": [
+      "High biting-arthropod populations, particularly Stomoxys and Culicoides",
+      "The presence of viraemic animals with active skin lesions",
+      "Virus stability in dried scabs, enabling persistence in the environment and on fomites",
+      "Susceptibility of a completely naive cattle population",
+      "Iatrogenic transmission through shared needles or poorly sterilised vaccination equipment"
+    ],
+    "risk_factors": [
+      "Warm, humid conditions after rains that support explosive fly and midge populations",
+      "Introduction of untested or unquarantined cattle from endemic areas",
+      "Dense cattle concentrations at water points, kraals or markets",
+      "Lack of vaccination or waning herd immunity"
+    ],
+    "epidemiology": "Morbidity in a naive herd can reach 45-100%, while mortality is usually 1-10% but can be higher in calves. Transmission is seasonal, peaking when vector numbers are high after rains. The virus spreads slowly — roughly 1-2 kilometres per week in a naive population — but spreads rapidly within a herd once introduced. Overwintering in the environment is key to the seasonal cycle."
+  },
+  "pathophysiology": {
+    "summary": "Following mechanical inoculation by an arthropod, the virus replicates locally in the skin and drains to regional lymph nodes, producing a viraemia that seeds the skin, mucous membranes and internal organs. The characteristic nodules are full-thickness areas of dermal necrosis and vasculitis, which slough and leave deep ulcers that heal slowly and scar permanently.",
+    "cascade": [
+      {
+        "title": "Mechanical inoculation",
+        "detail": "An infected fly or midge feeds on an animal, picks up virus from a skin lesion or blood, and deposits it in the skin of the next animal within minutes — the virus requires no replication in the insect."
+      },
+      {
+        "title": "Local replication and lymph node spread",
+        "detail": "Virus replicates in the dermis and drains to regional lymph nodes, which enlarge and become the source of subsequent haematogenous dissemination."
+      },
+      {
+        "title": "Viraemia and skin localisation",
+        "detail": "During the viraemic phase — typically 4-12 days after infection — virus seeds the skin at many sites, the mucous membranes of the respiratory and alimentary tracts, and internal organs."
+      },
+      {
+        "title": "Dermal vasculitis and necrosis",
+        "detail": "Viral replication in dermal endothelial cells causes necrotising vasculitis, with thrombosis, oedema and necrosis of the surrounding tissue. This produces the full-thickness, sharply demarcated nodules that give the disease its name."
+      },
+      {
+        "title": "Sloughing, ulceration and secondary infection",
+        "detail": "The necrotic centre of a nodule detaches to leave a deep, granulating ulcer that is prone to myiasis and secondary bacterial infection. Healing is by fibrosis, leaving a permanent hide scar, and the process can take months."
+      }
+    ],
+    "lesions": [
+      "Firm, raised, oval skin nodules 1-5 centimetres across, distributed over the head, neck, udder, perineum and limbs",
+      "Nodules that become necrotic and slough to leave deep ulcers, sometimes full-thickness through the skin",
+      "Enlarged regional and prescapular lymph nodes",
+      "Nodules and erosions on the mucous membranes of the muzzle, oesophagus, rumen and trachea",
+      "Oedema of the limbs, brisket and udder",
+      "Pox lesions in the lungs and, occasionally, the alimentary tract",
+      "Hide damage and permanent scarring in recovered animals"
+    ],
+    "clinical_signs": [
+      "Fever of 40-41 degrees Celsius two to three days before skin lesions appear",
+      "Firm, painful skin nodules appearing first on the head, neck and udder",
+      "Watery discharge from eyes and nose, with corneal involvement in some cases",
+      "Marked oedema of the limbs and brisket",
+      "Lameness from nodules on the limbs and coronary band",
+      "Enlarged superficial lymph nodes",
+      "Sharp drop in milk yield and abortion or infertility in some animals",
+      "Secondary myiasis in necrotic skin lesions"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical examination: the pattern of firm skin nodules, fever and lymphadenopathy is highly suggestive in a naive herd",
+      "Collect skin biopsies from the margin of a fresh nodule, or a scab, in buffered formalin for histology and fresh for PCR"
+    ],
+    "postmortem": [
+      "Examine the skin, mucous membranes, trachea and lungs for nodules and ulcers",
+      "Look for oedema and enlarged lymph nodes; internal lesions may be subtle"
+    ],
+    "laboratory": [
+      "PCR on skin biopsy, scab or blood — the standard confirmatory test",
+      "Virus isolation in cell culture, confirming with neutralisation",
+      "Histopathology showing eosinophilic intracytoplasmic inclusion bodies and ballooning degeneration in the dermis",
+      "Electron microscopy of lesion material showing poxvirus particles, useful when PCR is unavailable"
+    ],
+    "differentials": [
+      "Pseudolumpy skin disease (bovine herpesvirus 2) — milder nodules that are not full-thickness and resolve without ulceration",
+      "Bovine papular stomatitis — small papules on the muzzle and oral cavity, no systemic illness",
+      "Dermatophilosis — scaly, crusty lesions, often along the back, with no nodules",
+      "Mange (Sarcoptes, Psoroptes) — intense pruritus and alopecia, no fever",
+      "Photosensitisation — dermatitis on unpigmented skin",
+      "Insect and tick bites or urticaria — transient swelling without necrosis",
+      "Bovine viral diarrhoea mucosal disease — erosions rather than nodules"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Vaccinate the whole herd annually with a homologous capripox vaccine",
+      "Quarantine and examine all introduced cattle for at least 28 days",
+      "Control biting arthropods with pour-on insecticides and fly control around kraals and water points",
+      "Use a fresh needle for every animal and sterilise equipment between animals",
+      "Avoid moving cattle during an outbreak and restrict access to markets"
+    ],
+    "vaccination": "Live attenuated homologous vaccines — Neethling strain in southern Africa, and LSDV-based vaccines elsewhere — provide solid, long-lasting immunity from a single dose. Vaccinate before the rainy season. A small proportion of vaccinated animals develop a mild local reaction, which is expected. Heterologous sheeppox or goatpox vaccines are used where homologous vaccine is unavailable and give cross-protection.",
+    "treatment": [
+      "No specific antiviral treatment exists; management is supportive",
+      "Antibiotics for secondary bacterial infection of skin ulcers and for mastitis",
+      "Wound care and fly control on ulcerated lesions to prevent myiasis",
+      "NSAIDs for fever and pain, and fluids for dehydrated animals",
+      "Soft feed and water for animals with oral lesions"
+    ],
+    "outbreak": [
+      "Notify the veterinary authority immediately",
+      "Impose movement restrictions on the affected premises and a surrounding area",
+      "Vaccinate all cattle in the ring around the outbreak, including apparently healthy animals",
+      "Isolate affected animals and restrict contact with the rest of the herd",
+      "Vector control around affected and at-risk premises",
+      "Avoid ring culling where vaccination can contain spread — the economic case for culling is much weaker than for FMD"
+    ],
+    "public_health": [
+      "LSD is not a zoonosis and poses no direct human health risk",
+      "The public health significance is indirect — loss of milk and meat supply and of household income"
+    ],
+    "notes": "The economic impact of LSD is dominated by hide damage and milk loss rather than mortality, which is why control programmes are justified even when case fatality is low."
+  },
+  "prognosis": "Most affected cattle survive, but recovery is slow, milk yield may never return to previous levels, and hides are permanently scarred. Calves and heavily affected animals can die. Herd immunity after an outbreak or vaccination is long-lasting.",
+  "related": ["foot-and-mouth-disease", "bovine-viral-diarrhoea", "dermatophilosis"],
+  "references": [
+    { "label": "WOAH — Lumpy skin disease", "url": "https://www.woah.org/en/disease/lumpy-skin-disease/" },
+    { "label": "FAO — Lumpy skin disease", "url": "https://www.fao.org/" },
+    { "label": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

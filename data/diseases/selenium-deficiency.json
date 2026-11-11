@@ -1,0 +1,153 @@
+{
+  "slug": "selenium-deficiency",
+  "name": "Selenium deficiency",
+  "synonyms": ["White muscle disease", "Nutritional muscular dystrophy", "Enzootic muscular dystrophy", "Selenium-responsive unthriftiness"],
+  "category": "nutritional",
+  "agents": [
+    {
+      "kind": "mineral",
+      "name": "Selenium",
+      "notes": "An essential trace element incorporated into the selenoproteins, including glutathione peroxidase, which protects cell membranes from oxidative damage. Its functions are intimately linked to vitamin E, and the two deficiencies produce overlapping syndromes."
+    },
+    {
+      "kind": "management",
+      "name": "Low-selenium soils and pasture",
+      "notes": "Selenium deficiency is a property of the soil and is common on acidic, sandy or heavily leached soils, and in areas with low selenium in the parent geological material. Vitamin E deficiency from poor-quality conserved forage often coexists."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats"],
+    "also": ["Horses", "Pigs", "Poultry"],
+    "notes": "Young, rapidly growing animals are most susceptible to white muscle disease. Adult animals show reproductive failure and ill-thrift. Sheep are particularly sensitive to selenium toxicity, so supplementation must be dosed carefully."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A nutritional deficiency with no public health significance directly, although the narrow margin between selenium requirement and toxicity makes supplementation a regulated practice in many countries."
+  },
+  "distribution": "Widespread in livestock-rearing areas worldwide, particularly where soils are derived from selenium-poor parent material or where rainfall leaching has depleted the element. In southern Africa, selenium-responsive disease is recognised in several areas, and the combination of selenium and vitamin E deficiency is a common cause of neonatal mortality in lambs and calves.",
+  "aetiology": {
+    "summary": "Selenium deficiency impairs the antioxidant defences of cells, making them vulnerable to oxidative damage. Rapidly growing muscle and cardiac tissue are the most affected, producing nutritional muscular dystrophy. The deficiency frequently coexists with vitamin E deficiency, and the two should be considered together.",
+    "determinants": [
+      "Low selenium concentration in soil and therefore in pasture",
+      "Low vitamin E intake from conserved forage, particularly hay and silage that has lost tocopherol during storage",
+      "Rapid growth in young animals, which increases the oxidative demand on muscle",
+      "The narrow margin between requirement and toxicity, which constrains supplementation",
+      "The transfer of selenium from dam to fetus and neonate, which depends on maternal status"
+    ],
+    "risk_factors": [
+      "Grazing on selenium-deficient soils",
+      "Feeding conserved forage that has lost vitamin E",
+      "Neonatal and rapidly growing young stock",
+      "High-grain diets that are low in vitamin E",
+      "Pregnancy and lactation, when demand increases",
+      "Multiple births in sheep, which increase the demand on the ewe"
+    ],
+    "epidemiology": "The deficiency is a property of the land and recurs in the same areas. The most visible form is white muscle disease in newborn or rapidly growing lambs and calves, which can cause substantial neonatal mortality. Adult cows may show reduced fertility and increased retained placenta, and the deficiency can be subclinical for years."
+  },
+  "pathophysiology": {
+    "summary": "Selenium is a cofactor for glutathione peroxidase, which detoxifies lipid peroxides; vitamin E is a lipid-soluble antioxidant in membranes. Together they protect cell membranes from oxidative damage. When either is deficient, peroxidation of membrane lipids proceeds unchecked, particularly in tissues with high oxidative metabolism — skeletal muscle, cardiac muscle and the vascular endothelium.",
+    "cascade": [
+      {
+        "title": "Antioxidant deficit",
+        "detail": "Inadequate selenium limits glutathione peroxidase activity, and inadequate vitamin E removes the membrane antioxidant. The two defences are interrelated, and deficiency of either compromises the total antioxidant capacity."
+      },
+      {
+        "title": "Lipid peroxidation of membranes",
+        "detail": "Reactive oxygen species peroxidise the polyunsaturated fatty acids of cell membranes, damaging membrane integrity and function. This is particularly damaging in tissues with high energy turnover and abundant mitochondria, such as skeletal and cardiac muscle."
+      },
+      {
+        "title": "Myodegeneration",
+        "detail": "Muscle fibres undergo hyaline degeneration and necrosis. The affected muscle is pale and streaked with white fibrous tissue — hence 'white muscle disease' — and the damage impairs locomotion and, when the heart is involved, cardiac function."
+      },
+      {
+        "title": "Cardiac involvement",
+        "detail": "Lesions in the myocardium are the most dangerous because they are irreversible. The heart may be pale and flabby, and affected newborns may die suddenly or be weak and unable to suckle."
+      },
+      {
+        "title": "Clinical expression in the neonate or growing animal",
+        "detail": "Newborn animals born with lesions may be stillborn, die in the first days of life or show stiffness and weakness. Rapidly growing older animals develop progressive stiffness and a characteristic stilted gait."
+      }
+    ],
+    "lesions": [
+      "Pale, streaked, chalky-white muscle, particularly in the thigh, shoulder and lumbar muscles",
+      "Bilateral, symmetrical distribution of muscle lesions",
+      "Pale, flabby heart muscle with white streaking",
+      "Myocardial necrosis and fibrosis on histology",
+      "Possible pulmonary oedema from cardiac failure",
+      "Low blood or liver selenium and vitamin E concentrations"
+    ],
+    "clinical_signs": [
+      "Weakness and inability to stand in newborn lambs and calves",
+      "Stiffness and a stilted gait in growing animals",
+      "Reluctance to move and muscle tremors",
+      "Sudden death in neonates from cardiac involvement",
+      "Poor growth and ill-thrift",
+      "Reduced fertility and increased retained placenta in adult cattle",
+      "In severe cases, aspiration pneumonia from recumbency"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Serum selenium and vitamin E measurement",
+      "Whole-blood glutathione peroxidase activity as a functional indicator of selenium status",
+      "Liver or kidney selenium concentration for a more definitive assessment",
+      "Consider the herd history and the presence of other deficient animals"
+    ],
+    "postmortem": [
+      "Pale, streaked muscle lesions in a symmetric distribution",
+      "Examine the myocardium for pallor and fibrosis",
+      "Measure liver selenium to confirm the deficiency"
+    ],
+    "laboratory": [
+      "Serum selenium and vitamin E",
+      "Whole-blood glutathione peroxidase activity",
+      "Liver selenium concentration by dry-weight analysis",
+      "Histopathology of muscle showing hyaline degeneration and necrosis (Zenker's degeneration)"
+    ],
+    "differentials": [
+      "Copper deficiency — similar weakness and ill-thrift, but without the specific white muscle lesions",
+      "Cobalt deficiency — ill-thrift without muscle lesions",
+      "White muscle disease must be distinguished from other causes of neonatal weakness: prematurity, dystocia, hypothermia and septicaemia",
+      "Toxaemic and septic conditions causing sudden death in neonates",
+      "Rumen acidosis and other metabolic causes of lameness in older animals"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Supplement selenium and vitamin E in deficient areas, particularly in late pregnancy",
+      "Use selenium-containing mineral licks, injectable products or slow-release boluses",
+      "Ensure adequate vitamin E intake by providing good-quality conserved forage or supplementary vitamin E",
+      "Monitor selenium status of herds on known-deficient soils",
+      "Avoid over-supplementation — selenium has a narrow margin of safety and can be toxic"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for a nutritional deficiency.",
+    "treatment": [
+      "Injectable selenium and vitamin E (sodium selenite plus alpha-tocopherol) is the standard treatment and is rapidly effective",
+      "Oral selenium supplementation is used for follow-up and prevention",
+      "Supportive care for weak neonates: warmth, colostrum and assisted feeding",
+      "Treat the whole group on deficient land, not only the clinically affected animals",
+      "Note that selenium toxicity can occur with over-supplementation — follow product guidance exactly"
+    ],
+    "outbreak": [
+      "Confirm the diagnosis with blood or tissue selenium measurement",
+      "Implement supplementation of the at-risk group, particularly pregnant females and neonates",
+      "Analyse forage and soil to characterise the deficiency",
+      "Review the mineral supplementation programme and the vitamin E intake",
+      "Monitor the response in the following lambing or calving season"
+    ],
+    "public_health": [
+      "Selenium deficiency in livestock has no direct public health significance",
+      "Selenium is a recognised essential trace element for humans, and supplementation is regulated in food and feed",
+      "Observe meat and milk withdrawal periods for injectable products"
+    ],
+    "notes": "The selenium and vitamin E pair should always be considered together. Treating selenium deficiency while overlooking vitamin E deficiency, or vice versa, explains many treatment failures."
+  },
+  "prognosis": "Good for growing animals with mild deficiency if treated promptly. Poor for neonates with established cardiac lesions. At herd level, prevention through supplementation in late pregnancy is highly effective.",
+  "related": ["copper-deficiency", "cobalt-deficiency", "zinc-deficiency"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Selenium deficiency", "url": "https://www.merckvetmanual.com/" },
+    { "label": "MLA — Trace element deficiencies", "url": "https://www.mla.com.au/" }
+  ]
+}

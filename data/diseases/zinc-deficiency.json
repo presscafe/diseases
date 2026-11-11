@@ -1,0 +1,153 @@
+{
+  "slug": "zinc-deficiency",
+  "name": "Zinc deficiency",
+  "synonyms": ["Parakeratosis", "Zinc-responsive dermatitis", "Zinc deficiency dermatitis"],
+  "category": "nutritional",
+  "agents": [
+    {
+      "kind": "mineral",
+      "name": "Zinc",
+      "notes": "An essential trace element required as a cofactor for over 300 enzymes and for the transcription factors that regulate gene expression. It is central to keratinisation of the skin, wound healing and immune function, which is why its deficiency presents predominantly as a skin disease."
+    },
+    {
+      "kind": "management",
+      "name": "Dietary antagonists and excess calcium",
+      "notes": "Excess calcium and phosphorus, particularly from high-calcium diets and legume forage, form insoluble complexes with zinc and reduce its absorption. Phytates in cereal grains have the same effect. The problem is usually not a lack of zinc in the diet but a lack of available zinc."
+    }
+  ],
+  "hosts": {
+    "primary": ["Pigs", "Cattle", "Goats"],
+    "also": ["Sheep", "Poultry", "Dogs"],
+    "notes": "Pigs are classically susceptible — parakeratosis in weaner pigs is the textbook presentation. Calves and goats also show a characteristic zinc-responsive dermatitis, particularly around the muzzle, eyes and hooves."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A nutritional deficiency with no public health significance, though it is an important differential in skin disease and one of the most commonly missed diagnoses."
+  },
+  "distribution": "Worldwide, particularly where soils are low in zinc or where animals are fed high-calcium or high-phytate rations. In southern Africa, zinc-responsive dermatitis is recognised in calves and goats and is a regular consideration in the differential diagnosis of crusting skin disease.",
+  "aetiology": {
+    "summary": "Zinc deficiency is usually a problem of reduced availability rather than absolute absence. High dietary calcium and phytate bind zinc in the gut, and the resulting deficiency impairs the keratinisation of the epidermis, producing a crusting dermatitis that is often mistaken for infectious or parasitic skin disease.",
+    "determinants": [
+      "Low zinc concentration in the diet",
+      "Excess calcium and phosphorus intake, particularly from high-legume forage",
+      "High phytate intake from cereal grains",
+      "The presence of other divalent cations (copper, iron) competing for absorption",
+      "High zinc demand during rapid growth, pregnancy and lactation"
+    ],
+    "risk_factors": [
+      "High-calcium diets, particularly in pigs and in cattle on legume pasture",
+      "Cereal-based rations with high phytate content",
+      "Rapidly growing weaner pigs",
+      "Calves and goats on limited-diversity diets",
+      "Grazing on zinc-poor soils",
+      "Feeding a diet with excessive supplemental calcium for growth or milk production"
+    ],
+    "epidemiology": "Zinc deficiency is a herd or group problem related to the ration or the land. In pigs, it is most common in weaners after the change from sow's milk to a cereal-based ration. In calves and goats, it appears in animals on marginal diets or with excessive calcium supplementation. Cases respond rapidly to zinc supplementation, which is itself diagnostic."
+  },
+  "pathophysiology": {
+    "summary": "Zinc is required for the synthesis of keratin and for the normal maturation of the epidermis. When zinc is deficient, keratinocytes proliferate but fail to mature and keratinise normally — a state called parakeratosis — producing retention of nuclei in the stratum corneum, thickened skin, crusting and impaired wound healing.",
+    "cascade": [
+      {
+        "title": "Reduced zinc absorption",
+        "detail": "Zinc is absorbed in the small intestine, where it competes with calcium, iron and phytate. High dietary calcium and phytate form insoluble complexes and reduce the proportion of zinc that reaches the circulation."
+      },
+      {
+        "title": "Impaired keratinocyte function",
+        "detail": "Zinc is required for the DNA-binding proteins that regulate epidermal differentiation, particularly the zinc-finger transcription factors. Without adequate zinc, keratinocytes fail to progress to normal cornification."
+      },
+      {
+        "title": "Parakeratosis",
+        "detail": "Keratinocytes retain their nuclei into the stratum corneum and the normal basket-weave of keratin is replaced by thickened, disorganised layers. The stratum corneum becomes cracked and crusted, and the skin loses its barrier function."
+      },
+      {
+        "title": "Crusting dermatitis and secondary infection",
+        "detail": "The abnormal epidermis produces the characteristic thick, adherent crusts, particularly on the muzzle, eyes, ears, scrotum and lower limbs. The compromised barrier allows secondary bacterial and fungal colonisation, which can dominate the clinical picture."
+      },
+      {
+        "title": "Impaired immunity and growth",
+        "detail": "Zinc is required for T-lymphocyte function and for wound healing, so deficiency produces increased susceptibility to infection and delayed healing, alongside reduced growth and feed efficiency."
+      }
+    ],
+    "lesions": [
+      "Thick, adherent, greyish crusts resembling elephant skin",
+      "Alopecia and crusting around the muzzle, eyes, ears and on the scrotum",
+      "Hyperkeratosis with retained nuclei in the stratum corneum (parakeratosis) on histology",
+      "Cracking and fissuring of the skin of the lower limbs",
+      "Poor hoof growth on the coronary band and heel",
+      "Secondary bacterial infection with purulent exudate"
+    ],
+    "clinical_signs": [
+      "Thick, crusty skin lesions around the muzzle, eyes and ears",
+      "Generalised dry, scaly skin with hair loss",
+      "Poor growth and reduced feed efficiency",
+      "Cracked and crusted hooves, sometimes with lameness",
+      "Reduced wound healing",
+      "Increased susceptibility to infections",
+      "In pigs, the classic parakeratosis on the back, flanks and limbs of weaners"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Serum zinc measurement — useful but can be a poor reflection of body status because serum zinc is tightly regulated",
+      "Skin biopsy showing parakeratosis, which is a strong diagnostic clue",
+      "A therapeutic trial of zinc supplementation, which is both diagnostic and therapeutic",
+      "Dietary analysis for zinc, calcium and phytate content"
+    ],
+    "postmortem": [
+      "Skin lesions are the principal finding; no systemic lesion is characteristic",
+      "Histopathology of skin biopsy is the definitive test"
+    ],
+    "laboratory": [
+      "Serum or plasma zinc, interpreted with caution",
+      "Liver zinc concentration, though it is not a sensitive indicator",
+      "Skin biopsy with histology showing parakeratosis and hyperkeratosis",
+      "Forage and feed analysis for zinc, calcium and phytate"
+    ],
+    "differentials": [
+      "Dermatophilosis — crusting lesions with a different distribution and Gram-positive filaments on smear",
+      "Mange — pruritic lesions with mites on skin scraping",
+      "Ringworm — circular lesions with fungal elements",
+      "Selenium deficiency — can cause similar skin and hoof changes, often coexists",
+      "Photosensitisation — dermatitis restricted to unpigmented skin",
+      "Bovine viral diarrhoea and other viral skin disease"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Provide adequate zinc in the ration, particularly during rapid growth and reproduction",
+      "Correct excessive calcium and phytate intake rather than simply adding more zinc",
+      "Use a balanced mineral supplement appropriate to the species",
+      "Check the zinc status of pasture and soil on deficient land",
+      "Avoid over-supplementing calcium, which is a common cause of the problem"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for a nutritional deficiency.",
+    "treatment": [
+      "Oral zinc supplementation — zinc sulphate or zinc oxide in the feed or as a drench",
+      "In severe cases, injectable zinc is available in some countries",
+      "Correct the dietary imbalance, particularly excess calcium",
+      "Many animals respond within 2-4 weeks, with the skin lesions resolving",
+      "Note that zinc toxicity can occur with over-supplementation, and copper status should be monitored as high zinc can induce copper deficiency"
+    ],
+    "outbreak": [
+      "Confirm the diagnosis, ideally with a skin biopsy and dietary analysis",
+      "Review and correct the ration, particularly the calcium and zinc ratio",
+      "Supplement zinc in the affected group",
+      "Monitor the response and reassess the ration if the lesions recur",
+      "Consider concurrent deficiencies, particularly copper and selenium"
+    ],
+    "public_health": [
+      "Zinc deficiency in livestock has no direct public health significance",
+      "Zinc is an essential human nutrient and is regulated in animal feed",
+      "Observe withdrawal periods for any veterinary products used"
+    ],
+    "notes": "This is one of the most commonly missed diagnoses in skin disease. Zinc deficiency is over-diagnosed in textbooks and under-diagnosed in practice, and a skin biopsy is the quickest way to settle the question."
+  },
+  "prognosis": "Excellent with supplementation — the skin lesions resolve within weeks and growth resumes. Poor if the underlying dietary imbalance persists, because the condition will recur after the supplementation stops.",
+  "related": ["copper-deficiency", "selenium-deficiency", "cobalt-deficiency", "dermatophilosis"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Zinc deficiency", "url": "https://www.merckvetmanual.com/" },
+    { "label": "AHDB — Mineral nutrition", "url": "https://ahdb.org.uk/" }
+  ]
+}

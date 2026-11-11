@@ -1,0 +1,147 @@
+{
+  "slug": "bovine-tuberculosis",
+  "name": "Bovine tuberculosis",
+  "synonyms": ["bTB", "Bovine TB", "Tuberculosis of cattle"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Mycobacterium bovis",
+      "notes": "A slow-growing, acid-fast, lipid-rich bacillus closely related to M. tuberculosis. The waxy cell wall resists desiccation, phagosome fusion and many disinfectants, which explains both its environmental persistence and the chronicity of disease.",
+      "reservoir": "Infected cattle; badgers in the UK and Ireland; African buffalo and other wildlife in southern Africa; humans with M. bovis infection"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle"],
+    "also": ["African buffalo", "Badgers", "Deer", "Goats", "Pigs", "Cats", "Humans"],
+    "notes": "Cattle are the principal maintenance host in managed herds. Pigs and cats are usually infected by drinking infected milk and develop alimentary or oropharyngeal lesions."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": true,
+    "national": true,
+    "note": "Test-and-slaughter programmes are the standard control approach and impose substantial cost on producers. Unpasteurised milk is the main route of human exposure."
+  },
+  "distribution": "Present worldwide where cattle are farmed, though many high-income countries have achieved official free status through sustained test-and-slaughter. In southern Africa, bTB is maintained in African buffalo populations in the Kruger ecosystem and in parts of Botswana's northern wildlife areas, with periodic spillback into cattle.",
+  "aetiology": {
+    "summary": "Infection is acquired almost entirely by inhaling aerosols from the respiratory tract of an infected animal in close confinement, or by ingesting the organism — from infected milk in calves, or from contaminated pasture where wildlife have shed the organism. Close contact and time are both required; bTB spreads slowly within a herd.",
+    "determinants": [
+      "Prolonged close contact with a shedding animal, particularly indoors or at feed and water points",
+      "A wildlife maintenance reservoir with access to pasture or shared water",
+      "Introduction of an infected but undetected animal into a naive herd",
+      "Inhalation of droplet nuclei from coughing animals, especially in housed or crowded conditions",
+      "Consumption of unpasteurised milk from an infected cow by calves or people"
+    ],
+    "risk_factors": [
+      "Intensive or housed systems with poor ventilation",
+      "Herds in or adjacent to wildlife areas with buffalo or badger populations",
+      "Purchase of cattle without pre-movement testing",
+      "Large herd size, which increases the probability of within-herd transmission before detection",
+      "Absence of a routine tuberculin testing programme"
+    ],
+    "epidemiology": "Within-herd prevalence rises slowly and can take years to become visible. Transmission is density-dependent, so small extensively managed herds may remain infected at very low prevalence for long periods. The organism is shed intermittently, which is why a single negative test does not establish freedom. The wildlife reservoir is the decisive factor in eradication: where it exists, cattle-only control cannot eliminate the disease."
+  },
+  "pathophysiology": {
+    "summary": "Inhaled bacilli are phagocytosed by alveolar macrophages but block phagosome-lysosome fusion and replicate intracellularly. A cell-mediated response walls the infection into granulomas, which contain the organism but do not eliminate it — producing the characteristic caseous, mineralised tubercles and the lifelong latency that makes the disease so difficult to detect and clear.",
+    "cascade": [
+      {
+        "title": "Inhalation and alveolar uptake",
+        "detail": "Droplet nuclei of 1-5 micrometres reach the alveoli, where resident macrophages engulf the bacilli without killing them because the lipid-rich cell wall prevents phagosome-lysosome fusion."
+      },
+      {
+        "title": "Intracellular replication and lymph drainage",
+        "detail": "Bacilli multiply within macrophages and are carried to the regional (usually bronchial or mediastinal) lymph node, where the first lesion typically forms — which is why the lymph node, not the lung, is often the most reliable post-mortem site to examine."
+      },
+      {
+        "title": "Granuloma formation",
+        "detail": "A Th1 cell-mediated response recruits lymphocytes and macrophages, forming a granuloma with a caseous necrotic centre, a zone of epithelioid macrophages and giant cells, and a fibrous capsule. Caseous material mineralises over time, producing the gritty pale nodules seen at post-mortem."
+      },
+      {
+        "title": "Latency",
+        "detail": "The granuloma contains but does not clear infection. Bacilli can remain viable for years, and reactivation follows immunosuppression, parturition or ageing — which is why disease can appear in an animal that was infected long before it entered the herd."
+      },
+      {
+        "title": "Progressive disease and shedding",
+        "detail": "As granulomas enlarge and coalesce, caseous material erodes into bronchi and is coughed out, producing the infectious aerosol. This stage determines transmission and is the reason advanced lesions correlate with infectivity."
+      }
+    ],
+    "lesions": [
+      "Caseous, yellow-white, mineralised granulomas in the lungs, most often in the caudal and dorsal regions",
+      "Enlarged, caseous bronchial and mediastinal lymph nodes — frequently the earliest lesion",
+      "Lesions in the retropharyngeal and mesenteric lymph nodes after alimentary infection",
+      "Pearls — small tubercles on the pleura and peritoneum",
+      "Extensive caseation with cavitation in advanced pulmonary disease",
+      "Tuberculous mastitis, an important route of milk-borne human exposure"
+    ],
+    "clinical_signs": [
+      "Often no signs at all — subclinical infection is the norm in low-prevalence herds",
+      "Chronic, intermittent soft cough that worsens with exercise or cold air",
+      "Progressive weight loss and reduction in milk yield",
+      "Enlarged superficial lymph nodes, particularly the prescapular and retropharyngeal nodes",
+      "Dyspnoea in advanced pulmonary disease",
+      "Unthriftiness that fails to respond to feeding or anthelmintic treatment"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Single intradermal comparative cervical tuberculin (SICCT) test, measuring skin thickness change 72 hours after injection of avian and bovine tuberculin",
+      "Interferon-gamma release assay on whole blood, used alongside or instead of tuberculin testing",
+      "Clinical examination noting chronic cough, weight loss and lymphadenopathy"
+    ],
+    "postmortem": [
+      "Examine lungs and both bronchial and mediastinal lymph nodes by systematic incision and palpation",
+      "Inspect the retropharyngeal, mesenteric and hepatic lymph nodes and the pleura for pearls",
+      "Record lesion distribution and severity, as this informs the herd-level risk assessment"
+    ],
+    "laboratory": [
+      "Ziehl-Neelsen or auramine-O staining of lesion material for acid-fast bacilli",
+      "Mycobacterial culture, which is slow (6-12 weeks) but remains the reference method",
+      "PCR or spoligotyping directly on lesions, which is faster and allows strain typing to trace sources",
+      "Histopathology showing caseating granulomatous inflammation with Langhans giant cells"
+    ],
+    "differentials": [
+      "Actinomycosis or actinobacillosis — chronic but usually localised to soft tissue or bone, not caseating granulomas",
+      "Chronic pneumonia caused by Mycoplasma, Pasteurella or Dictyocaulus",
+      "Caseous lymphadenitis in small ruminants (Corynebacterium pseudotuberculosis)",
+      "Mycobacterium avium complex, which causes cross-reaction in tuberculin testing and is a major cause of false positives",
+      "Neoplasia, particularly lymphoma in the lungs and lymph nodes"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Test-and-slaughter with regular whole-herd screening, repeated until two consecutive clear tests",
+      "Pre-movement testing of all purchased cattle",
+      "Restrict cattle access to pasture and water shared with wildlife reservoirs",
+      "Pasteurise all milk intended for human consumption or calf feeding",
+      "Maintain closed herds where practical and record all introductions"
+    ],
+    "vaccination": "No licensed vaccine is in routine use for cattle. BCG has been investigated and provides partial, inconsistent protection that interferes with tuberculin testing. Vaccination is not part of any national control programme for cattle at present.",
+    "treatment": [
+      "Treatment of cattle is not permitted in most jurisdictions and is not practised — it would create a persistent, undetectable reservoir and risk antimicrobial resistance",
+      "The control response is removal of reactors, not therapy",
+      "In exceptional circumstances and only under veterinary authority, individual treatment has been attempted, but it is not a herd strategy"
+    ],
+    "outbreak": [
+      "Notify the veterinary authority; bTB is notifiable in most countries",
+      "Impose movement restrictions on the affected premises",
+      "Slaughter confirmed reactors and carry out post-mortem examination with culture or PCR confirmation",
+      "Test all in-contact animals and repeat at defined intervals to catch animals tested in the incubation window",
+      "Investigate wildlife contact as a potential maintenance source",
+      "Review and trace cattle movements for at least two years retrospectively"
+    ],
+    "public_health": [
+      "Human M. bovis infection is typically extrapulmonary and acquired from unpasteurised milk",
+      "Boiling or pasteurising milk destroys the organism",
+      "Occupational exposure occurs in abattoir workers and veterinarians handling lesions",
+      "Human-to-cattle transmission is possible and is a relevant consideration in tuberculosis-endemic human populations"
+    ],
+    "notes": "The diagnostic sensitivity of the tuberculin test is imperfect (roughly 80% at best), which is why programmes insist on repeated whole-herd testing rather than single rounds. A single negative herd test is not evidence of freedom."
+  },
+  "prognosis": "Individual animals with confirmed infection have a poor prognosis and are removed. At herd level, the prognosis depends entirely on whether a wildlife reservoir is involved: without one, eradication is achievable; with one, sustained control rather than elimination is the realistic objective.",
+  "related": ["brucellosis"],
+  "references": [
+    { "label": "WOAH — Bovine tuberculosis", "url": "https://www.woah.org/en/disease/bovine-tuberculosis/" },
+    { "label": "WHO — Tuberculosis (zoonotic TB)", "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis" },
+    { "label": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

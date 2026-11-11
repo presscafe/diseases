@@ -1,0 +1,150 @@
+{
+  "slug": "bloat",
+  "name": "Bloat",
+  "synonyms": ["Ruminal tympany", "Frothy bloat", "Free gas bloat", "Meteorism"],
+  "category": "nutritional",
+  "agents": [
+    {
+      "kind": "management",
+      "name": "Rapid fermentative gas production",
+      "notes": "Gas accumulates in the rumen faster than it can be eructated. Two forms exist — frothy bloat, in which gas is trapped in a stable foam that cannot be eructated, and free gas bloat, in which a physical obstruction prevents eructation."
+    },
+    {
+      "kind": "management",
+      "name": "Legume and concentrate pasture composition",
+      "notes": "Lush, immature legumes — particularly clovers and lucerne — contain soluble proteins that form a stable foam with rumen gas. High-concentrate diets produce excess gas from rapid fermentation. Frost or heavy dew can also precipitate the condition in susceptible pasture."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep"],
+    "also": ["Goats"],
+    "notes": "Ruminants of all ages are susceptible. Feedlot cattle on high-concentrate rations and dairy cattle on lush legume pasture are the main risk groups."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "An acute production disease with no public health significance, but a significant cause of sudden death."
+  },
+  "distribution": "Worldwide wherever ruminants graze lush legume pasture or are fed high-concentrate rations. In southern Africa, frothy bloat is common on lucerne and clover pasture, particularly in the first grazing of the season or after rain.",
+  "aetiology": {
+    "summary": "Bloat arises when rumen gas production outpaces the capacity for eructation. In frothy bloat, the gas is trapped in a stable protein foam and cannot form the free gas bubble needed to trigger eructation. In free gas bloat, a physical obstruction prevents eructation entirely. The two forms have different causes and require different management.",
+    "determinants": [
+      "Rapid fermentation producing large volumes of gas",
+      "Formation of a stable foam from soluble plant proteins and saponins, which traps gas",
+      "Physical obstruction to eructation in free gas bloat — foreign body, oesophageal obstruction, milk fever-induced rumen stasis or lymphadenopathy",
+      "The absence of a normal eructation reflex, which can be disturbed by concurrent disease"
+    ],
+    "risk_factors": [
+      "Grazing lush, immature lucerne, clover or other legume pasture",
+      "First grazing of a legume pasture after a period of other feed",
+      "Frost or heavy dew on legume pasture, which increases foam formation",
+      "Sudden introduction to high-concentrate feed",
+      "Hypocalcaemia and rumen stasis, which impair eructation",
+      "Oesophageal obstruction from roots or foreign bodies"
+    ],
+    "epidemiology": "Cases occur in outbreaks rather than individually, because the pasture or ration affects the whole group. Frothy bloat is most common in the morning when animals graze lush pasture after a period off feed. Free gas bloat is sporadic and usually has an identifiable physical cause."
+  },
+  "pathophysiology": {
+    "summary": "Distension of the rumen by trapped gas compresses the diaphragm and the caudal vena cava. The result is reduced venous return, impaired cardiac filling and respiratory compromise, which together produce shock and death — the animal essentially suffocates and fails to circulate blood because its rumen has no room to expand.",
+    "cascade": [
+      {
+        "title": "Gas production in the rumen",
+        "detail": "Rapid fermentation of lush pasture or concentrate produces large volumes of carbon dioxide and methane, which in normal animals are eructated continuously."
+      },
+      {
+        "title": "Foam formation",
+        "detail": "Soluble plant proteins and saponins in immature legumes form a stable foam with the gas. The bubbles are too small and the foam too stiff to rise and form the free gas layer that triggers the eructation reflex."
+      },
+      {
+        "title": "Ruminal distension",
+        "detail": "The rumen distends progressively and pushes the diaphragm forward and the abdominal wall laterally, producing a visibly bloated animal with a drum-like left flank."
+      },
+      {
+        "title": "Compression of the diaphragm and vena cava",
+        "detail": "Diaphragmatic compression reduces tidal volume and produces respiratory distress. Compression of the caudal vena cava reduces venous return to the heart, producing a fall in cardiac output and blood pressure."
+      },
+      {
+        "title": "Shock and death",
+        "detail": "The combination of hypoxia and cardiovascular collapse produces shock and death, often within 30 minutes to a few hours of the first sign. Death is a consequence of compression, not of gas toxicity."
+      }
+    ],
+    "lesions": [
+      "Markedly distended rumen filling the abdominal cavity",
+      "Pale, congested or haemorrhagic lungs from compression and hypoxia",
+      "Congestion of the liver and spleen from venous obstruction",
+      "Frothy material in the rumen in frothy bloat",
+      "Evidence of the inciting cause, such as an oesophageal foreign body or hypocalcaemia"
+    ],
+    "clinical_signs": [
+      "Distension of the left flank, which is drum-like on percussion",
+      "Rapid, laboured respiration with grunting and mouth-breathing",
+      "Profuse salivation and frequent attempts to eructate",
+      "Restlessness, kicking at the abdomen and continual rising and lying down",
+      "Rapid heartbeat and weak pulse",
+      "Cyanosis of the mucous membranes in advanced cases",
+      "Inability to belch, with the animal extending the neck and groaning",
+      "Death within a short period in severe cases"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical diagnosis: left flank distension with a resonant, drum-like note on percussion and a history of lush pasture or concentrate",
+      "Pass a stomach tube to distinguish frothy bloat from free gas bloat — gas will escape through the tube in free gas bloat",
+      "Examine the animal for signs of hypocalcaemia or an oesophageal obstruction"
+    ],
+    "postmortem": [
+      "Markedly distended rumen with either frothy contents or free gas",
+      "Pale, congested lungs and evidence of venous congestion",
+      "Look for the underlying cause of free gas bloat, such as a foreign body in the oesophagus"
+    ],
+    "laboratory": [
+      "No laboratory diagnosis is required in the field",
+      "Rumen fluid analysis for foam stability and pH may be useful in research or retrospective investigation",
+      "Serum calcium should be measured if hypocalcaemia is suspected as a contributing cause"
+    ],
+    "differentials": [
+      "Oesophageal obstruction — free gas bloat with a history of foreign body or root crop",
+      "Hypocalcaemia — rumen stasis with bloat as a secondary feature",
+      "Vagal indigestion — chronic recurrent bloat with a different history",
+      "Tetanus — rigidity with a distended abdomen but different clinical signs",
+      "Rumen acidosis — usually with diarrhoea and a different time course",
+      "Esophageal injury or stricture"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Introduce cattle gradually to lush legume pasture over 7-10 days",
+      "Avoid grazing legumes when they are wet from dew or after frost",
+      "Feed hay or fibre before turning animals onto lush pasture",
+      "Use anti-bloat oils and surfactants in the drinking water or via a slow-release device",
+      "Consider feeding poloxalene or monensin in high-risk grazing situations",
+      "Manage pasture height — avoid grazing very short or very lush stands"
+    ],
+    "vaccination": "A bloat vaccine based on rumen bacterial antigens has been developed and is used in some countries, with variable results. It is not widely available in southern Africa.",
+    "treatment": [
+      "Pass a stomach tube — in free gas bloat this alone may relieve the pressure",
+      "For frothy bloat, administer anti-foaming agents such as simethicone or vegetable oil directly via the stomach tube",
+      "Stimulate eructation by walking the animal or placing it on an incline with the head downhill",
+      "Rumenotomy or trocarisation of the left flank is a last resort for acute, life-threatening distension",
+      "Treat underlying causes such as hypocalcaemia or oesophageal obstruction"
+    ],
+    "outbreak": [
+      "Remove animals from the offending pasture immediately",
+      "Provide hay and water and allow animals to settle",
+      "Treat affected animals and monitor the group",
+      "Review grazing management and introduce anti-bloat measures before returning to the pasture",
+      "Identify the pasture species and maturity stage and adjust the grazing plan"
+    ],
+    "public_health": [
+      "Bloat has no human health significance"
+    ],
+    "notes": "The distinction between frothy and free gas bloat determines the treatment. A stomach tube relieves free gas but does not help frothy bloat, where the foam must be broken down chemically."
+  },
+  "prognosis": "Good if treated early; most animals recover once gas is released or the foam is broken. Poor if the animal is presented late with respiratory or cardiovascular compromise. Untreated severe bloat is rapidly fatal.",
+  "related": ["milk-fever", "rumen-acidosis", "ketosis"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Bloat", "url": "https://www.merckvetmanual.com/" },
+    { "label": "MLA — Bloat in cattle", "url": "https://www.mla.com.au/" }
+  ]
+}

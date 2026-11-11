@@ -1,0 +1,27 @@
+{
+  "name": "diseases",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A structured reference of disease agents, aetiology, pathophysiology, and control & management.",
+  "type": "module",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "build": "node tools/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node tools/validate.mjs && node tools/build.mjs --check && node --test test/*.test.mjs",
+    "serve": "node tools/serve.mjs"
+  },
+  "keywords": [
+    "veterinary",
+    "pathology",
+    "epidemiology",
+    "aetiology",
+    "pathophysiology",
+    "livestock",
+    "reference"
+  ]
+}

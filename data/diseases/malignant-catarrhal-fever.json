@@ -1,0 +1,152 @@
+{
+  "slug": "malignant-catarrhal-fever",
+  "name": "Malignant catarrhal fever",
+  "synonyms": ["MCF", "Bovine malignant catarrh", "Snotsiekte"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "virus",
+      "name": "Ovine herpesvirus 2",
+      "notes": "Genus Macavirus, family Herpesviridae. The sheep-associated form of MCF in southern Africa is caused by OvHV-2, which is carried asymptomatically by sheep and shed in nasal secretions. In wildebeest, the related AlHV-1 causes the same syndrome in cattle — the source of the Afrikaans name 'snotsiekte'."
+    },
+    {
+      "kind": "virus",
+      "name": "Alcelaphine herpesvirus 1",
+      "notes": "The wildebeest-associated form, shed in ocular and nasal secretions of wildebeest calves and lambs, particularly in the first months of life. Both viruses cause an identical disease in cattle."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle"],
+    "also": ["Deer", "Bison", "Pigs", "Rabbit"],
+    "notes": "Sheep and wildebeest are the reservoir hosts and are themselves unaffected. Cattle, deer and other susceptible species are dead-end hosts — there is no cattle-to-cattle transmission."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "Not WOAH-listed. The economic importance lies in individual animal losses rather than trade restrictions, but the fear it generates among cattle owners is disproportionate because the case fatality is so high."
+  },
+  "distribution": "Worldwide, wherever cattle are grazed in proximity to sheep or wildebeest. In southern Africa, the wildebeest-associated form is a well-recognised risk in the Okavango and other areas where cattle and wildebeest overlap — particularly on the fringes of the delta and around game reserves.",
+  "aetiology": {
+    "summary": "MCF in cattle is an aberrant, dead-end infection acquired by close contact with the reservoir host — sheep or wildebeest — shedding virus in nasal and ocular secretions. The disease arises from an immune response that attacks the animal's own tissues as well as the virus, which is why it is invariably fatal despite the virus being present in only small amounts.",
+    "determinants": [
+      "Close physical proximity of cattle to sheep or wildebeest, especially during lambing or calving when virus shedding peaks",
+      "Shedding of OvHV-2 in nasal secretions by sheep, particularly lambs aged 2-6 months",
+      "Shedding of AlHV-1 by wildebeest calves in their first months of life",
+      "An immunological response in cattle that is disordered and self-destructive rather than protective"
+    ],
+    "risk_factors": [
+      "Grazing cattle on pasture shared with or downwind of sheep flocks",
+      "Cattle in contact with wildebeest, especially wildebeest calving areas",
+      "Confinement of sheep and cattle in adjacent pens with shared airspace",
+      "Seasonal — wildebeest calving season creates the peak risk",
+      "Young cattle appear more susceptible than adults"
+    ],
+    "epidemiology": "Cases are usually sporadic and few in number, because the disease is not transmitted cattle-to-cattle and the organism is inefficiently transmitted from the reservoir. The key epidemiological observation is the association with the presence of sheep or wildebeest. Outbreaks can involve a small cluster of cattle grazing a particular paddock."
+  },
+  "pathophysiology": {
+    "summary": "Virus enters the cattle host and infects T lymphocytes and endothelial cells, but the small viral load means tissue damage comes from the host's own immune response. A massive, misdirected T-cell response produces generalised lymphoid proliferation and vasculitis, which is the lesion that accounts for every clinical sign in the disease.",
+    "cascade": [
+      {
+        "title": "Transmission from the reservoir host",
+        "detail": "Cattle inhale OvHV-2 or AlHV-1 from the nasal or ocular secretions of sheep or wildebeest. The virus does not spread between cattle."
+      },
+      {
+        "title": "Lymphocyte infection and dissemination",
+        "detail": "The virus infects CD8+ T lymphocytes and spreads throughout the body within these cells, seeding the lymphoid tissues and the vascular endothelium."
+      },
+      {
+        "title": "Dysregulated T-cell proliferation",
+        "detail": "Rather than mounting an effective antiviral response, the host develops generalised lymphoid proliferation with large numbers of activated CD8+ T cells, both in lymph nodes and infiltrating tissues."
+      },
+      {
+        "title": "Vasculitis and mucosal necrosis",
+        "detail": "The proliferating lymphocytes accumulate around small blood vessels throughout the body, causing a widespread vasculitis. Ischaemia and necrosis follow in the most vascular tissues — the nasal mucosa, oral cavity, conjunctiva, gut and skin."
+      },
+      {
+        "title": "Organ failure and death",
+        "detail": "The combined effects of mucosal necrosis, gut involvement, renal injury and neurological damage progress over days to weeks. Death is usual, and there is no treatment that alters the course."
+      }
+    ],
+    "lesions": [
+      "Extensive necrosis and erosion of the nasal mucosa, hard palate and oral cavity",
+      "Granular or gelatinous exudate in the nasal passages and sinuses",
+      "Conjunctivitis with corneal opacity and photophobia",
+      "Enlarged, oedematous lymph nodes with lymphoid proliferation on histology",
+      "Vasculitis and perivascular lymphoid cuffing in the kidney, liver and brain",
+      "Erosive lesions in the abomasum and intestine",
+      "Dermatitis, particularly on the muzzle and teats",
+      "Keratitis with a characteristic 'painted' appearance of the limbus"
+    ],
+    "clinical_signs": [
+      "Sudden high fever (40.5-42 degrees Celsius) that does not respond to antibiotics",
+      "Profuse nasal discharge progressing from serous to mucopurulent, with crusting around the nose",
+      "Corneal opacity and conjunctivitis with excessive lacrimation and photophobia",
+      "Erosions and ulcers in the mouth and on the nasal planum",
+      "Enlarged superficial lymph nodes",
+      "Profuse watery diarrhoea in the intestinal form",
+      "Muscle tremors, head pressing and other neurological signs",
+      "Rapid weight loss and death over 3-10 days, sometimes within 24 hours in the peracute form"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical picture of fever unresponsive to antibiotics, with nasal discharge, corneal opacity and oral erosions",
+      "History of contact with sheep or wildebeest is the key epidemiological clue",
+      "PCR on blood, nasal swab or conjunctival swab — the practical confirmatory test"
+    ],
+    "postmortem": [
+      "Examine nasal cavity, oral cavity and conjunctiva for necrosis and exudate",
+      "Note generalised lymphadenopathy and renal lesions",
+      "Histology is particularly valuable: vasculitis with perivascular lymphoid accumulation is characteristic"
+    ],
+    "laboratory": [
+      "PCR for OvHV-2 or AlHV-1 on blood, nasal secretions or tissue — the test of choice",
+      "Histopathology demonstrating vasculitis and lymphoid proliferation",
+      "Virus isolation is difficult and not routinely performed",
+      "Serology is of little diagnostic value because most cattle are seronegative and the antibody response is inconsistent"
+    ],
+    "differentials": [
+      "Bovine viral diarrhoea and mucosal disease — similar oral erosions but with PI animals and no sheep or wildebeest association",
+      "Foot-and-mouth disease and vesicular stomatitis — vesicular rather than erosive lesions",
+      "Infectious bovine rhinotracheitis (IBR) — respiratory disease with nasal lesions but a different course and PCR result",
+      "Blue tongue in cattle — usually inapparent, occasionally with oral lesions",
+      "Photosensitisation — dermatitis in unpigmented skin without fever",
+      "Plant poisoning, particularly with plants causing mucosal necrosis"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Separate cattle from sheep and wildebeest, especially during lambing and calving seasons",
+      "Avoid grazing cattle on pasture recently occupied by sheep or wildebeest",
+      "Maintain physical barriers and avoid shared airspace in housed systems",
+      "Time cattle grazing to avoid wildebeest calving concentrations",
+      "If sheep and cattle must coexist, graze sheep ahead of cattle with a delay, or use separate paddocks"
+    ],
+    "vaccination": "No commercial vaccine is available. Experimental vaccines against AlHV-1 have shown partial protection in wildebeest but are not licensed or practical for cattle.",
+    "treatment": [
+      "There is no effective treatment — the disease is almost invariably fatal",
+      "Supportive care, including fluids and NSAIDs, is palliative only",
+      "Antibiotics are often given initially for suspected bacterial respiratory disease but have no effect on MCF",
+      "Euthanasia on welfare grounds is appropriate once the diagnosis is confirmed",
+      "Corticosteroids may transiently reduce the immune reaction but do not alter the outcome"
+    ],
+    "outbreak": [
+      "Confirm the diagnosis and identify the reservoir species involved",
+      "Remove cattle from pasture shared with sheep or wildebeest immediately",
+      "Do not treat surviving animals as a source of infection — they are not infectious to other cattle",
+      "Notify the veterinary authority, particularly where wildebeest are involved and neighbouring herds may be at risk",
+      "Review grazing plans for the following season"
+    ],
+    "public_health": [
+      "MCF is not a human pathogen and poses no public health risk"
+    ],
+    "notes": "This disease is best understood as an immunological accident. The virus is present in very small amounts, and the damage is done by the host's own T cells. That explains why antibiotics never work and why the case fatality is essentially 100%."
+  },
+  "prognosis": "Almost uniformly fatal. A small number of animals survive with chronic disease, but they remain unthrifty. There is no treatment that changes the outcome once clinical signs appear.",
+  "related": ["bovine-viral-diarrhoea", "foot-and-mouth-disease"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Malignant catarrhal fever", "url": "https://www.merckvetmanual.com/" },
+    { "label": "WOAH — Manual of Diagnostic Tests and Vaccines for Terrestrial Animals", "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/terrestrial-manual-online-access/" }
+  ]
+}

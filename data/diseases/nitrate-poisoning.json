@@ -1,0 +1,153 @@
+{
+  "slug": "nitrate-poisoning",
+  "name": "Nitrate and nitrite poisoning",
+  "synonyms": ["Nitrate toxicosis", "Methaemoglobinaemia", "Nitrate-nitrite poisoning"],
+  "category": "toxic",
+  "agents": [
+    {
+      "kind": "toxin",
+      "name": "Nitrite (NO2-)",
+      "notes": "The proximate toxin. Plants accumulate nitrate, and rumen microbes reduce it to nitrite, which is absorbed into the blood, oxidises the ferrous iron of haemoglobin to the ferric form and produces methaemoglobin. Methaemoglobin cannot carry oxygen, so the animal effectively suffocates while its blood appears dark brown."
+    },
+    {
+      "kind": "management",
+      "name": "Nitrate-accumulating forage and fertiliser",
+      "notes": "Nitrate accumulates in plants when uptake exceeds the capacity for reduction to protein — typically in drought-stressed plants, after heavy nitrogen fertilisation, or in the rapid growth phase. Cereal crops, brassicas, ryegrass and weeds are the usual sources. Nitrate fertiliser itself is a direct toxic hazard if animals access spills."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep"],
+    "also": ["Horses", "Goats", "Pigs"],
+    "notes": "Ruminants are much more susceptible than monogastrics because the rumen converts nitrate to the far more toxic nitrite. Monogastric animals can tolerate higher nitrate intakes, though nitrite itself is still toxic to them. Cattle are the most commonly affected species."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A plant and fertiliser poisoning with no direct public health significance, though high dietary nitrate is a human food safety consideration in some vegetables."
+  },
+  "distribution": "Worldwide wherever nitrogen fertiliser is used on forage crops or where drought conditions cause nitrate accumulation. In southern Africa, nitrate poisoning is associated with fertilised pasture, cereal crops and weeds following drought-breaking rains.",
+  "aetiology": {
+    "summary": "Nitrate poisoning occurs when forage containing accumulated nitrate is consumed and rumen microbes reduce it to nitrite faster than the animal can metabolise it. The accumulation in plants depends on the balance between nitrogen uptake and the plant's capacity to convert it to protein, which is why drought-stressed and heavily fertilised plants are dangerous.",
+    "determinants": [
+      "Nitrate accumulation in forage, driven by drought stress, fertilisation, low light or rapid growth",
+      "Rumen microbial reduction of nitrate to nitrite",
+      "The rate of nitrite absorption relative to the rate of its metabolism",
+      "The dose consumed, particularly when animals are hungry and eat greedily",
+      "Direct access to nitrate fertiliser"
+    ],
+    "risk_factors": [
+      "Feeding heavily nitrogen-fertilised pasture or hay",
+      "Drought-stressed crops and weeds, particularly cereals, brassicas and ryegrass",
+      "Sudden grazing of a nitrate-rich crop after a period of feed shortage",
+      "Access to nitrate fertiliser, spills or contaminated water",
+      "High nitrate water sources, which can be a significant contributor in drought",
+      "Low dietary energy, which limits the animal's ability to detoxify nitrite"
+    ],
+    "epidemiology": "Outbreaks occur when a group is fed or grazed on the same high-nitrate forage, and severity correlates with intake. Cases often follow drought-breaking rain, which triggers rapid regrowth and nitrate accumulation in already-stressed plants. The condition is frequently confused with prussic acid poisoning because both are acute forage-associated intoxications."
+  },
+  "pathophysiology": {
+    "summary": "Nitrate is reduced to nitrite in the rumen, and absorbed nitrite oxidises haemoglobin to methaemoglobin, which cannot bind oxygen. The result is a functional anaemia: the blood carries less oxygen, the tissues are hypoxic and the animal effectively suffocates. Methaemoglobin also shifts the oxyhaemoglobin dissociation curve, further impairing oxygen delivery.",
+    "cascade": [
+      {
+        "title": "Ingestion of high-nitrate forage",
+        "detail": "Plants that have accumulated nitrate are consumed, and the nitrate is released into the rumen. Rumen microbial nitrate reductase then reduces nitrate (NO3-) to nitrite (NO2-)."
+      },
+      {
+        "title": "Absorption of nitrite",
+        "detail": "Nitrite is absorbed across the rumen wall and into the bloodstream. The rate of absorption depends on rumen pH and the quantity of nitrite produced."
+      },
+      {
+        "title": "Haemoglobin oxidation",
+        "detail": "Nitrite oxidises the ferrous (Fe2+) iron of haemoglobin to the ferric (Fe3+) form, producing methaemoglobin. Methaemoglobin cannot bind oxygen, and the blood takes on a dark brown or chocolate colour."
+      },
+      {
+        "title": "Impaired oxygen delivery",
+        "detail": "Methaemoglobinaemia reduces the oxygen-carrying capacity of the blood, and the surviving oxyhaemoglobin releases its oxygen less readily. Tissues become hypoxic despite a normal arterial oxygen tension."
+      },
+      {
+        "title": "Hypoxia, respiratory distress and death",
+        "detail": "The brain and heart are most sensitive to hypoxia, producing weakness, rapid respiration, cyanosis, coma and death. Methaemoglobin levels above about 60-70% are usually fatal."
+      }
+    ],
+    "lesions": [
+      "Dark brown or chocolate-coloured blood that does not brighten on exposure to air",
+      "Brown-tinged mucous membranes and tissues",
+      "Congestion and oedema of the lungs",
+      "Petechial haemorrhages in some cases",
+      "Plant material in the rumen consistent with the source"
+    ],
+    "clinical_signs": [
+      "Rapid, laboured breathing with a normal or slightly increased body temperature",
+      "Brown or blue-brown discolouration of the mucous membranes",
+      "Weakness, staggering and muscle tremors",
+      "Profuse salivation and abdominal discomfort",
+      "Cyanosis progressing to a brown-tinged colour in the oral mucosa",
+      "Convulsions and coma in severe cases",
+      "Sudden death, often within hours of exposure"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Rapid field test for methaemoglobin in a blood sample — a drop of blood that remains brown rather than turning bright red on exposure to air is highly suggestive",
+      "Blood gas or co-oximetry for methaemoglobin percentage where available",
+      "Response to methylene blue is both diagnostic and therapeutic",
+      "Forage and water analysis for nitrate concentration"
+    ],
+    "postmortem": [
+      "Dark brown blood and brown-tinged tissues are the characteristic finding",
+      "Note the presence of high-nitrate plant material in the rumen",
+      "Submit rumen contents and forage for nitrate analysis"
+    ],
+    "laboratory": [
+      "Methaemoglobin concentration in blood by co-oximetry",
+      "Nitrate measurement in plasma, aqueous humour or rumen fluid",
+      "Forage and water nitrate analysis",
+      "A bedside test using a drop of blood on filter paper — brown rather than red indicates methaemoglobinaemia"
+    ],
+    "differentials": [
+      "Prussic acid (cyanide) poisoning — also acute and forage-associated, but the blood is bright red rather than brown",
+      "Carbon monoxide poisoning — similar methaemoglobin-like picture but a different exposure history",
+      "Respiratory disease causing hypoxia — fever, cough and abnormal lung sounds",
+      "Urea poisoning — ruminants can be poisoned by excess urea; rapid death with severe hyperexcitability",
+      "Nitrate fertiliser ingestion — the same mechanism but a direct toxic exposure rather than plant accumulation"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Test nitrate levels in forage before feeding, particularly in drought years",
+      "Avoid applying excessive nitrogen fertiliser, especially close to grazing",
+      "Do not graze drought-stressed or recently fertilised forage",
+      "Dilute high-nitrate forage with low-nitrate roughage",
+      "Provide adequate energy in the diet, which improves the rumen's capacity to detoxify nitrite",
+      "Secure nitrate fertiliser and prevent animal access"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for a nutritional or fertiliser poisoning.",
+    "treatment": [
+      "Methylene blue (methylthioninium chloride) is the specific antidote — it accelerates the reduction of methaemoglobin back to haemoglobin",
+      "Administer slowly intravenously under veterinary supervision, as methylene blue itself can be toxic at high doses",
+      "Remove the animal from the source of nitrate immediately",
+      "Supportive care: oxygen and fluids",
+      "Note that methylene blue is not effective in horses and is not used in that species"
+    ],
+    "outbreak": [
+      "Remove the offending forage or fertiliser immediately",
+      "Submit forage and water samples for nitrate analysis",
+      "Treat affected animals with methylene blue",
+      "Review fertiliser application and grazing management",
+      "Dilute the forage supply or source alternative roughage"
+    ],
+    "public_health": [
+      "Nitrate poisoning in livestock has no direct public health significance",
+      "High nitrate concentrations in drinking water are a human health concern, particularly for infants",
+      "Observe meat and milk withdrawal periods for any veterinary medicines used"
+    ],
+    "notes": "The blood colour is the practical field differentiator: bright red suggests prussic acid, dark brown suggests nitrate. Both are acute forage intoxications and both require immediate removal from the source."
+  },
+  "prognosis": "Good with prompt methylene blue treatment — animals can recover rapidly and completely. Poor in severe cases with methaemoglobin above 60%, and many animals are found dead. Survivors generally have no lasting effects.",
+  "related": ["prussic-acid-poisoning", "aflatoxicosis", "bloat"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Nitrate poisoning", "url": "https://www.merckvetmanual.com/" },
+    { "label": "Cornell — Plants poisonous to livestock", "url": "https://poisonousplants.ansci.cornell.edu/" }
+  ]
+}

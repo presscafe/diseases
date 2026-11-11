@@ -1,0 +1,164 @@
+{
+  "slug": "rumen-acidosis",
+  "name": "Rumen acidosis",
+  "synonyms": ["Ruminal acidosis", "Grain overload", "Subacute ruminal acidosis (SARA)", "Carbohydrate engorgement"],
+  "category": "nutritional",
+  "agents": [
+    {
+      "kind": "management",
+      "name": "Excess readily fermentable carbohydrate",
+      "notes": "The cause is a ration or grazing episode in which rapidly fermentable starch or sugar overwhelms the rumen's buffering and absorptive capacity. The primary insult is dietary, not infectious."
+    },
+    {
+      "kind": "bacterium",
+      "name": "Streptococcus bovis",
+      "notes": "A rumen bacterium that proliferates explosively when starch is abundant, producing lactic acid as the end product of fermentation. Its overgrowth converts a normally near-neutral rumen into an acid-producing vat, and the resulting lactic acid accumulation is the proximate cause of the acidosis.",
+      "toxins": ["Lactic acid", "Endotoxins released from Gram-negative rumen bacteria on death"]
+    },
+    {
+      "kind": "toxin",
+      "name": "D-lactic acid",
+      "notes": "The isomer produced preferentially by S. bovis. It is poorly metabolised by the animal and is absorbed into the bloodstream, contributing to systemic acidosis and neurological signs. Its accumulation distinguishes acute ruminal acidosis from simple low rumen pH."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle"],
+    "also": ["Sheep", "Goats"],
+    "notes": "Feedlot cattle adapted to high-concentrate rations are the classic group for subacute disease. Any ruminant that gains sudden access to grain — a broken feed bin, a spilled load, a first introduction to concentrate — can develop the acute form."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A production disease with no public health significance. It is one of the most economically important nutritional disorders in feedlot and intensive dairy systems."
+  },
+  "distribution": "Worldwide in intensive ruminant production, particularly feedlots, dairy herds on high-concentrate rations and sheep finishing systems. In southern Africa it is a recognised risk in feedlots and in dairy herds during ration transitions.",
+  "aetiology": {
+    "summary": "Rumen acidosis results from a mismatch between the fermentability of the diet and the rumen's adaptive capacity. When a large load of starch or sugar arrives faster than the rumen microbes can adapt, S. bovis outgrows the normal population, lactic acid accumulates faster than it is absorbed or metabolised, and rumen pH falls abruptly.",
+    "determinants": [
+      "A sudden increase in the proportion of readily fermentable carbohydrate",
+      "Inadequate adaptation of the rumen microbial population to the new ration",
+      "Insufficient physically effective fibre to stimulate rumination and saliva production",
+      "The buffering capacity of the rumen, which is exceeded by rapid acid production",
+      "Feeding management — slug feeding, irregular feeding times or competition at the trough"
+    ],
+    "risk_factors": [
+      "Abrupt introduction of grain or high-concentrate feed",
+      "Insufficient fibre in the ration",
+      "Overmixing of concentrate in a total mixed ration, allowing sorting",
+      "Feedlot entry and ration step-up programmes that are too aggressive",
+      "Accidental access to a grain store or spilled concentrate",
+      "Hot weather reducing feed intake and altering feeding patterns",
+      "Low rumen pH in the pre-calving period in dairy cows"
+    ],
+    "epidemiology": "Acute acidosis is an event, often affecting a group that gained access to a large amount of grain at once. Subacute ruminal acidosis (SARA) is a chronic herd-level problem, prevalent in 20-30% of cows in many dairy herds, and is difficult to detect because it produces no dramatic signs — only reduced fibre digestion, reduced milk fat and laminitis over time."
+  },
+  "pathophysiology": {
+    "summary": "Rapid starch fermentation produces lactic acid faster than the rumen can absorb or buffer it, driving rumen pH below the tolerance of the normal fibre-digesting population. The resulting lactic acidosis kills the buffering microbes, releases endotoxin from dying Gram-negative bacteria, and draws water into the rumen osmotically, producing systemic acidosis and dehydration.",
+    "cascade": [
+      {
+        "title": "Starch overload",
+        "detail": "A large load of readily fermentable carbohydrate enters the rumen and is rapidly fermented by the amylolytic bacterial population, particularly Streptococcus bovis and Lactobacillus species."
+      },
+      {
+        "title": "Lactic acid accumulation",
+        "detail": "S. bovis produces lactic acid rather than the volatile fatty acids produced by the normal fibre-digesting population. Lactic acid is a stronger acid and is absorbed and metabolised more slowly, so it accumulates and drives rumen pH below 5.0."
+      },
+      {
+        "title": "Microbial die-off and endotoxin release",
+        "detail": "The low pH kills the acid-sensitive population, including protozoa and the fibre-digesting bacteria, releasing endotoxins from Gram-negative bacteria as they die. These endotoxins are absorbed across a damaged rumen epithelium."
+      },
+      {
+        "title": "Osmotic fluid shift and dehydration",
+        "detail": "The accumulation of lactate and the associated solutes raises rumen osmolarity, drawing water from the circulation into the rumen. The result is systemic dehydration, haemoconcentration and reduced blood volume."
+      },
+      {
+        "title": "Systemic acidosis and its consequences",
+        "detail": "Absorbed D-lactic acid and endotoxin produce a metabolic acidosis, cardiovascular compromise and, in the acute form, death. Survivors frequently develop rumenitis, liver abscesses and laminitis in the weeks that follow."
+      }
+    ],
+    "lesions": [
+      "Rumen contents that are watery, sour-smelling and low in fibre",
+      "Rumen pH below 5.0 in the acute form",
+      "Ruminal epithelium that is congested, eroded or sloughing",
+      "Rumenitis with secondary bacterial or fungal invasion",
+      "Liver abscesses as a sequela of rumenitis in feedlot cattle",
+      "Laminitis and hoof lesions in chronic cases",
+      "Dehydration and haemoconcentration"
+    ],
+    "clinical_signs": [
+      "Reduced feed intake and rumination",
+      "Diarrhoea, often with undigested grain visible in the faeces",
+      "Distended abdomen and a sloshing, fluid-filled rumen",
+      "Depression, weakness and reluctance to move",
+      "Dehydration with sunken eyes",
+      "In acute cases: staggering, recumbency, tachycardia and death",
+      "In subacute cases: reduced milk fat, reduced feed efficiency and laminitis",
+      "Secondary liver abscesses and caudal vena cava syndrome in chronic feedlot cases"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Rumen fluid pH measurement via rumenocentesis or stomach tube — the definitive field test",
+      "Examine rumen fluid for consistency, colour and protozoal activity",
+      "Urine pH, which falls in systemic acidosis",
+      "History of a ration change or accidental grain access"
+    ],
+    "postmortem": [
+      "Measure rumen pH and examine the rumen contents for grain and absence of fibre mat",
+      "Inspect the rumen epithelium for congestion, erosion and sloughing",
+      "Look for liver abscesses and hoof lesions"
+    ],
+    "laboratory": [
+      "Rumen fluid pH measurement — below 5.0 indicates acute acidosis, 5.0-5.5 indicates subacute",
+      "Blood gas analysis showing metabolic acidosis and low bicarbonate",
+      "Serum or plasma lactate, including D-lactate",
+      "Urine pH as a proxy for systemic acid-base status"
+    ],
+    "differentials": [
+      "Bloat — distension without the acidotic signs and different rumen fluid",
+      "Simple indigestion from a dietary change — rumen pH near normal",
+      "Ketosis — reduced intake and ketones, but with a different metabolic profile",
+      "Bovine viral diarrhoea and other enteritis-causing infections",
+      "Salmonellosis",
+      "Rumen impaction — a different rumen fluid consistency and history"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Step up concentrate rations gradually over at least 3 weeks",
+      "Include adequate physically effective fibre to stimulate rumination and saliva flow",
+      "Feed total mixed rations and prevent sorting",
+      "Maintain consistent feeding times and avoid slug feeding",
+      "Use rumen buffers such as sodium bicarbonate in high-risk rations",
+      "Monitor rumen pH or milk fat as an early indicator of subacute acidosis"
+    ],
+    "vaccination": "A vaccine against S. bovis and Lactobacillus has been developed and used in some feedlot systems with modest results. It is not a substitute for ration management and is not widely used in southern Africa.",
+    "treatment": [
+      "Remove the offending feed and provide good-quality hay to stimulate rumination",
+      "Correct dehydration and acidosis with intravenous fluids, including bicarbonate where indicated",
+      "Rumen buffers — sodium bicarbonate or magnesium hydroxide — by stomach tube in acute cases",
+      "Rumenotomy or rumen lavage may be required in severe grain overload",
+      "Broad-spectrum antibiotics in severe cases to address the bacterial overgrowth and endotoxaemia",
+      "Treat laminitis and liver abscesses as they become apparent in the following weeks"
+    ],
+    "outbreak": [
+      "Remove access to the offending feed immediately",
+      "Provide hay and water and allow animals to stabilise",
+      "Treat severely affected animals with fluids and buffers",
+      "Review the ration formulation and step-up programme",
+      "Monitor for sequelae — laminitis, liver abscesses and reduced performance — over the following weeks"
+    ],
+    "public_health": [
+      "Rumen acidosis has no human health significance",
+      "Observe withdrawal periods for any antibiotics used in treatment"
+    ],
+    "notes": "The acute form is dramatic and easily recognised. The subacute form is the economically larger problem and is invisible without deliberate monitoring — milk fat depression and unexplained laminitis are the practical clues."
+  },
+  "prognosis": "Good with early intervention in mild cases. Guarded to poor in acute grain overload, where mortality can be high without aggressive treatment. Survivors often suffer permanent consequences, including laminitis and reduced production.",
+  "related": ["bloat", "ketosis", "laminitis"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Ruminal acidosis", "url": "https://www.merckvetmanual.com/" },
+    { "label": "DairyNZ — Acidosis", "url": "https://www.dairynz.co.nz/" }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "milk-fever",
+  "name": "Milk fever",
+  "synonyms": ["Parturient paresis", "Hypocalcaemia", "Parturient hypocalcaemia", "Downer cow syndrome (late stage)"],
+  "category": "metabolic",
+  "agents": [
+    {
+      "kind": "mineral",
+      "name": "Calcium",
+      "notes": "Not an infectious agent, but a nutrient whose homeostatic control fails at parturition. The disorder is a failure of calcium mobilisation relative to the sudden calcium drain of colostrum and milk production, not a deficiency of calcium in the diet as such."
+    },
+    {
+      "kind": "management",
+      "name": "Parturition and onset of lactation",
+      "notes": "The physiological trigger. The abrupt onset of milk synthesis in a high-producing dairy cow creates a calcium demand that can exceed the ability of the parathyroid hormone and vitamin D axis to mobilise calcium from bone and gut."
+    }
+  ],
+  "hosts": {
+    "primary": ["Dairy cattle"],
+    "also": ["Beef cattle", "Sheep", "Goats", "Buffalo"],
+    "notes": "High-producing dairy cows are the classic risk group — older, high-yielding cows in their third or later lactation. Jerseys and Guernseys are more susceptible than Holsteins. Ewes can develop the equivalent disorder in late pregnancy (pregnancy toxaemia-adjacent hypocalcaemia)."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A production disease with no public health or trade significance. Its importance is purely economic and welfare-related."
+  },
+  "distribution": "Worldwide in dairy production systems. Particularly common in high-producing herds where cows are fed high-potassium forage and are not transitioned onto a controlled pre-calving diet.",
+  "aetiology": {
+    "summary": "Milk fever results from the failure of calcium homeostasis at the onset of lactation. The cow's calcium demand rises abruptly with colostrum production and milk synthesis, and the parathyroid response — bone resorption, renal conservation and increased intestinal absorption — is too slow to compensate, particularly when the diet is rich in potassium and low in magnesium.",
+    "determinants": [
+      "A sudden increase in calcium demand at parturition and the onset of lactation",
+      "Delayed or inadequate parathyroid hormone response and bone calcium mobilisation",
+      "High dietary potassium, which reduces the responsiveness of the calcium-regulating mechanism",
+      "Low dietary magnesium, which impairs parathyroid hormone secretion and action",
+      "Age and lactation number, with older cows having a reduced capacity to mobilise bone calcium"
+    ],
+    "risk_factors": [
+      "High-producing dairy cows in their third or later lactation",
+      "High-potassium forage, such as lush pasture or silage from heavily fertilised land",
+      "Low-magnesium diets, particularly in spring grazing",
+      "Jersey and Guernsey breeds, which are genetically more susceptible",
+      "Sudden onset of high milk yield after calving",
+      "Absence of a transition diet or anionic salt programme before calving"
+    ],
+    "epidemiology": "Milk fever is one of the most common metabolic disorders of dairy cattle, affecting a significant proportion of cows in some herds. Incidence is highest in the first 48 hours after calving. It recurs in subsequent lactations in affected cows and is a risk factor for secondary conditions, including retained placenta, metritis and displaced abomasum."
+  },
+  "pathophysiology": {
+    "summary": "The onset of lactation drains calcium into colostrum faster than the parathyroid axis can mobilise it from bone, producing a rapid fall in ionised calcium. Because calcium is required for neurotransmitter release, muscle contraction and cardiac function, the deficiency produces the flaccid paralysis, recumbency and blunted gut and uterine motility that define the syndrome.",
+    "cascade": [
+      {
+        "title": "Calcium drain at parturition",
+        "detail": "Colostrum contains a large amount of calcium, and the start of milk synthesis removes calcium from the extracellular pool abruptly — the demand can exceed the entire extracellular calcium pool within hours."
+      },
+      {
+        "title": "Impaired parathyroid response",
+        "detail": "The parathyroid gland should respond to falling ionised calcium by increasing bone resorption and renal calcium reabsorption. In a cow with a high-potassium diet, the parathyroid receptor is less responsive, so the response is delayed and inadequate."
+      },
+      {
+        "title": "Falling ionised calcium",
+        "detail": "Ionised calcium, the physiologically active fraction, falls below around 0.8 millimoles per litre. Because calcium is needed for neurotransmitter vesicle release at the neuromuscular junction, this produces a failure of excitation-contraction coupling."
+      },
+      {
+        "title": "Flaccid paralysis and recumbency",
+        "detail": "Muscle tone is lost, producing the characteristic recumbency, and smooth muscle motility is reduced, producing ruminal stasis and a blunted uterine response. The head often rests on the flank, and the animal may become unable to stand."
+      },
+      {
+        "title": "Cardiac and respiratory compromise",
+        "detail": "Cardiac output falls, producing tachycardia and hypotension. Prolonged recumbency adds pressure myopathy and nerve injury, which explains why some cows do not rise even after calcium correction."
+      }
+    ],
+    "lesions": [
+      "No characteristic gross lesions — the disorder is functional",
+      "Evidence of recumbency-related pressure myopathy in the hindlimbs in prolonged cases",
+      "Possible concurrent retained placenta, metritis or displaced abomasum",
+      "Aspiration pneumonia in recumbent cows"
+    ],
+    "clinical_signs": [
+      "Recumbency, usually within 48 hours of calving, with the head resting on the flank",
+      "Cold extremities and a subnormal temperature",
+      "Flaccid paralysis with the animal unable to rise",
+      "Dilated pupils and reduced pupillary reflex",
+      "Dry muzzle and skin, with reduced sweating",
+      "Ruminal stasis and absent defecation",
+      "Tachycardia with weak, arrhythmic heart sounds",
+      "In mild cases, tremors, ataxia and a wobbly gait before recumbency"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical diagnosis based on recumbency within 48 hours of calving in a multiparous dairy cow, with no fever",
+      "Response to intravenous calcium is both diagnostic and therapeutic",
+      "Blood analysis showing low total and ionised calcium",
+      "Differentiate from hypomagnesaemia, ketosis and traumatic injury"
+    ],
+    "postmortem": [
+      "No diagnostic lesion — diagnosis is made clinically",
+      "Examine for secondary complications such as displaced abomasum or aspiration pneumonia"
+    ],
+    "laboratory": [
+      "Serum calcium below 2.0 millimoles per litre, with ionised calcium below 0.8 millimoles per litre in the acute form",
+      "Serum magnesium and phosphorus to identify concurrent deficiencies",
+      "Beta-hydroxybutyrate to exclude concurrent ketosis"
+    ],
+    "differentials": [
+      "Hypomagnesaemia (grass tetany) — similar recumbency but often with tetany, hyperaesthesia and convulsions",
+      "Ketosis — recumbency with a ketone smell, reduced appetite and a different response to therapy",
+      "Traumatic injury — pelvic fracture or limb fracture after slipping",
+      "Displaced abomasum — usually presents with anorexia and reduced milk yield rather than flaccid recumbency",
+      "Botulism — flaccid paralysis without the calving-associated timing",
+      "Septic metritis — fever and toxaemia distinguish it"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Use a transition diet with a low dietary cation-anion difference (DCAD) before calving to acidify the blood and prime bone calcium mobilisation",
+      "Feed low-potassium forage in the close-up dry period",
+      "Ensure adequate magnesium in the pre-calving diet",
+      "Avoid overconditioning at calving",
+      "Provide a calcium binder or oral calcium supplementation to high-risk cows around calving"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for a metabolic disorder.",
+    "treatment": [
+      "Intravenous calcium borogluconate (usually as a 23% solution) is the specific and life-saving treatment",
+      "Administer slowly while monitoring the heart, because rapid infusion can cause arrhythmia and cardiac arrest",
+      "Oral calcium supplements, particularly as gels or boluses, for follow-up or for mild cases",
+      "Provide bedding and assist the cow to rise; lift her body to allow circulation to recover",
+      "Treat secondary complications such as mastitis, metritis or displaced abomasum",
+      "Note that a cow that does not rise after calcium is likely to have pressure myopathy or another problem"
+    ],
+    "outbreak": [
+      "Review the pre-calving diet and transition management",
+      "Check forage potassium and magnesium levels",
+      "Introduce a DCAD programme under veterinary supervision",
+      "Consider oral calcium boluses for all cows around calving in problem herds",
+      "Monitor the incidence and identify the at-risk group"
+    ],
+    "public_health": [
+      "Milk fever has no human health significance",
+      "Milk from treated cows is subject to withdrawal periods only if antibiotics or other veterinary medicines have been administered"
+    ],
+    "notes": "The 'downer cow' is the practical challenge. Calcium corrects the hypocalcaemia within minutes, but an animal that has been recumbent for hours may already have pressure myopathy that no amount of calcium will reverse."
+  },
+  "prognosis": "Excellent with prompt intravenous calcium — many cows stand within minutes to hours. Guarded if recumbency has been prolonged, because of the risk of pressure myopathy, aspiration pneumonia and secondary conditions.",
+  "related": ["ketosis", "bloat", "grass-tetany"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Parturient paresis", "url": "https://www.merckvetmanual.com/" },
+    { "label": "DairyNZ — Production diseases", "url": "https://www.dairynz.co.nz/" }
+  ]
+}

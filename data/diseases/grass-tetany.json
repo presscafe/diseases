@@ -1,0 +1,151 @@
+{
+  "slug": "grass-tetany",
+  "name": "Grass tetany",
+  "synonyms": ["Hypomagnesaemia", "Grass staggers", "Lactation tetany", "Spring tetany"],
+  "category": "nutritional",
+  "agents": [
+    {
+      "kind": "mineral",
+      "name": "Magnesium",
+      "notes": "The deficient nutrient. Magnesium is essential for parathyroid hormone secretion and action, for neuromuscular transmission and for enzyme function. Ruminants cannot mobilise magnesium from bone reserves, so they depend entirely on continuous dietary intake — the reason hypomagnesaemia can develop within days."
+    },
+    {
+      "kind": "management",
+      "name": "Spring grazing and lactation",
+      "notes": "The management trigger. Lush, rapidly growing grass in spring is low in magnesium and high in potassium, which further reduces magnesium absorption. Lactating cows have an increased magnesium requirement that coincides with the period of lowest dietary supply."
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep"],
+    "also": ["Goats"],
+    "notes": "Lactating cows are the main group affected, particularly older, high-producing animals. Sheep are also affected, usually ewes in late pregnancy or early lactation. Young animals grazing with their dams are less often affected."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "A production disease with no public health significance."
+  },
+  "distribution": "Worldwide in temperate and subtropical grazing systems. Most common in spring on rapidly growing pasture, and on soils with low magnesium or high potassium. In southern Africa, it occurs in sheep and cattle on lush irrigated or fertilised pasture, and in ewes in late pregnancy.",
+  "aetiology": {
+    "summary": "Grass tetany is a failure of magnesium supply rather than of regulation. Because ruminants have no meaningful bone magnesium reserve, plasma magnesium falls within days when intake is low. The problem is compounded by high potassium and nitrogen fertilisation, which reduce magnesium absorption from the rumen.",
+    "determinants": [
+      "Low dietary magnesium intake from pasture that is low in magnesium",
+      "High potassium intake from heavily fertilised or rapidly growing grass, which reduces magnesium absorption",
+      "High ammonium or protein levels in lush pasture, which compete with magnesium absorption",
+      "The increased magnesium demand of lactation and late pregnancy",
+      "The absence of any bone magnesium reserve to buffer a shortfall"
+    ],
+    "risk_factors": [
+      "Spring grazing on lush, rapidly growing pasture",
+      "Heavy potassium or nitrogen fertilisation",
+      "Lactating cows in early lactation, particularly older high-yielding animals",
+      "Ewes in late pregnancy and early lactation",
+      "Sudden change from hay or conserved forage to lush pasture",
+      "Cold, wet or stressful weather, which reduces grazing intake",
+      "Poor magnesium status of the soil, common in sandy or leached soils"
+    ],
+    "epidemiology": "Grass tetany occurs in outbreaks rather than as isolated cases, because the pasture conditions affect the whole grazing group. The peak is in spring and early lactation, and it is often triggered by a change in weather that reduces feed intake. Untreated cases are rapidly fatal, which makes the disease particularly feared by producers."
+  },
+  "pathophysiology": {
+    "summary": "Magnesium is a required cofactor for the release of acetylcholine at the neuromuscular junction and for the normal function of the calcium-regulating system. When plasma magnesium falls, the neuromuscular junction becomes hyperexcitable — the opposite of the pattern in milk fever — producing tetany, convulsions and death.",
+    "cascade": [
+      {
+        "title": "Dietary magnesium shortfall",
+        "detail": "Ruminants absorb magnesium inefficiently from the rumen and have no significant bone reserve, so plasma magnesium falls within a few days of a low-magnesium intake."
+      },
+      {
+        "title": "Impaired parathyroid function",
+        "detail": "Magnesium is required for parathyroid hormone secretion and for its action on target tissues, so hypomagnesaemia produces a secondary hypocalcaemia in many cases, which worsens the neuromuscular signs."
+      },
+      {
+        "title": "Neuromuscular hyperexcitability",
+        "detail": "Low extracellular magnesium reduces the threshold for nerve and muscle excitation by removing the normal magnesium block on calcium influx at the presynaptic terminal. The result is spontaneous and uncoordinated muscle activity."
+      },
+      {
+        "title": "Tetany and convulsions",
+        "detail": "Hyperexcitability produces muscle tremors, staggering, hyperaesthesia to touch and sound, and eventually tonic-clonic convulsions. Animals may become aggressive or unresponsive."
+      },
+      {
+        "title": "Cardiac and respiratory arrest",
+        "detail": "The terminal event is often cardiac or respiratory arrest during a convulsion. Death can occur within hours of the first signs, and many animals are simply found dead."
+      }
+    ],
+    "lesions": [
+      "No specific gross lesion — the disorder is functional",
+      "Possible bruising or trauma from convulsions and falling",
+      "Evidence of low magnesium status in forage and serum analysis"
+    ],
+    "clinical_signs": [
+      "Muscle tremors and twitching, particularly of the face and flanks",
+      "Staggering gait and an unsteady, stiff-legged stance",
+      "Hyperaesthesia — exaggerated response to touch, noise and light",
+      "Excitement, aggression or unusual behaviour",
+      "Tetanic spasms and tonic-clonic convulsions",
+      "Profuse sweating and an elevated heart and respiratory rate",
+      "Sudden death, often found without any observed prior signs",
+      "In sheep, similar signs with a frequent head-back posture during convulsions"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical picture of tetany and hyperaesthesia in a lactating animal on lush pasture in spring",
+      "Response to intravenous magnesium and calcium is both diagnostic and therapeutic",
+      "Serum magnesium below 0.8 millimoles per litre, with clinical signs usually appearing below 0.5 millimoles per litre",
+      "Serum calcium may also be low, reflecting the secondary hypocalcaemia"
+    ],
+    "postmortem": [
+      "No specific lesion; the diagnosis is typically made from history and clinical findings",
+      "Note any bruising or trauma from convulsions"
+    ],
+    "laboratory": [
+      "Serum magnesium measurement, ideally before treatment",
+      "Serum calcium to detect concurrent hypocalcaemia",
+      "Forage analysis for magnesium and potassium content"
+    ],
+    "differentials": [
+      "Hypocalcaemia (milk fever) — flaccid paralysis rather than tetany, and a different response to therapy",
+      "Ketosis — recumbency and inappetence without tetany",
+      "Tetanus — also causes rigidity but with trismus and a wound history",
+      "Organophosphate poisoning — hypersalivation and miosis with muscle twitching",
+      "Acute lead poisoning — convulsions with a different exposure history",
+      "Plant poisoning causing convulsions, such as strychnine-containing plants"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Provide magnesium supplementation during the risk period — magnesium oxide or magnesium chloride added to feed, or in a mineral mixture",
+      "Use magnesium-containing blocks or licks, though intake can be unreliable",
+      "Apply magnesium fertiliser to pasture where deficiency is a recurring problem",
+      "Avoid over-fertilisation with potassium and nitrogen, which impair magnesium absorption",
+      "Provide hay or fibre alongside lush pasture to improve rumen function and intake",
+      "Consider slow-release magnesium boluses for high-risk groups"
+    ],
+    "vaccination": "Not applicable — no vaccine exists for a nutritional deficiency.",
+    "treatment": [
+      "Intravenous magnesium sulphate, often combined with calcium borogluconate, is the specific treatment",
+      "Administer slowly, monitoring for cardiac arrhythmia and respiratory depression",
+      "Follow with oral magnesium supplementation to prevent relapse, which is common within days",
+      "Provide shelter and quiet handling — affected animals may convulse if handled roughly",
+      "Treat in-contact animals with oral magnesium because the whole group is likely to be deficient"
+    ],
+    "outbreak": [
+      "Administer magnesium to all animals in the affected group",
+      "Analyse forage and consider amending the fertiliser programme and the supplementary feeding regime",
+      "Identify the pasture conditions that triggered the outbreak",
+      "Provide hay or conserved forage to reduce dependence on lush pasture",
+      "Review the mineral supplementation programme for the season"
+    ],
+    "public_health": [
+      "Grass tetany has no human health significance",
+      "Observe withdrawal periods if antibiotic or other veterinary treatments have been used alongside magnesium therapy"
+    ],
+    "notes": "The distinction between milk fever and grass tetany is clinically critical: both cause recumbency in a recently calved cow, but the treatment and the appearance of the animal differ. Flaccid suggests calcium; rigid and twitchy suggests magnesium."
+  },
+  "prognosis": "Excellent with prompt intravenous treatment; most animals recover quickly. Guarded for cases found in convulsions or already recumbent. Untreated cases are usually fatal within hours, and relapse after treatment is common without oral follow-up.",
+  "related": ["milk-fever", "ketosis", "bloat"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Hypomagnesaemia", "url": "https://www.merckvetmanual.com/" },
+    { "label": "AHDB — Grass staggers", "url": "https://ahdb.org.uk/" }
+  ]
+}

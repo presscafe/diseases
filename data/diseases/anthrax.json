@@ -1,0 +1,147 @@
+{
+  "slug": "anthrax",
+  "name": "Anthrax",
+  "synonyms": ["Splenic fever", "Charbon", "Milzbrand"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Bacillus anthracis",
+      "notes": "Gram-positive, spore-forming, non-motile rod. Spores survive in soil for decades and concentrate in alkaline, calcium-rich ground — the classic 'anthrax triangle' of soil pH above 6.0, high organic matter and alternating wet/dry cycles.",
+      "toxins": ["Protective antigen (PA)", "Lethal factor (LF)", "Oedema factor (EF)"],
+      "reservoir": "Soil spore bank; carcases of infected animals"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep", "Goats"],
+    "also": ["Horses", "Pigs", "Wild ruminants", "Humans"],
+    "notes": "Herbivores are highly susceptible. Carnivores and pigs are comparatively resistant. Susceptibility is set by exposure and dose, not by age or sex."
+  },
+  "zoonotic": true,
+  "notifiable": {
+    "woah": true,
+    "national": true,
+    "note": "A confirmed animal case is a public health event. Human infection is almost always occupational — hide, wool, bone-meal and carcase handling."
+  },
+  "distribution": "Worldwide, but spore persistence makes it endemic in defined soil foci. In southern Africa, recognised foci exist across Botswana, Zimbabwe, Namibia and South Africa, and outbreaks track rainfall: spores are brought to the surface by flooding and then concentrated in grazing swards as water recedes.",
+  "aetiology": {
+    "summary": "Infection follows ingestion, inhalation or cutaneous inoculation of spores from a contaminated environment rather than animal-to-animal contact. The bacterium does not spread from a live animal to its neighbours; the environment is the source, and the carcase is the amplifier.",
+    "determinants": [
+      "Presence of a viable soil spore bank in the grazing area",
+      "Soil pH above about 6.0 with adequate calcium — alkaline soils preserve spores, acid soils destroy them",
+      "Bruising or skin damage allowing cutaneous entry during handling",
+      "Concentrated feed or forage contaminated with bone meal, hides or wool",
+      "Failure to incinerate or deep-bury a carcase, which seeds the site for decades"
+    ],
+    "risk_factors": [
+      "Grazing recently flooded or newly opened pasture in a known endemic focus",
+      "Unvaccinated herds in endemic districts",
+      "Opening a carcase at pasture for post-mortem without precautions",
+      "Occupational contact with hides, wool, hair or bone products",
+      "Seasonal: outbreak peaks at the end of the rainy season and in the dry season that follows"
+    ],
+    "epidemiology": "Morbidity and mortality are highest in cattle and can reach 80% or more in an affected group; sheep and goats are also severely affected. Transmission is environmental, so cases cluster by paddock and by grazing history rather than by contact. The spore form is the maintenance strategy: the vegetative bacterium dies readily, but the spore is resistant to heat, desiccation, UV and most disinfectants, and defines the recurrence interval of outbreaks at a site."
+  },
+  "pathophysiology": {
+    "summary": "Spores germinate in macrophages and regional lymph nodes, then the vegetative bacteria multiply in the bloodstream and release a tripartite toxin that simultaneously disables phagocytosis, causes tissue oedema and triggers fatal systemic shock. The result is a rapidly rising bacteraemia with splenic engorgement and haemorrhage rather than a localised inflammatory lesion.",
+    "cascade": [
+      {
+        "title": "Spore uptake and germination",
+        "detail": "Spores are phagocytosed by macrophages and dendritic cells at the entry site and carried to regional lymph nodes, where they germinate into vegetative bacilli within hours."
+      },
+      {
+        "title": "Encapsulation and immune evasion",
+        "detail": "The poly-gamma-D-glutamic acid capsule blocks opsonisation and phagocytosis, so the bacterium multiplies unchecked in the lymph node and spills into the efferent lymph."
+      },
+      {
+        "title": "Toxaemia",
+        "detail": "Vegetative bacilli release protective antigen, which assembles with lethal factor and oedema factor. Oedema factor is an adenylate cyclase that raises intracellular cAMP and produces massive fluid accumulation; lethal factor cleaves MAP kinase kinases and drives macrophage apoptosis."
+      },
+      {
+        "title": "Bacteraemia and capillary injury",
+        "detail": "Bacteria multiply to very high numbers in blood — up to 10^7 organisms per millilitre — and the toxins injure capillary endothelium, increasing permeability and causing widespread petechial and ecchymotic haemorrhage."
+      },
+      {
+        "title": "Shock and death",
+        "detail": "Loss of vascular integrity, reduced effective circulating volume and a systemic inflammatory response produce rapid shock. Death can occur within hours of the first sign, which is why peracute anthrax is usually found rather than seen."
+      }
+    ],
+    "lesions": [
+      "Incomplete rigor mortis and rapid decomposition with bloating",
+      "Dark, tarry, incompletely clotted blood oozing from the natural orifices",
+      "Markedly enlarged, soft, dark-red 'blackberry jam' spleen",
+      "Serosanguinous fluid in thoracic and abdominal cavities",
+      "Petechial to ecchymotic haemorrhages on serosa, epicardium and mucosa",
+      "Oedematous, haemorrhagic mesenteric and regional lymph nodes"
+    ],
+    "clinical_signs": [
+      "Sudden death, often the only observed event",
+      "High fever (41-42 degrees Celsius) in the brief period before collapse",
+      "Trembling, staggering and dyspnoea",
+      "Blood-stained discharge from nose, mouth, anus or vulva",
+      "Subcutaneous oedema, particularly of the neck, brisket or perineum in less acute cases"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Blood smear from an ear vein or tail tip: Gram-positive square-ended rods in chains, often with capsule visible on polychrome stain",
+      "Rectal temperature and clinical examination, though the window is short and handling risk is high"
+    ],
+    "postmortem": [
+      "Do not open the carcase. A field post-mortem on suspected anthrax releases spores and endangers everyone present and the site itself.",
+      "If a carcase has been opened, a blood smear from an ear or a swab of peripheral blood is the only safe sample"
+    ],
+    "laboratory": [
+      "Gram stain and M'Fadyean polychrome methylene blue stain of peripheral blood showing capsulated rods",
+      "Bacterial culture on blood agar — non-haemolytic, ground-glass colonies",
+      "Bacteriophage lysis (gamma phage) for confirmation",
+      "PCR targeting pag, capC or chromosomal markers",
+      "Ascoli thermoprecipitin test for contaminated hides and animal products"
+    ],
+    "differentials": [
+      "Blackleg (Clostridium chauvoei) — crepitant muscle lesions, no splenic enlargement",
+      "Malignant oedema (Clostridium septicum) — wound-associated, gas in tissues",
+      "Lightning strike or electrocution — no fever, no bacteraemia, no spleen change",
+      "Haemorrhagic septicaemia (Pasteurella multocida) — septicaemia but no spores and no soil focus",
+      "Babesiosis or other acute haemolytic disease — anaemia and haemoglobinuria rather than splenic engorgement"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Annual vaccination with a live spore vaccine in endemic districts, timed to precede the risk season",
+      "Never open a suspected carcase; incinerate or deep-bury with quicklime and mark the site",
+      "Restrict grazing of known spore foci, especially in the weeks after flooding",
+      "Source feed and bone meal only from certified suppliers",
+      "Wear gloves and cover wounds when handling hides, wool or suspect carcases"
+    ],
+    "vaccination": "Live attenuated spore vaccines (Sterne strain) give solid immunity for about a year in cattle and sheep; annual revaccination is required. Vaccinate before the risk season, not during an outbreak, and never vaccinate an animal already incubating the disease.",
+    "treatment": [
+      "Penicillin G (procaine or potassium) is the drug of choice; oxytetracycline is an acceptable alternative",
+      "Treat early and aggressively — survival is possible only if treatment starts before severe toxaemia",
+      "Supportive care: fluids, and avoid stressing the animal further",
+      "Animals that die of anthrax must not be treated or butchered post-mortem"
+    ],
+    "outbreak": [
+      "Notify the veterinary authority immediately — anthrax is notifiable in almost every jurisdiction",
+      "Quarantine the affected paddock and stop all movement",
+      "Incinerate carcases in situ or bury at least 2 metres deep with quicklime; do not move a carcase before it is burned",
+      "Disinfect equipment, boots and vehicles with 5% formalin or 2% glutaraldehyde; spores resist most common disinfectants",
+      "Vaccinate in-contact animals and identify the source of exposure",
+      "Trace hides, wool and feed that may have left the premises"
+    ],
+    "public_health": [
+      "Human cases are usually cutaneous, occupational or by inhalation of spores during hide and wool processing",
+      "Report human exposures to the public health authority and document occupational groups at risk",
+      "Post-exposure prophylaxis for high-exposure contacts under medical direction",
+      "Do not allow dogs or scavengers near a carcase — they smear spores across the site"
+    ],
+    "notes": "The single most important control measure is not opening the carcase. Most contemporary anthrax outbreaks are amplified by well-intentioned curiosity."
+  },
+  "prognosis": "Peracute cases die within hours with no realistic chance of treatment. Acute cases treated early with penicillin can recover. For the herd, the prognosis depends on how quickly vaccination and carcase disposal are completed.",
+  "related": ["blackleg", "botulism"],
+  "references": [
+    { "label": "WOAH — Anthrax disease card", "url": "https://www.woah.org/en/disease/anthrax/" },
+    { "label": "CDC — Anthrax", "url": "https://www.cdc.gov/anthrax/" },
+    { "label": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "slug": "theileriosis",
+  "name": "Theileriosis",
+  "synonyms": ["Corridor disease", "January disease", "Zimbabwe theileriosis", "East Coast fever (Ecf)", "Buffalo-derived theileriosis"],
+  "category": "parasitic",
+  "agents": [
+    {
+      "kind": "protozoan",
+      "name": "Theileria parva",
+      "notes": "An apicomplexan parasite of lymphocytes and erythrocytes. The infection has two distinct forms in southern Africa: a buffalo-derived form (Corridor disease) which is highly pathogenic in cattle, and a cattle-adapted form (January disease) which maintains itself in cattle populations.",
+      "vector": "Rhipicephalus appendiculatus (brown ear tick) and related Rhipicephalus species",
+      "reservoir": "African buffalo for the Corridor disease form; persistently infected cattle for the January disease form"
+    },
+    {
+      "kind": "protozoan",
+      "name": "Theileria parva lawrencei",
+      "notes": "The buffalo-derived genotype transmitted by the same tick vectors. It produces a more acute and more uniformly fatal disease in cattle than the cattle-adapted T. parva parva.",
+      "vector": "Rhipicephalus appendiculatus",
+      "reservoir": "African buffalo (Syncerus caffer)"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle"],
+    "also": ["African buffalo", "Water buffalo"],
+    "notes": "Buffalo are the reservoir for Corridor disease and are themselves unaffected. Cattle of all ages are susceptible, and unlike babesiosis there is no strong age-related resistance."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": true,
+    "national": true,
+    "note": "Corridor disease is a major constraint on cattle production adjacent to buffalo areas across southern Africa and is notifiable wherever it occurs. It is a significant barrier to the movement of cattle from endemic to export zones."
+  },
+  "distribution": "Endemic across East and southern Africa. In southern Africa, the buffalo-derived form is a persistent threat in Zimbabwe, South Africa, Zambia, Malawi and Mozambique. In Botswana, theileriosis is a recognised risk in the northern areas where cattle and buffalo ranges overlap, and it constrains livestock movement in those districts.",
+  "aetiology": {
+    "summary": "Theileria is transmitted by Rhipicephalus ticks, but the decisive epidemiological feature is that buffalo are a silent reservoir. A single infected buffalo can maintain the parasite in a tick population and infect cattle grazing nearby, which is why buffalo fences and veterinary cordons — not acaricides alone — define the geography of the disease.",
+    "determinants": [
+      "Presence of infected Rhipicephalus appendiculatus ticks",
+      "A reservoir of infection — African buffalo or persistently infected cattle",
+      "Susceptible cattle grazing in or near the vector and reservoir zone",
+      "The parasite's ability to transform host lymphocytes, which gives it a pathogenesis unlike other tick-borne diseases"
+    ],
+    "risk_factors": [
+      "Cattle grazing adjacent to buffalo areas, game reserves or the buffer zones around them",
+      "Introduction of naive cattle into an endemic area without immunisation",
+      "Movement of infected ticks on animals, vehicles or vegetation",
+      "Inadequate dip tank and acaricide programme",
+      "Shared grazing between cattle from different epidemiological zones"
+    ],
+    "epidemiology": "Corridor disease is characterised by a low infection rate in ticks but very high case fatality in cattle — a small number of infected ticks is enough. January disease, the cattle-adapted form, spreads more efficiently in cattle but causes less dramatic mortality. Outbreaks of the buffalo-derived form often follow the movement of cattle closer to buffalo areas during dry seasons or through gaps in game fencing."
+  },
+  "pathophysiology": {
+    "summary": "Theileria is the only eukaryotic pathogen known to transform host cells. Sporozoites invade lymphocytes and induce uncontrolled proliferation, producing a lymphoid hyperplasia that spreads the parasite through the body and causes the enlarged lymph nodes and lymphoid infiltrates that dominate the clinical picture. The subsequent destruction of these proliferating cells produces the anaemia and immunosuppression that ultimately kill the animal.",
+    "cascade": [
+      {
+        "title": "Sporozoite inoculation and lymphocyte invasion",
+        "detail": "Infected ticks inoculate sporozoites during feeding. The sporozoites rapidly invade lymphocytes, particularly T cells in the draining lymph node, and the entry triggers a schizont stage inside the cell."
+      },
+      {
+        "title": "Reversible host-cell transformation",
+        "detail": "The schizont induces the host lymphocyte to proliferate continuously, and the dividing parasite is distributed to both daughter cells. This produces massive clonal expansion of infected lymphocytes and the characteristic generalised lymphadenopathy."
+      },
+      {
+        "title": "Dissemination and lymphoid infiltration",
+        "detail": "Proliferating infected lymphocytes carry the parasite to the lungs, liver, kidney, abomasum and other organs, where the schizont-containing cells infiltrate the tissues and cause the lesions associated with the disease."
+      },
+      {
+        "title": "Erythrocyte infection and anaemia",
+        "detail": "Some parasites develop into piroplasms that infect erythrocytes. The combination of erythrocyte destruction and immune-mediated damage produces severe anaemia, which is the proximate cause of death in most cases."
+      },
+      {
+        "title": "Immunosuppression and death",
+        "detail": "The massive lymphoid proliferation exhausts and dysregulates the immune system, leaving the animal vulnerable to secondary infection. Death is typically from anaemia, pulmonary oedema and secondary pneumonia, usually 2-4 weeks after infection."
+      }
+    ],
+    "lesions": [
+      "Generalised enlargement of superficial and visceral lymph nodes, often the first gross finding",
+      "Pulmonary oedema with a heavy, wet lung and frothy exudate in the airways",
+      "Enlarged spleen and liver with lymphoid infiltrates",
+      "Pale mucous membranes from anaemia",
+      "Erosions and ulcers in the abomasum",
+      "Petechial haemorrhages on the serosa and kidneys",
+      "Lymphoid infiltrates in the interstitium of the kidney, liver and lungs on histology"
+    ],
+    "clinical_signs": [
+      "High fever (40-42 degrees Celsius) that starts 1-2 weeks after infection",
+      "Markedly enlarged superficial lymph nodes, particularly the parotid and prescapular nodes",
+      "Pale mucous membranes from progressive anaemia",
+      "Difficult, laboured breathing with a moist cough",
+      "Weight loss and rapid deterioration",
+      "Diarrhoea in the later stages",
+      "Petechial haemorrhages on the conjunctiva and vulva",
+      "Neurological signs and recumbency in the terminal phase"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Examine the prescapular and parotid lymph nodes: marked enlargement in a febrile animal in an endemic area is highly suggestive",
+      "Biopsy an enlarged lymph node and examine a smear for Koch bodies (schizonts) in lymphocytes",
+      "Examine a thin blood smear for piroplasms, which appear later in the course"
+    ],
+    "postmortem": [
+      "Note generalised lymphadenopathy and pulmonary oedema",
+      "Look for abomasal erosions and pale, anaemic carcase",
+      "Examine lymph node smears for schizonts"
+    ],
+    "laboratory": [
+      "Lymph node biopsy smear showing multinucleate schizonts in lymphocytes",
+      "PCR for species and genotype identification, which differentiates buffalo-derived from cattle-derived infection",
+      "Serology for herd prevalence surveys",
+      "Haematology showing anaemia"
+    ],
+    "differentials": [
+      "Babesiosis and anaplasmosis — both cause anaemia, but lymph node enlargement is not as marked",
+      "Heartwater — neurological signs and hydropericardium are more prominent",
+      "Bovine viral diarrhoea — mucosal lesions and PI animals, no enlarged superficial lymph nodes of this pattern",
+      "Malignant catarrhal fever — associated with sheep or wildebeest and mucosal necrosis",
+      "Lymphoma — lymph node enlargement but an entirely different history and course",
+      "Other tick-borne diseases may be present concurrently and complicate the picture"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Maintain game fencing and veterinary cordons between buffalo and cattle areas",
+      "Dip or spray cattle regularly with acaricides to reduce tick challenge",
+      "Immunise naive cattle with an infection-and-treatment method before entering endemic areas",
+      "Quarantine and monitor animals moved between zones",
+      "Avoid grazing cattle in buffer zones adjacent to buffalo areas, particularly in dry seasons"
+    ],
+    "vaccination": "An inactivated schizont vaccine is available in some countries and provides partial protection against the buffalo-derived form. The classical approach is the infection-and-treatment method (ITM) — deliberate inoculation with stabilate followed by tetracycline treatment — which gives solid immunity to homologous challenge but carries the risk of clinical disease. ITM is practised only under veterinary supervision and with careful strain matching. There is no widely available conventional vaccine.",
+    "treatment": [
+      "Parvaquone and buparvaquone are specific antitheilerial drugs and are effective if given early in the disease",
+      "Supportive care: blood transfusion for anaemia, fluids and anti-inflammatory treatment",
+      "Antibiotics for secondary bacterial infection",
+      "Treatment must be started early — once the pulmonary stage is established, response is poor",
+      "Halofuginone lactate has been used but is less commonly available"
+    ],
+    "outbreak": [
+      "Notify the veterinary authority immediately — this is a notifiable disease with trade implications",
+      "Impose movement restrictions on the affected premises and the surrounding area",
+      "Treat affected animals promptly with buparvaquone",
+      "Intensify tick control in an attempt to interrupt transmission",
+      "Trace animal movements and identify the source — typically contact with a buffalo area",
+      "Assess whether vaccination or immunisation of neighbouring herds is warranted"
+    ],
+    "public_health": [
+      "Theileria parva does not infect humans and has no public health significance"
+    ],
+    "notes": "The defining feature of Corridor disease is the tension between wildlife conservation and livestock production. Buffalo cannot be removed and cannot be vaccinated; the disease is managed by separating them."
+  },
+  "prognosis": "Poor without early treatment. Corridor disease in naive cattle carries a case fatality rate that can approach 90% once clinical signs are established. January disease is less severe and most animals survive with treatment.",
+  "related": ["babesiosis", "anaplasmosis", "heartwater"],
+  "references": [
+    { "label": "WOAH — Theileriosis", "url": "https://www.woah.org/en/disease/theileriosis/" },
+    { "label": "Merck Veterinary Manual — Theileriosis", "url": "https://www.merckvetmanual.com/" }
+  ]
+}

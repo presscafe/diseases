@@ -1,0 +1,144 @@
+{
+  "slug": "coccidiosis",
+  "name": "Coccidiosis",
+  "synonyms": ["Eimeria infection", "Intestinal coccidiosis", "Blood scours"],
+  "category": "parasitic",
+  "agents": [
+    {
+      "kind": "protozoan",
+      "name": "Eimeria species",
+      "notes": "Host-specific apicomplexan parasites of the intestinal epithelium. Cattle have many species, of which Eimeria zuernii and E. bovis are the most pathogenic; sheep and goats have their own species, with E. ovinoidalis the most pathogenic in sheep. Identification to species matters because most species are non-pathogenic.",
+      "reservoir": "Oocysts in faeces, which survive in the environment and are the source of infection"
+    }
+  ],
+  "hosts": {
+    "primary": ["Calves", "Lambs", "Kids"],
+    "also": ["Adult cattle and sheep — usually carriers without disease"],
+    "notes": "Disease is a disease of young animals, typically from 2 weeks to 6 months of age, around weaning or when they are moved to contaminated pens. Adults are immune but serve as a source of environmental contamination."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "note": "Not notifiable and not a human disease; the Eimeria species that infect livestock are host-specific."
+  },
+  "distribution": "Worldwide in intensive and semi-intensive livestock production, particularly in warm, humid conditions. In southern Africa, coccidiosis is common in calves and lambs in feedlots and confined rearing systems, and after rains in heavily stocked paddocks.",
+  "aetiology": {
+    "summary": "Coccidiosis is an environmental contamination disease of young animals. Oocysts shed by infected animals sporulate in a warm, moist environment and become infective; the young animal ingests a large dose from a contaminated pen, trough or pasture, and the resulting epithelial destruction produces diarrhoea. Crowding and poor hygiene are the determining factors.",
+    "determinants": [
+      "A high dose of sporulated oocysts ingested over a short period",
+      "Warm, moist conditions allowing oocysts to sporulate — above about 25 degrees Celsius and with adequate moisture",
+      "A young animal without acquired immunity",
+      "Crowding and contaminated pens, bedding or water troughs",
+      "Stress from weaning, transport or a change in diet"
+    ],
+    "risk_factors": [
+      "Overcrowding in calf pens, lambing sheds or feedlot pens",
+      "Dirty bedding and contaminated water troughs",
+      "Weaning and mixing of calves from different sources",
+      "Warm and rainy periods, which accelerate sporulation",
+      "Sudden dietary change or poor sanitation in feedlot introductions"
+    ],
+    "epidemiology": "The parasite is endemic on most farms and the disease reflects an overwhelming challenge rather than a new introduction. Oocysts are highly resistant and survive for months. Animals that survive develop strong, species-specific immunity, so adult stock are generally unaffected. Outbreaks typically follow a management stress event — weaning, mixing, moving to a contaminated pen or a wet spell."
+  },
+  "pathophysiology": {
+    "summary": "Coccidia invade and multiply within the intestinal epithelial cells, destroying them in successive generations of replication. The destruction of the villus epithelium and the resulting villous atrophy produce malabsorption, protein loss and a haemorrhagic diarrhoea, which is the mechanism of clinical disease.",
+    "cascade": [
+      {
+        "title": "Ingestion of sporulated oocysts",
+        "detail": "The young animal ingests oocysts that have sporulated in the environment. Sporozoites are released in the intestine and invade the mucosal epithelial cells."
+      },
+      {
+        "title": "Asexual replication and cell destruction",
+        "detail": "The parasite undergoes several rounds of asexual multiplication within epithelial cells, each round destroying the infected cells and releasing merozoites to invade adjacent cells. This stage produces the most severe tissue damage."
+      },
+      {
+        "title": "Villous atrophy and malabsorption",
+        "detail": "Successive waves of epithelial destruction cause villous blunting and atrophy, reducing the absorptive surface. Undigested nutrients pass into the large intestine and draw osmotically active water into the lumen, producing watery diarrhoea."
+      },
+      {
+        "title": "Haemorrhage and protein loss",
+        "detail": "Deeper invasion damages the lamina propria and small blood vessels, producing haemorrhagic diarrhoea with blood and mucus. Protein loss across the damaged gut produces hypoproteinaemia and weight loss."
+      },
+      {
+        "title": "Dehydration, acidosis and death",
+        "detail": "The combination of diarrhoea, dehydration and metabolic acidosis can kill a young animal within days. Secondary bacterial infection of the damaged gut is common and compounds the severity."
+      }
+    ],
+    "lesions": [
+      "Fluid small intestinal contents with a putrid odour",
+      "Thickened, inflamed intestinal wall with petechial haemorrhages",
+      "White, yellowish or blood-tinged plaques on the mucosa",
+      "Villous atrophy and fusion on histology",
+      "Enlarged mesenteric lymph nodes",
+      "Emaciation and dehydration in fatal cases"
+    ],
+    "clinical_signs": [
+      "Watery diarrhoea, which may contain blood and mucus",
+      "Straining and tenesmus",
+      "Rapid weight loss and weakness",
+      "Dehydration with sunken eyes and reduced skin turgor",
+      "Reduced appetite and poor growth",
+      "Death within 3-7 days in severe, untreated cases",
+      "Subclinical cases show only poor growth and rough coat"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Faecal flotation to identify oocysts — but note that presence alone does not diagnose disease, because many animals shed oocysts without disease",
+      "Species identification on morphological grounds or by PCR, which is important because most species are non-pathogenic",
+      "Evaluate the clinical picture together with the oocyst count and the management history"
+    ],
+    "postmortem": [
+      "Examine the small and large intestine for haemorrhage, plaque formation and thickened wall",
+      "Smears from the intestinal mucosa will show the various developmental stages"
+    ],
+    "laboratory": [
+      "Faecal flotation with McMaster or concentration technique and oocyst count",
+      "PCR or restriction analysis for species identification",
+      "Histology showing coccidial stages within epithelial cells and villous atrophy"
+    ],
+    "differentials": [
+      "Parasitic gastroenteritis with nematodes — different age pattern and faecal egg findings",
+      "Rotavirus and coronavirus infection in calves and lambs — similar watery diarrhoea in young stock",
+      "Salmonellosis and other bacterial enteritis",
+      "Bovine viral diarrhoea",
+      "Nutritional scour — dietary indiscretion without fever or blood",
+      "Gut parasites such as Cryptosporidium, which require different testing"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Keep pens and bedding clean and dry, and remove contaminated bedding promptly",
+      "Avoid overcrowding and reduce stocking density in rearing pens",
+      "Separate calves and lambs by age group and avoid mixing animals from different sources",
+      "Provide clean water and raise troughs to reduce contamination",
+      "Use coccidiostats in feed or water during high-risk periods where appropriate"
+    ],
+    "vaccination": "A live attenuated Eimeria vaccine is available in some countries and is used in cattle and sheep, particularly where coccidiosis is a recurrent problem. It is not widely used in southern Africa. Most control relies on hygiene and coccidiostats.",
+    "treatment": [
+      "Sulfonamides (sulfadimidine, sulfamethoxazole-trimethoprim) are the traditional treatment",
+      "Toltrazuril is highly effective and is the preferred modern treatment for clinical coccidiosis",
+      "Amprolium and decoquinate are coccidiostatic and are used for prevention rather than treatment of clinical disease",
+      "Fluid and electrolyte therapy for dehydrated animals",
+      "Supportive care and separation of affected animals"
+    ],
+    "outbreak": [
+      "Treat affected animals promptly with toltrazuril or a sulfonamide",
+      "Isolate affected animals to reduce environmental contamination",
+      "Clean and disinfect pens — oocysts are resistant to many disinfectants, so removal of organic matter is essential",
+      "Administer coccidiostat prophylaxis to in-contact animals",
+      "Review stocking density and hygiene practice"
+    ],
+    "public_health": [
+      "Livestock coccidia are host-specific and do not infect humans",
+      "Human coccidiosis is caused by different organisms (Cryptosporidium, Cystoisospora) and is acquired from contaminated water or food"
+    ],
+    "notes": "The most common diagnostic error is treating the presence of oocysts as the diagnosis. Many species are harmless, and oocyst counts must be interpreted against the clinical picture and species identification."
+  },
+  "prognosis": "Good with prompt treatment and supportive care. Untreated severe cases in young animals can have significant mortality. Survivors usually recover fully and develop immunity.",
+  "related": ["parasitic-gastroenteritis", "rotavirus-scour"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Coccidiosis", "url": "https://www.merckvetmanual.com/" },
+    { "label": "WOAH — Manual of Diagnostic Tests and Vaccines for Terrestrial Animals", "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/terrestrial-manual-online-access/" }
+  ]
+}

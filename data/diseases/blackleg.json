@@ -1,0 +1,138 @@
+{
+  "slug": "blackleg",
+  "name": "Blackleg",
+  "synonyms": ["Black quarter", "Symptomatic anthrax", "Clostridial myositis"],
+  "category": "infectious",
+  "agents": [
+    {
+      "kind": "bacterium",
+      "name": "Clostridium chauvoei",
+      "notes": "Gram-positive, spore-forming, strictly anaerobic rod. The organism is a normal inhabitant of the intestinal tract and its spores contaminate soil and pasture, where they survive for years. Unlike anthrax, blackleg is not primarily a soil-borne ingestion disease in adults — it is a latent-muscle disease.",
+      "toxins": ["Alpha toxin (necrotic)", "Beta toxin", "Gamma toxin (hyaluronidase)", "Delta toxin"],
+      "reservoir": "Soil spore bank; intestinal carriage in healthy ruminants"
+    }
+  ],
+  "hosts": {
+    "primary": ["Cattle", "Sheep"],
+    "also": ["Goats"],
+    "notes": "Occurs mainly in well-conditioned calves and young cattle aged 6 months to 2 years. Sheep are affected at any age, often after shearing or vaccination — the so-called 'blackleg of sheep' syndrome."
+  },
+  "zoonotic": false,
+  "notifiable": {
+    "woah": false,
+    "national": false,
+    "note": "Not WOAH-listed and not generally notifiable, but it is routinely confused with anthrax, and that confusion is the practical reason to know it well."
+  },
+  "distribution": "Worldwide in grazing livestock areas. Endemic wherever cattle graze spore-contaminated pasture, which includes most of southern Africa.",
+  "aetiology": {
+    "summary": "Blackleg is an endogenous infection in which spores ingested during grazing are deposited in muscle and liver, remain dormant, and then germinate when local conditions turn anaerobic — after blunt trauma, exertion or a growth spurt with rapid muscle development. It is not usually spread from animal to animal.",
+    "determinants": [
+      "Ingestion of spores from contaminated soil or pasture, usually in the first weeks of life",
+      "Deposition of spores in muscle tissue during the bacteraemic phase of ingestion",
+      "A trigger that creates local anaerobic conditions in muscle — bruising, trauma, exertion or rapid growth",
+      "Susceptibility of young, rapidly growing, well-conditioned animals"
+    ],
+    "risk_factors": [
+      "Grazing recently disturbed or flooded pasture that has brought spores to the surface",
+      "Blunt trauma from handling, transport, fighting or rough terrain",
+      "Rapid weight gain in well-fed calves",
+      "Vaccination or injection sites that create local tissue damage and anaerobic conditions",
+      "A history of blackleg on the property — the spore bank persists for years"
+    ],
+    "epidemiology": "Typically affects a small number of animals, not the whole herd, and cases are often clustered in a cohort of similarly aged calves. Morbidity is usually 1-5%, but case fatality in untreated animals approaches 100%. The disease is non-contagious in the epidemiological sense: the environment and latent spores are the source, so outbreaks recur at the same property rather than spreading between properties."
+  },
+  "pathophysiology": {
+    "summary": "Dormant spores in muscle germinate when the local redox potential falls, and the vegetative bacteria multiply rapidly in the anaerobic environment, releasing toxins that cause coagulative necrosis of muscle fibres and a spreading, gas-producing myositis with profound toxaemia.",
+    "cascade": [
+      {
+        "title": "Latent spore colonisation",
+        "detail": "Spores ingested during grazing enter the bloodstream and are deposited in skeletal muscle, heart and liver, where they remain dormant for months without causing disease."
+      },
+      {
+        "title": "Germination trigger",
+        "detail": "Local tissue damage from trauma or exertion reduces oxygen tension and pH, creating the anaerobic, reducing environment that triggers spore germination."
+      },
+      {
+        "title": "Toxin-mediated myonecrosis",
+        "detail": "Vegetative bacteria multiply in the damaged muscle and release alpha toxin, a phospholipase that lyses cell membranes, and hyaluronidase, which breaks down connective tissue and lets the infection spread along fascial planes."
+      },
+      {
+        "title": "Gas production and crepitus",
+        "detail": "Fermentation by the multiplying anaerobes produces gas within the muscle, giving the characteristic crepitant swelling when the lesion is palpated."
+      },
+      {
+        "title": "Toxaemia and death",
+        "detail": "Absorbed toxins produce a rapidly progressive systemic toxaemia with fever, cardiovascular collapse and death, usually within 12-48 hours of the first sign."
+      }
+    ],
+    "lesions": [
+      "Dark red to black, dry, spongy muscle with a rancid odour, typically in the hindlimb or shoulder",
+      "Gas bubbles and crepitus in affected muscle",
+      "Extensive subcutaneous and interfascial oedema",
+      "Fibrinous pericarditis and myocarditis in some cases",
+      "Liver with areas of necrosis",
+      "Blood-stained fluid in body cavities; rapid decomposition"
+    ],
+    "clinical_signs": [
+      "Sudden onset of severe lameness in one limb, with a hot, painful, pitting swelling",
+      "High fever (41 degrees Celsius or above) early in the course",
+      "Crepitus on palpation of the affected muscle",
+      "Rapid deterioration, recumbency and death within 12-48 hours",
+      "In sheep, often a wound-associated form after shearing or injection, with local swelling and toxaemia"
+    ]
+  },
+  "diagnosis": {
+    "antemortem": [
+      "Clinical examination showing acute lameness with a hot, painful, crepitant muscle swelling",
+      "Differentiate from anthrax before opening anything — the consequences of error are asymmetric"
+    ],
+    "postmortem": [
+      "Affected muscle is dark, dry and spongy with a characteristic rancid smell and gas bubbles",
+      "Lesions are usually confined to one or two muscle groups, unlike anthrax where the whole carcase is altered",
+      "Spleen is not markedly enlarged, which is the key differentiator from anthrax"
+    ],
+    "laboratory": [
+      "Gram stain of affected muscle or exudate showing large Gram-positive rods, often with subterminal spores",
+      "Anaerobic culture on blood agar, incubated anaerobically",
+      "PCR or fluorescent antibody testing for C. chauvoei",
+      "Note that C. septicum and C. novyi cause overlapping syndromes and require differentiation"
+    ],
+    "differentials": [
+      "Anthrax — the critical differential; spleen is enlarged and bloody, blood does not clot, and there is no crepitant muscle lesion",
+      "Malignant oedema (C. septicum) — usually wound-associated and more rapidly spreading",
+      "Bacillary haemoglobinuria (C. novyi type D) — jaundice and haemoglobinuria",
+      "Bruising or fracture from trauma — no fever, no toxaemia",
+      "Snake bite — local swelling but no crepitus or characteristic muscle colour",
+      "Nutritional myopathy (white muscle disease) — bilateral, no fever or gas"
+    ]
+  },
+  "control": {
+    "prevention": [
+      "Vaccinate calves from 2-3 months of age with a clostridial vaccine, with a booster 4-6 weeks later",
+      "Vaccinate dams in late pregnancy so colostral antibody protects calves until their own response develops",
+      "Avoid rough handling, transport injury and unnecessary trauma in young stock",
+      "Maintain good nutrition without forcing extremely rapid growth in susceptible calves"
+    ],
+    "vaccination": "Formalised or toxoid clostridial vaccines covering C. chauvoei are effective and widely used, usually combined with C. septicum, C. novyi, C. haemolyticum and C. perfringens. Two doses are required for primary immunisation, then annual boosters.",
+    "treatment": [
+      "High-dose penicillin is the treatment of choice if started very early, before extensive toxaemia",
+      "Oxytetracycline is an alternative",
+      "Supportive care: NSAIDs, fluids and rest",
+      "Surgical drainage and debridement of affected muscle is sometimes attempted but rarely practical in field conditions",
+      "Most animals are found dead or are beyond treatment by the time they are seen"
+    ],
+    "outbreak": [
+      "Vaccinate all in-contact calves immediately and give a booster in 4-6 weeks",
+      "Remove surviving animals from the affected paddock where practical",
+      "Dispose of carcases by deep burial or incineration to avoid further soil contamination",
+      "Do not open a suspect carcase until anthrax has been excluded"
+    ],
+    "notes": "The most important practical point is the anthrax differential. Blackleg and anthrax present similarly as sudden death in cattle, and the handling of the carcase is completely different."
+  },
+  "prognosis": "Poor once clinical signs are established; case fatality approaches 100% in untreated animals. With very early penicillin treatment, survival is possible but uncommon in practice. Vaccinated animals are well protected.",
+  "related": ["anthrax", "tetanus", "botulism"],
+  "references": [
+    { "label": "Merck Veterinary Manual — Clostridial diseases", "url": "https://www.merckvetmanual.com/" },
+    { "label": "MSD Veterinary Manual — Blackleg", "url": "https://www.msdvetmanual.com/" }
+  ]
+}
